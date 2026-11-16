@@ -1,0 +1,174 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "question": "Theo phần dịch tễ học trong bài giảng, có bao nhiêu trường hợp suy tim mới xuất hiện mỗi năm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "question": "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "question": "Trong nhóm bệnh cơ tim do độc chất, tài liệu nêu hai chất gây nghiện nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "question": "Bệnh cơ tim do stress còn được gọi bằng tên gì trong tài liệu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "question": "Hai thuốc ức chế calci nào được nêu trong danh sách thuốc có thể làm nặng suy tim?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "question": "Tài liệu yêu cầu những điều kiện nào để chẩn đoán suy tim tâm trương?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "question": "Theo phân độ NYHA trong bài giảng, mức III được mô tả thế nào về vận động và triệu chứng khi nghỉ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "question": "Hai chất chỉ điểm sinh học mới giúp khảo sát tình trạng sợi hóa cơ tim được nêu là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "question": "Ngoài giảm tử vong, tài liệu nêu các mục tiêu điều trị suy tim nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "question": "Phần điều trị không thuốc liệt kê những thay đổi lối sống nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "question": "Trong mục tác dụng thuốc, ba loại giúp cải thiện triệu chứng được liệt kê là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "question": "Theo slide ức chế men chuyển, creatinine được thử lại sau khoảng thời gian nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "question": "Theo hướng dẫn cách dùng chẹn beta trong bài giảng, mục tiêu đạt liều đích trong bao nhiêu tuần?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "question": "Trong chiến lược tối ưu điều trị nội, hai nhóm bệnh nhân nào được ví dụ là cần thăm khám thường xuyên và tăng liều chậm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "question": "Tại phần điều trị giai đoạn C, ba chẹn beta được nêu đích danh là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "du01",
+    "split": "dev",
+    "question": "Tài liệu báo cáo kết quả thử nghiệm EMPEROR-Reduced với empagliflozin như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có tên thử nghiệm EMPEROR-Reduced hoặc empagliflozin trong toàn văn; không suy luận kết quả thử nghiệm từ các thuốc cũ."
+  },
+  {
+    "id": "du02",
+    "split": "dev",
+    "question": "Theo tài liệu, một lần tái khám suy tim ở Bệnh viện Đại học Y Dược Huế có giá bao nhiêu đồng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có bảng viện phí, giá tái khám hay đơn vị tiền tệ cho dịch vụ này; kiểm tra toàn văn, không chỉ top-k."
+  },
+  {
+    "id": "t31",
+    "split": "test",
+    "question": "Theo phần dịch tễ học, tỷ lệ tử vong sau 5 năm của bệnh nhân suy tim được nêu là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t32",
+    "split": "test",
+    "question": "Theo sơ đồ ACC/AHA trong bài giảng, giai đoạn A được định nghĩa thế nào về nguy cơ, bệnh tim thực thể và triệu chứng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t33",
+    "split": "test",
+    "question": "Trong bảng thuốc UCMC, tên biệt dược của captopril là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t34",
+    "split": "test",
+    "question": "Theo bảng lợi tiểu giữ kali, amiloride thải trừ qua cơ quan nào và có thời gian tác dụng bao nhiêu giờ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t35",
+    "split": "test",
+    "question": "Theo slide ghép tim, tỷ lệ sống còn sau 1 năm và sau 5 năm lần lượt là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t3u1",
+    "split": "test",
+    "question": "Trong tài liệu, thử nghiệm VICTORIA cho thấy vericiguat cải thiện kết cục suy tim như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Đã kiểm tra toàn bộ text/PDF: không có VICTORIA hoặc vericiguat; không dùng kiến thức về thử nghiệm ngoài tài liệu."
+  },
+  {
+    "id": "t3u2",
+    "split": "test",
+    "question": "Theo tài liệu, phối hợp warfarin với ginkgo biloba làm thay đổi INR bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có ginkgo, biloba hoặc dữ liệu định lượng tương tác warfarin–ginkgo/INR trong toàn tài liệu; không suy đoán từ các thuốc được nhắc tới."
+  }
+]

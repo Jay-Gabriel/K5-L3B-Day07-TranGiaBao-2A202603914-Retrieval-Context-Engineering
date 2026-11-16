@@ -1,99 +1,84 @@
-"""Render the report from reviewed results; no answer grading is performed here."""
-import json
-import sys
+"""Build a report from explicit reviewed artifacts; never grade answers here."""
+import json,sys
 from pathlib import Path
-from configs import ROOT,RESULTS,CONFIGS
+from configs import ROOT,RESULTS,CONFIGS,BENCHMARK_DIR,CAMPAIGN
 
 
 def load(path):return json.loads(path.read_text())
 def cell(value):return str(value).replace('|','\\|').replace('\n','<br>')
 def ratio(n,N):return f'{n}/{N} ({100*n/N:.1f}%)' if N else '0/0 (không áp dụng)'
 def frac(value):return ratio(value['n'],value['N'])
+LABELS={'baseline':'TF-IDF baseline','dense':'Dense Qdrant','hybrid':'Hybrid RRF','hybrid_context':'Hybrid mở rộng','lexical_context':'TF-IDF mở rộng'}
 
 
 def main():
-    selection=load(RESULTS/'selection.json');chosen=selection['selected']
-    corp=load(ROOT/'data/corpus_manifest.json')
-    names={'baseline':'TF-IDF baseline','dense':'Dense Qdrant','hybrid':'Hybrid RRF',
-           'hybrid_context':'Hybrid mở rộng','lexical_context':'TF-IDF mở rộng'}
-    lines=[
-'# Báo cáo Day 7 — Agentic RAG',
-'', '**Trần Gia Bảo — 2A202603914 — L3B — K5 VinUni AI20k**',
-'', '> Trạng thái nhãn: AI hỗ trợ đọc trace, câu trả lời và đối chiếu PDF gốc; sinh viên chưa xác nhận (`student_verified: false`). Các điểm dưới đây là kết quả theo bộ nhãn này, không phải điểm chấm của giảng viên.',
-'', '## Dữ liệu và benchmark',
-'', f'- Bài giảng *Chẩn đoán và Điều trị Suy tim*, GS. TS. Huỳnh Văn Minh, file `data/cme2._suy_timgs_minh.pdf`: **{corp["pdf_pages"]} trang PDF, {corp["chunks"]} chunk**. Mỗi trang có tối đa hai slide; citation dùng trang PDF. Con số 46 trang trong báo cáo cũ là sai và đã được sửa.',
-'- Nguồn file được dùng từ Day 6. URL gốc ứng viên được ghi ở `data/source_reference.json`; không truy cập được tại thời điểm kiểm tra nên chưa xác minh byte với nguồn web. Sinh viên cần xác nhận nguồn truy cập và quyền dùng/chia sẻ. Không khẳng định mục đích học tập tự cho phép phân phối.',
-'- Qdrant Day 6: collection `rag_strategy_b`, 81 điểm, Cosine, 384 chiều; model `sentence-transformers/all-MiniLM-L6-v2` chạy bằng FastEmbed/ONNX. Đã đối chiếu cấu hình embedding trong code Day 6. Qdrant chỉ xác nhận kích thước và khoảng cách, không chứng minh danh tính embedding.',
-'- `data/chunks.json` xuất trực tiếp payload Day 6. Bản trích lại trước đó có 5 chunk khác ranh giới/text; đã thay bằng payload gốc để không gán vector của nội dung này cho nội dung khác. Manifest lưu hash corpus và PDF. Không thay đổi index gốc.',
-'- Benchmark **v2: 24 câu**, gồm dev 15 có đáp án + 2 thiếu bằng chứng; test 5 có đáp án + 2 thiếu bằng chứng. Bộ cũ có câu chứa nội dung công việc lẫn vào query và đã được xem, nên không dùng kết quả cũ làm đánh giá độc lập mới.',
-'- V2 đặt câu hỏi cụ thể theo tài liệu, chia split trước khi chọn pipeline. Dev/test không hỏi lại cùng một đáp án; cùng corpus lịch sử vẫn được dùng. `questions.json` lưu đáp án/evidence; `cases.json` lưu cả câu thiếu evidence và lý do kiểm tra toàn văn. Không dùng filter section không có trong metadata.',
-'- Evidence định lượng dùng source ID + trang + đoạn trích nguyên văn. Hit@1/Hit@3 và CER retrieval chấm khớp đoạn evidence trong chunk đúng trang. Chấm nội dung/context bằng đọc đối chiếu, không suy ra đáp án đúng chỉ từ ID citation.',
-'', '## Retrieval và thử nghiệm',
-'', 'So sánh trên cùng corpus, cùng câu hỏi và nhãn. Bảng dưới dùng **query gốc**, không trộn kết quả nhiều lượt tìm của agent. CER là tỷ lệ câu có đủ gold evidence trong context được đóng gói. Mẫu số chỉ gồm câu có đáp án.',
-'', '| Cấu hình | Split | top-k / budget ký tự / candidate mỗi nhánh | Hit@1 | Evidence Hit@3 | CER retrieval | Trung vị retrieval |',
-'|---|---|---|---|---|---|---|']
-    for split,configs in [('dev',list(CONFIGS)),('test',['baseline',chosen])]:
-        for name in configs:
-            m=load(RESULTS/'retrieval'/split/name/'summary.json');config=CONFIGS[name]
-            candidates=max(10,config['top_k']*3) if config['method']=='hybrid' else 'theo index'
-            lines.append(f'| {names[name]} | {split} | {config["top_k"]} / {config["budget"]} / {candidates} | {ratio(m["hit1"],m["n"])} | {ratio(m["hit3"],m["n"])} | {ratio(m["context_hit"],m["n"])} | {m["median_ms"]:.2f} ms |')
-    lines += [
-'', 'TF-IDF dùng token Unicode NFC/casefold và cosine. Dense tạo query embedding tương thích Day 6 rồi gọi Qdrant. Hybrid hợp nhất ranking bằng RRF k=60, không cộng trực tiếp các score khác thang đo. Với top-k=3, mỗi nhánh Hybrid lấy 10 candidate; top-k=6 lấy 18, nên thứ hạng top-3 có thể khác giữa hai cấu hình Hybrid.',
-'', 'Các giả thuyết được thử trên dev:',
-'', '1. **Hybrid**: kết hợp dense và lexical có thể bổ sung ngữ nghĩa/từ khóa. Cấu hình 800 ký tự không vượt TF-IDF trên dev; không kết luận Hybrid luôn tốt hơn.',
-'2. **Hybrid mở rộng**: top-k=6, context 6000 ký tự thay vì top-k=3/800 giúp giữ đoạn bị bỏ do budget; agent thật được chạy và chấm riêng. Có 1 lỗi Qdrant timeout, được báo riêng.',
-'3. **TF-IDF mở rộng**: dùng lexical tốt hơn trên dev, tăng top-k/context để giảm mất evidence. Agent thật được chạy và chấm riêng; đây là cấu hình được chốt nếu thắng theo tiêu chí đã khai báo.',
-'', '## Agent, context và đánh giá',
-'', f'Model thật: **{selection["runtime_settings"]["model"]}**, temperature=0, native function calling `search`/`answer`. Model chọn query từ lượt đầu và có thể tìm tiếp, tối đa 3 lần. Runtime chỉ đưa question và history/context không chứa gold. Prompt không nêu đích danh các chủ đề dùng làm nhãn abstention trong benchmark.',
-'', 'Context được tích lũy, loại ID trùng và giữ nguyên văn chunk; budget tính cả header nguồn. Chunk không vừa bị bỏ nguyên khối. Citation phải thuộc context; thiếu dấu citation trong câu được thêm đúng ID model đã chọn để chuẩn hóa định dạng, không tự tạo nguồn. ID ngoài corpus/context hoặc output sai giao thức là lỗi. Citation có ID hợp lệ vẫn cần kiểm tra hỗ trợ từng khẳng định.',
-'', '| Cấu hình | Split | Tool use | Grounded 0/1/2; TB /2 | Citation hỗ trợ | Câu có citation | Abstention đúng | Từ chối nhầm | CER pipeline | Lỗi | Trung vị agent |',
-'|---|---|---|---|---|---|---|---|---|---|---|']
+    selection=load(RESULTS/'selection.json');chosen=selection['selected'];corp=load(ROOT/'data/corpus_manifest.json')
+    cases=load(BENCHMARK_DIR/'cases.json');model=selection['runtime_settings']['model']
+    lines=['# Báo cáo Day 7 — Agentic RAG','', '**Trần Gia Bảo — 2A202603914 — L3B — K5 VinUni AI20k**','',
+      '> Nhãn có nguồn gốc rõ: AI hỗ trợ đọc từng câu trả lời/context/citation và đối chiếu tài liệu gốc. Không tự suy ra chất lượng từ ID citation, không tự nhận sinh viên đã chấm hoặc giảng viên đã xác nhận điểm.',
+      '', '## Dữ liệu, nguồn và benchmark','',
+      f'Bài giảng **Chẩn đoán và Điều trị Suy tim**, GS. TS. Huỳnh Văn Minh: {corp["pdf_pages"]} trang PDF, {corp["chunks"]} chunk, hash PDF `{corp["pdf_sha256"]}`. Citation dùng trang PDF, không nhầm số slide in bên trong. Dữ liệu do người dùng cung cấp từ bài Day 6; tác giả/cơ quan được đối chiếu trên trang đầu. `data/source_review.json` ghi quá trình kiểm tra nguồn và quyền, không gán giấy phép Creative Commons/public domain khi chưa có bằng chứng.',
+      'Nguồn lịch sử ở Sở Y tế Thừa Thiên Huế hiện không phân giải DNS. URL theo miền Huế mới trả HTML, không được coi là PDF thay thế. Giữ bản gốc có hash để người chấm đối chiếu; không khẳng định việc từng truy cập công khai đồng nghĩa được cấp phép phân phối.',
+      '', 'Qdrant Day 6: collection `rag_strategy_b`, 81 điểm, 384 chiều, Cosine. Embedding `sentence-transformers/all-MiniLM-L6-v2` chạy FastEmbed/ONNX; danh tính model đối chiếu từ cấu hình ingest Day 6, không suy ra chỉ từ số chiều. Snapshot chunk giữ chính xác payload/ID/text của index, tránh lỗi đổi ranh giới chunk dưới vector cũ. Đường dẫn `source` lịch sử được giữ để tái lập; UI hiển thị tên file.',
+      '', f'Campaign **{CAMPAIGN}** có **24 câu**: dev 15 có đáp án +2 thiếu bằng chứng; test mới 5 có đáp án +2 thiếu bằng chứng. Dùng dev để chọn model/cấu hình và tiêu chí trước khi chạy test. Câu test v3 hỏi các facts khác v2/dev; dữ liệu/evidence được khóa bằng hash. Không đưa gold, expected answer, absence reason hoặc nhãn vào model/retriever. Không dùng filter từ gold.',
+      '', 'Kết quả v2 model Gemini 3.5 gặp quota vẫn nằm nguyên ở `starter/results/v2/` và báo cáo `archive/2A202603914_TranGiaBao_v2.md`; đó là lịch sử thực nghiệm, không thay lỗi bằng kết quả model khác. Campaign v3 bắt đầu lại trên dev với model mới rồi dùng test mới, không chọn cấu hình bằng test cũ.',
+      '', '## So sánh retrieval trên query gốc','',
+      '| Cấu hình | Split | top-k / budget ký tự / candidate mỗi nhánh | Hit@1 | Evidence Hit@3 | CER retrieval | Trung vị |',
+      '|---|---|---|---|---|---|---|']
+    for split,names in [('dev',list(CONFIGS)),('test',['baseline',chosen])]:
+        for name in names:
+            m=load(RESULTS/'retrieval'/split/name/'summary.json');c=CONFIGS[name]
+            k=max(10,c['top_k']*3) if c['method']=='hybrid' else 'toàn index'
+            lines.append(f'| {LABELS[name]} | {split} | {c["top_k"]} / {c["budget"]} / {k} | {ratio(m["hit1"],m["n"])} | {ratio(m["hit3"],m["n"])} | {ratio(m["context_hit"],m["n"])} | {m["median_ms"]:.2f} ms |')
+    lines += ['', 'Hit định lượng yêu cầu source ID/trang/evidence nguyên văn trong một chunk. Mẫu số chỉ gồm câu có đáp án. Nguồn thay thế hợp lệ vẫn được chấm theo nội dung: ví dụ t32 baseline trích trang 16 trong khi gold ban đầu ở trang 15; giữ nguyên gold đã khóa, không sửa nhãn retrieval sau test để nâng điểm. TF-IDF dùng NFC/casefold và cosine; dense truy vấn vector tương thích Day 6; Hybrid dùng RRF k=60, không cộng score khác thang đo. Hybrid lấy 10 candidate mỗi nhánh khi top-k=3, 18 khi top-k=6, nên ranking top-3 có thể thay đổi theo tập candidate. CER retrieval đo context sau một lượt query gốc; không trộn với pipeline nhiều lượt của agent.',
+      '', '## Agent và các thí nghiệm cải thiện','',
+      f'Model thật **{model}**, temperature=0, native function calling `search`/`answer`. Model chọn query từ đầu và có thể tìm tiếp tối đa 3 lượt. Context tích lũy, deduplicate ID, giữ nguyên văn chunk và nguồn; budget là ký tự gồm header, chunk không vừa bị bỏ nguyên khối. Runtime kiểm tra citation thuộc context; định dạng thiếu [ID] được bổ sung đúng ID model đã chọn, không tạo nguồn mới. Output sai/citation lạ/provider timeout là lỗi riêng.',
+      '', 'Ba cấu hình agent trên dev: baseline TF-IDF top-3/800; Hybrid top-6/6000 (giả thuyết fusion và mở rộng context giúp giữ evidence); TF-IDF top-6/6000 (giả thuyết lexical phù hợp corpus tiếng Việt này và budget lớn khắc phục bỏ chunk). Đây là hai cấu hình nhằm cải thiện baseline, mỗi cấu hình có kết quả riêng. Retrieval dev còn so sánh dense và Hybrid 800; không khẳng định mọi thử nghiệm đều cải thiện.',
+      '', '| Cấu hình | Split | Tool use | Grounded 0/1/2; TB /2 | Citation hỗ trợ | Câu có citation | Abstention đúng | Từ chối nhầm | CER pipeline | Lỗi | Trung vị |',
+      '|---|---|---|---|---|---|---|---|---|---|---|']
     summaries={}
-    for split,configs in [('dev',['baseline','hybrid_context','lexical_context']),('test',['baseline',chosen])]:
-        for name in configs:
+    for split,names in [('dev',['baseline','hybrid_context','lexical_context']),('test',['baseline',chosen])]:
+        for name in names:
             m=load(RESULTS/'agent'/split/name/'summary.json');summaries[(split,name)]=m;g=m['grounded_answer']
-            lines.append(f'| {names[name]} | {split} | {frac(m["tool_use"])} | {g["0"]}/{g["1"]}/{g["2"]}; {g["mean"]:.3f}/2 (N={g["N"]}) | {frac(m["citation_validity"])} | {frac(m["answer_citation_coverage"])} | {ratio(m["abstention"]["n"],2)} | {frac(m["false_abstention"])} | {frac(m["pipeline_context_evidence"])} | {m["provider_errors"]} | {m["median_ms"]/1000:.2f} s |')
-    lines += ['', 'Abstention trong bảng dùng toàn bộ 2 câu thiếu bằng chứng của mỗi split, kể cả khi có lỗi. Tool use và mean grounded dùng các lần chạy thành công theo script cơ bản; số lỗi được báo riêng. CER pipeline dựa trên context cuối sau tất cả lượt tìm, khác CER của một lượt retrieval ở bảng trước. Lỗi provider được tách khỏi mean câu trả lời theo script cơ bản; CER pipeline vẫn dùng toàn bộ số câu có đáp án. Không loại lỗi khỏi báo cáo. Phân bố context 0/1/2 dưới đây không bao gồm lỗi hệ thống; N ghi toàn bộ câu có đáp án.',
-'', '| Cấu hình / split | Context 0 / 1 / 2; N | Phân bố số lượt search (lượt:số câu) | Số lần gọi model TB | Token input / output / tổng |',
-'|---|---|---|---|---|']
+            audit=load(RESULTS/'agent'/split/name/'audit.json')
+            unans=sum(c['split']==split and not c['answerable'] for c in cases)
+            mean=f'{g["mean"]:.3f}' if g['mean'] is not None else 'N/A'
+            lines.append(f'| {LABELS[name]} | {split} | {frac(m["tool_use"])} | {g["0"]}/{g["1"]}/{g["2"]}; {mean}/2 (N={g["N"]}) | {frac(m["citation_validity"])} | {frac(m["answer_citation_coverage"])} | {ratio(m["abstention"]["n"],unans)} | {frac(audit["semantic_false_abstention"])} | {frac(m["pipeline_context_evidence"])} | {m["provider_errors"]} | {m["median_ms"]/1000:.2f}s |')
+    lines += ['', 'Từ chối nhầm được đọc theo nội dung nhãn `answer_refused`, gồm cả câu trả lời tuyên bố sai rằng tài liệu không có thông tin nhưng vẫn gắn citation. `summary.json` giữ thêm bộ đếm dựa trên runtime status để phân biệt. CER pipeline chấm đủ evidence trong context cuối đã gửi model, kể cả khi bước answer sau đó lỗi. Context 0=không có evidence, 1=có nhưng thiếu điều kiện/nguồn, 2=đủ evidence và nguồn. Câu lỗi trước retrieval có context 0. Lỗi được báo riêng; mean grounded/tool use theo các lần chạy thành công của script cơ bản, còn abstention ở bảng dùng toàn bộ câu thiếu bằng chứng.',
+      '', '## Lượt gọi, context, token và chi phí','',
+      '| Cấu hình / split | Context 0/1/2 | Search lượt:số câu | Gọi model TB | Input / output / thoughts token | API ước tính FreeTier | Tương đương trả phí |',
+      '|---|---|---|---|---|---|---|']
     for (split,name),m in summaries.items():
         c=m['context_review'];u=m['tokens']
-        lines.append(f'| {names[name]} / {split} | {c["0"]} / {c["1"]} / {c["2"]}; N={c["N"]} | {cell(m["search_count_distribution"])} | {m["mean_model_calls"]:.2f} | {u["promptTokenCount"]} / {u["candidatesTokenCount"]} / {u["totalTokenCount"]} |')
-    lines += [
-'', 'Latency agent bao gồm model, retrieval, giãn nhịp 4,5 giây giữa request và retry hữu hạn; không đại diện thuần tốc độ inference. Lưu token usage thực của phản hồi nhận được. **Chi phí agent chưa được đo bằng hóa đơn: `null`, không khẳng định tổng $0.** Retrieval dùng embedding cục bộ; chi phí tài khoản/hosting Qdrant chưa được phân bổ.',
-'', '## Chọn cấu hình trên dev và phân tích lỗi',
-'', f'Đã chọn **{names[chosen]}** lúc `{selection["created_at"]}`, trước khi chạy test. Tiêu chí thứ tự: ít lỗi, grounded answer cao, abstention đúng cao, context đủ cao, latency thấp. `selection.json` lưu hash code/dữ liệu/runtime và run/trace/review/summary dev; runner từ chối test khi các bằng chứng này thay đổi. Không chọn Hybrid chỉ vì tên phương pháp phức tạp hơn.',
-'', '- **Lỗi dev d01 — tìm đúng nhưng mất context:** TF-IDF đưa trang 2 lên đầu, nhưng chunk cùng header vượt budget 800 nên bị bỏ; context cuối chỉ còn trang 3, agent từ chối. TF-IDF mở rộng giữ được trang 2 và trả đúng 550.000/năm. Đây là lỗi đóng gói context, không phải lỗi thiếu tài liệu.',
-'- **Lỗi dev d13 — bỏ đoạn chứa điều kiện:** baseline chỉ giữ para_1 trang 32, thiếu ô mục tiêu 8–12 tuần trong para_0. TF-IDF mở rộng giữ cả para_0 và trả đúng thời gian. Không coi đoạn cùng trang là evidence đủ nếu thiếu đúng điều kiện được hỏi.',
-'- **Lỗi còn lại d15:** TF-IDF mở rộng vẫn không đưa ba tên chẹn beta giai đoạn C ở trang 43 vào context sau ba lượt; agent từ chối câu có đáp án. Không dùng test để sửa lỗi này. Hybrid mở rộng tìm được câu này, nhưng tổng chất lượng/thời gian/lỗi trên dev chưa thắng cấu hình chọn.',
-'- **Giới hạn nhãn evidence:** t01 có một nguồn thay thế hợp lệ ở PDF trang 5 (HFpEF/Preserved EF ≥50%) dù gold ban đầu ở trang 4. Đã đối chiếu trang gốc và chấp nhận citation/context đó khi chấm nội dung. Giữ nguyên gold đã chốt; không sửa test để nâng metric khớp nguyên văn. Vì vậy CER định lượng có thể thấp hơn CER chấm nội dung.',
-'- **Lỗi hệ thống:** Hybrid mở rộng d04 gặp `ResponseHandlingException` timeout của vector store. Trace còn giữ các bước đã chạy; không chuyển lỗi thành một câu từ chối đúng. Các thăm dò dev trước đó còn gặp 429 và lỗi định dạng citation; tóm tắt ở `dev_pilots.json`, không trộn vào lần chạy cuối.',
-'', '**Giới hạn test do quota:** model benchmark chạm giới hạn 500 request/ngày/project/model của free tier. Baseline lỗi 1/7 case; cấu hình chọn lỗi 5/7 case. Mean của cấu hình chọn chỉ dựa trên 2 câu có đáp án chạy thành công, không thể coi là kết quả tốt trên toàn bộ test. Chưa có bằng chứng test ổn định để kết luận cấu hình chọn thắng baseline. Giữ nguyên toàn bộ lỗi, không chạy lại rồi chỉ chọn lần tốt.',
-'', '## Từng câu test: baseline và cấu hình đã chọn',
-'', 'Đã đọc cả 5 câu có đáp án và 2 câu thiếu bằng chứng cho mỗi cấu hình, chấm context, nội dung và citation với PDF. Bảng lấy **nguyên câu trả lời lưu trong trace**, không viết lại thành một câu trả lời đẹp hơn.',
-'', '| Cấu hình | ID / câu hỏi | Câu trả lời thực tế | Nhãn và lý do |',
-'|---|---|---|---|']
+        lines.append(f'| {LABELS[name]} / {split} | {c["0"]}/{c["1"]}/{c["2"]} | {cell(m["search_count_distribution"])} | {m["mean_model_calls"]:.2f} | {u["promptTokenCount"]}/{u["candidatesTokenCount"]}/{u.get("thoughtsTokenCount",0)} | ${m["cost_usd"]:.6f} | ${m["paid_equivalent_usd"]:.6f} |')
+    lines += ['', 'Nguồn: [Google Gemini API pricing — Gemini 3.1 Flash-Lite](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite), kiểm tra 16/11/2026. Standard text input $0.25/triệu token, output gồm thinking $1.50/triệu; FreeTier miễn phí trong quota. `paid_equivalent_usd=(input×0.25+(output+thoughts)×1.50)/1e6`. Ước tính API theo cấu hình FreeTier dựa trên quota response của cùng project đã lưu, **không phải hóa đơn đã đối soát**. Không dùng Search grounding, caching hay batch có phụ phí. Chi phí máy cục bộ/Qdrant hosting chưa được phân bổ, không gán tổng hạ tầng là $0. Latency gồm API, retrieval, giãn nhịp 4.5 giây và retry.',
+      '', '## Chốt trên dev và phân tích lỗi','',
+      f'Chốt **{LABELS[chosen]}** lúc `{selection["created_at"]}`. Thứ tự tiêu chí công bố: ít lỗi, grounded cao, abstention đúng cao, context đủ cao, latency thấp. `selection.json` khóa code, benchmark, model, collection, billing assumption và hash trace/review/summary dev. Test chỉ chạy baseline và cấu hình chọn sau chốt, không chỉnh pipeline từ test.',
+      '', 'Các lỗi dev được đọc theo trace và nguồn:',
+      '- **d01 — ranking đúng nhưng context sai:** trang 2 có số trường hợp mới/năm; baseline budget 800 bỏ chunk vì header + text không vừa. So sánh trace cấu hình mở rộng để đo việc giữ evidence thay vì chỉ báo Hit@3.',
+      '- **d13 — thiếu đúng điều kiện:** mục tiêu 8–12 tuần nằm trong para_0 trang 32; chỉ giữ para_1 cùng trang vẫn không đủ. So sánh context và điểm trả lời trước/sau mở budget.',
+      '- **d15 — giới hạn lexical/context tích lũy:** query về ba chẹn beta giai đoạn C có thể xếp đoạn mô tả giai đoạn lên trước danh sách thuốc trang 43. Đánh giá theo trace v3 thực tế; không sửa query từ gold hoặc dùng câu test để chữa lỗi.',
+      '', '| Dev ID | Cấu hình | Trạng thái / điểm | Nhận xét đối chiếu |', '|---|---|---|---|']
+    for cid in ['d01','d13','d15']:
+        for name in ['baseline','hybrid_context','lexical_context']:
+            p=RESULTS/'agent/dev'/name;t=next(t for t in load(p/'traces.json') if t['query_id']==cid);r=next(r for r in load(p/'reviews.json') if r['query_id']==cid)
+            lines.append(f'| {cid} | {LABELS[name]} | {t["status"]} / {r.get("answer_grade","N/A")} | {cell(r["reason"])} |')
+    lines += ['', '## Đối chiếu từng câu test','', 'Bảng lấy nguyên câu trả lời và nhãn đã đọc, gồm đủ 5 câu có đáp án và 2 câu thiếu bằng chứng cho mỗi cấu hình. Chấm citation theo nội dung nó hỗ trợ trong context/PDF, không chỉ theo ID. Với câu thiếu bằng chứng, kiểm tra toàn tài liệu và hành vi trả lời, không kết luận chỉ từ top-k.',
+      '', '| Cấu hình | ID / câu hỏi | Trạng thái / câu trả lời thật | Nhãn / lý do |', '|---|---|---|---|']
     for name in ['baseline',chosen]:
-        path=RESULTS/'agent/test'/name
-        reviews={r['query_id']:r for r in load(path/'reviews.json')}
-        for t in load(path/'traces.json'):
-            r=reviews[t['query_id']];grade='lỗi hệ thống' if t['status']=='error' else r.get('answer_grade','abstention: '+str(r.get('abstention_correct')))
-            lines.append(f'| {names[name]} | {t["query_id"]}<br>{cell(t["question"])} | {cell(t['status']+': '+(t['answer'] or t.get('error','')))} | {grade}; context {r["context_grade"]}. {cell(r["reason"])} |')
-    lines += [
-'', '## Tái lập, trace và demo',
-'', f'- Môi trường chạy ghi nhận: Python `{sys.version.split()[0]}`, Linux, dependencies pin trong `requirements.txt`. Cách cài/chạy: [RUN.md](../../RUN.md).',
-'- Dữ liệu/nhãn: `data/chunks.json`, `questions.json`, `cases.json`, `benchmark_manifest.json`, `corpus_manifest.json`.',
-'- Retrieval: `starter/results/v2/retrieval/{dev,test}/{config}/traces.json` và `summary.json`.',
-'- Agent: `starter/results/v2/agent/{dev,test}/{config}/run.json`, `traces.json`, `reviews.pending.json`, `reviews.json`, `summary.json`. Mỗi citation có nhãn hỗ trợ và mỗi câu có lý do; nhãn AI không thay xác nhận của sinh viên.',
-'- `starter/build_report.py` chỉ dựng báo cáo từ artifact đã chấm, không tự chấm điểm. Nếu sinh viên duyệt nhãn, lưu bản xác nhận riêng để không sửa các bằng chứng dev đã khóa; nếu thay đổi tiêu chí/lựa chọn từ test thì cần test mới.',
-'- Demo: `python starter/web_demo/app.py`, http://127.0.0.1:8502. UI hiện câu hỏi nguyên bản, query thực mỗi lượt, đoạn nguyên văn ngay khi retrieval trả về, nhãn chỉ tìm được/đã gửi model/được trích dẫn và link đúng trang PDF. Không hardcode câu trả lời, nguồn hay điểm benchmark. Lỗi kết nối tách khỏi thiếu bằng chứng.',
-'- Model demo riêng: `gemini-3.1-flash-lite`, hiển thị rõ trên UI; benchmark giữ `gemini-3.5-flash-lite`. Không trộn kết quả model demo vào test đã chốt.',
-'- Kịch bản trình bày: [docs/DEMO.md](../../docs/DEMO.md). Unit test mock chỉ xác minh code. UI fixtures chỉ kiểm tra giao diện; live smoke được ghi riêng, không đưa vào điểm test.',
-'', '## Giới hạn và phần nâng cao',
-'', 'Bộ test nhỏ, một tài liệu lịch sử và có lỗi font/trích xuất; chưa chứng minh tổng quát hóa, chưa đánh giá đối kháng rộng và không thể bảo đảm không hallucination trên mọi câu hỏi. Context tích lũy ưu tiên chunk cũ có thể giữ nhiễu. Dense MiniLM thể hiện yếu hơn lexical trên dev tiếng Việt này; kết quả không chứng minh dense kém trên mọi corpus. Sinh viên còn cần duyệt nhãn và xác nhận nguồn/quyền tài liệu trước khi nộp/public.',
-'', '**Không thực hiện bonus 15 điểm:** tài liệu 52 trang, chưa có index/benchmark multimodal 100 trang và bộ test nâng cao. Không dùng kết quả phần cơ bản để tuyên bố đạt ngưỡng bonus.',
-'']
-    output=ROOT/'report/individual/2A202603914_TranGiaBao.md'
-    output.write_text('\n'.join(lines));print(output)
+        p=RESULTS/'agent/test'/name;rs={r['query_id']:r for r in load(p/'reviews.json')}
+        for t in load(p/'traces.json'):
+            r=rs[t['query_id']];grade=r.get('answer_grade','abstention '+str(r.get('abstention_correct')))
+            lines.append(f'| {LABELS[name]} | {t["query_id"]}<br>{cell(t["question"])} | {cell(t["status"]+": "+(t["answer"] or t.get("error","")))} | {grade}; context {r["context_grade"]}. {cell(r["reason"])} |')
+    lines += ['', '## Tái lập và trình bày','',
+      f'- Python {sys.version.split()[0]}, dependencies pin trong `requirements.txt`. [Cách chạy](../../RUN.md), [kịch bản demo](../../docs/DEMO.md).',
+      '- Corpus và metadata: `data/chunks.json`, `corpus_manifest.json`, `source_review.json`. Benchmark v3: `data/benchmark_v3/{questions,cases,manifest}.json`.',
+      '- Kết quả: `starter/results/v3/{retrieval,agent}/{dev,test}/{config}/`. Agent có run/trace/nhãn pending/nhãn đã chấm/summary; retrieval có ranking/context/metrics. `selection.json` là bằng chứng chọn trên dev. Code report chỉ tổng hợp nhãn, không tự chấm.',
+      '- Demo cho thấy câu hỏi, query model chọn, đoạn lấy thật, đoạn đã gửi model và nguồn được citation; mở đúng trang PDF. Có câu được hỗ trợ, câu thiếu evidence và lỗi API riêng. Không hiển thị câu trả lời/citation giả khi API lỗi.',
+      '- Unit/HTTP/UI tests kiểm tra code bằng fixtures, tách khỏi benchmark model thật. Không lấy điểm dev/demo thay test. GitHub repo cá nhân public cho phép người chấm đọc code/report.',
+      '', '## Giới hạn và phạm vi hoàn thành','',
+      'Bộ test nhỏ và một tài liệu lịch sử, có lỗi font/trích xuất; kết quả không chứng minh không hallucination trên mọi câu. Reranker/vision/OCR bảng chưa được đánh giá, context giữ chunk cũ có thể giữ nhiễu. Nhãn AI có lý do và nguồn để người khác kiểm tra; không tự nhận đánh giá độc lập bởi con người. Quyền tài liệu được ghi theo thông tin xác minh thực, không tự cấp giấy phép mới.',
+      '', '**Phạm vi:** hoàn tất phần bắt buộc (rubric tối đa 85 điểm). Bonus 15 điểm cần tài liệu ≥100 trang, index multimodal và benchmark nâng cao riêng; không dùng số liệu phần cơ bản để tuyên bố đạt bonus hoặc bảo đảm giảng viên chấm 100/100.', '']
+    out=ROOT/'report/individual/2A202603914_TranGiaBao.md';out.write_text('\n'.join(lines));print(out)
 
 if __name__=='__main__':main()

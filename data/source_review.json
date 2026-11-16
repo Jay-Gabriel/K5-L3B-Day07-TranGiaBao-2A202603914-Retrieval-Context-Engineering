@@ -1,0 +1,16 @@
+{
+  "title": "Chẩn đoán và Điều trị Suy tim",
+  "author": "GS. TS. Huỳnh Văn Minh",
+  "printed_date": "2/23/18",
+  "pdf_pages": 52,
+  "pdf_sha256": "8eb4ee61d23aa478a20ed3c126beb5cc5a23f965b48e12fe06ae1f9ba96f13a1",
+  "historical_url": "https://syt.thuathienhue.gov.vn/UploadFiles/TinTuc/2018/3/2/cme2._suy_timgs_minh.pdf",
+  "historical_url_check": "DNS name resolution failed",
+  "candidate_migration_url": "https://syt.hue.gov.vn/UploadFiles/TinTuc/2018/3/2/cme2._suy_timgs_minh.pdf",
+  "candidate_migration_check": "HTTP 200, text/html, 177-byte script page; not a PDF and not accepted as the source",
+  "source_basis": "User-supplied Day 6 corpus; first-slide authorship checked against original PDF; hash verified independently.",
+  "license_statement": "No open license or redistribution grant was verified. No CC/public-domain license is asserted.",
+  "permission_confirmation": "User was asked whether classroom provision/permission covers assignment use and sharing; response pending.",
+  "review_type": "Independent AI-assisted original-document and source-URL audit",
+  "checked_at": "2026-11-16"
+}

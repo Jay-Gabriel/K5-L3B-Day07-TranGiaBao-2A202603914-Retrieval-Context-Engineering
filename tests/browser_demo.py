@@ -45,6 +45,12 @@ with sync_playwright() as p:
     assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
     page.set_viewport_size({'width':390,'height':844})
     assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
+    second={**source,'id':'qa_fixture_2','page':4}
+    fixture.update(answer='Hai nguồn [qa_fixture, qa_fixture_2]. [qa_fixture] [qa_fixture_2]',citations=['qa_fixture','qa_fixture_2'],sources=[source,second])
+    page.locator('#question').fill('Câu nhiều nguồn');page.locator('#send').click()
+    page.wait_for_function("document.querySelectorAll('#answerBody .citation').length === 2")
+    assert 'qa_fixture' not in page.locator('#answerBody').inner_text(),'Grouped IDs should render as readable source links.'
+    fixture['sources']=[source]
     fixture['status']='abstain';fixture['answer']='Không đủ bằng chứng.';fixture['citations']=[]
     page.locator('#question').fill('Câu thiếu dữ liệu');page.locator('#send').click()
     page.wait_for_function("document.getElementById('answerState').textContent === 'Chưa đủ bằng chứng'")

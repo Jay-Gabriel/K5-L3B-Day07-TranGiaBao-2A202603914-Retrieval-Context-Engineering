@@ -1,9 +1,13 @@
 """Shared experiment settings for CLI and demo."""
 import hashlib
+import os
 import json
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / 'starter/results/v2'
+CAMPAIGN = os.getenv('DAY7_CAMPAIGN', 'v3')
+if CAMPAIGN not in ('v2','v3'):raise ValueError('Unsupported campaign')
+BENCHMARK_DIR = ROOT / 'data/benchmark_v3' if CAMPAIGN == 'v3' else ROOT / 'data'
+RESULTS = ROOT / 'starter/results' / CAMPAIGN
 CONFIGS = {
     'baseline': {'method': 'tfidf', 'top_k': 3, 'budget': 800, 'max_searches': 3},
     'dense': {'method': 'dense', 'top_k': 3, 'budget': 800, 'max_searches': 3},
@@ -16,8 +20,9 @@ def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 def load_data():
-    return tuple(json.loads((ROOT / 'data' / name).read_text())
-                 for name in ('chunks.json', 'questions.json', 'cases.json'))
+    return (json.loads((ROOT/'data/chunks.json').read_text()),
+            json.loads((BENCHMARK_DIR/'questions.json').read_text()),
+            json.loads((BENCHMARK_DIR/'cases.json').read_text()))
 
 def build_retrievers(chunks, methods):
     from retrievers import TfidfRetriever, QdrantDenseRetriever, HybridRrfRetriever

@@ -1,0 +1,48 @@
+{
+  "unit_http_tests_passed": 31,
+  "browser_desktop_mobile_fixtures": "passed, includes grouped citations and error/abstention distinction",
+  "live_http_streaming": "passed; demo_smoke.json",
+  "dev_selection_sha256": "bacde6ca7f14674463987891124af666f7d2ccddeece110042ac9a439964dc37",
+  "runs": [
+    {
+      "split": "dev",
+      "config": "baseline",
+      "cases": 17,
+      "errors": 0
+    },
+    {
+      "split": "dev",
+      "config": "hybrid_context",
+      "cases": 17,
+      "errors": 0
+    },
+    {
+      "split": "dev",
+      "config": "lexical_context",
+      "cases": 17,
+      "errors": 0
+    },
+    {
+      "split": "test",
+      "config": "baseline",
+      "cases": 7,
+      "errors": 0
+    },
+    {
+      "split": "test",
+      "config": "lexical_context",
+      "cases": 7,
+      "errors": 0
+    }
+  ],
+  "test_selected": {
+    "complete_answers": "5/5",
+    "supported_citations": "6/6",
+    "correct_abstentions": "2/2",
+    "provider_errors": 0
+  },
+  "review_provenance": "AI-assisted original-PDF/trace content audit, not a claim of human grading",
+  "secret_scan": "passed",
+  "source_permission_status": "unverified; user-provided corpus and explicit instruction to use/publish documented, no open license asserted",
+  "bonus": "not implemented, not claimed"
+}

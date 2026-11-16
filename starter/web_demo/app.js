@@ -39,15 +39,20 @@ function renderSources() {
 }
 function renderAnswer(text, citations) {
   const answer=$('answerBody');answer.replaceChildren();
-  const ids=new Set(citations);
+  const ids=new Set(citations), displayed=new Set();
   // Only transform references that the API actually returned. All other content stays plain text.
   const regex=/\[([^\]\n]+)\]/g;let previous=0;
   for (const match of text.matchAll(regex)) {
-    if (!ids.has(match[1]) || !sourceMap.has(match[1])) continue;
+    const group=match[1].split(',').map(id=>id.trim());
+    if (!group.length || !group.every(id=>ids.has(id)&&sourceMap.has(id))) continue;
     answer.append(document.createTextNode(text.slice(previous,match.index)));
-    const source=sourceMap.get(match[1]);
-    const button=el('button','citation',`Nguồn · trang ${source.page}`);button.type='button';
-    button.addEventListener('click',()=>focusSource(source.id));answer.append(button);
+    for (const id of group) {
+      if (displayed.has(id)) continue;
+      displayed.add(id);
+      const source=sourceMap.get(id);
+      const button=el('button','citation',`Nguồn · trang ${source.page}`);button.type='button';
+      button.addEventListener('click',()=>focusSource(source.id));answer.append(button);
+    }
     previous=match.index+match[0].length;
   }
   answer.append(document.createTextNode(text.slice(previous)));

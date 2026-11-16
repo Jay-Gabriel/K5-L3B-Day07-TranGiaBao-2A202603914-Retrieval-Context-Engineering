@@ -4,7 +4,7 @@ import statistics
 import time
 from pathlib import Path
 from baseline import hit, pack_context, validate
-from configs import CONFIGS, ROOT, RESULTS, build_retrievers, load_data, output_dir, write_json, digest
+from configs import BENCHMARK_DIR, CONFIGS, ROOT, RESULTS, build_retrievers, load_data, output_dir, write_json, digest
 
 
 def evaluate_retriever(retriever, questions, budget=800, strategy_name='unknown', top_k=3):
@@ -57,7 +57,7 @@ def main():
             budget=config['budget'], strategy_name=config['method'], top_k=config['top_k'])
         summary['config'] = config
         summary['corpus_sha256'] = digest(ROOT / 'data/chunks.json')
-        summary['questions_sha256'] = digest(ROOT / 'data/questions.json')
+        summary['questions_sha256'] = digest(BENCHMARK_DIR/'questions.json')
         out = output_dir(args.output, args.split, name)
         write_json(out / 'summary.json', summary); write_json(out / 'traces.json', traces)
         print(name, summary, flush=True)

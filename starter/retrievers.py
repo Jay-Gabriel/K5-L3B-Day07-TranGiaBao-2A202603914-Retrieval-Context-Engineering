@@ -68,10 +68,10 @@ class QdrantDenseRetriever:
         self.chunk_by_id = {c["id"]: c for c in chunks}
         self.collection_name = collection_name or os.getenv("QDRANT_COLLECTION", "rag_strategy_b")
         self.model_name = model_name or os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
-        
+
         url = os.getenv("QDRANT_URL", "https://qdrant.vectorium.space")
         api_key = os.getenv("QDRANT_API_KEY")
-        
+
         from qdrant_client import QdrantClient
         self.client = QdrantClient(
             url=url,
@@ -81,7 +81,7 @@ class QdrantDenseRetriever:
             https=True,
             timeout=10
         )
-        
+
         from fastembed import TextEmbedding
         self.embed_model = TextEmbedding(model_name=self.model_name)
 
@@ -90,7 +90,7 @@ class QdrantDenseRetriever:
 
     def search(self, query: str, *, filters: dict[str, Any] | None = None, top_k: int = 3) -> list[dict[str, Any]]:
         query_vector = self.embed_query(query)
-        
+
         query_filter = None
         if filters:
             from qdrant_client.http import models as qmodels
@@ -106,7 +106,7 @@ class QdrantDenseRetriever:
             query_filter=query_filter,
             limit=top_k
         )
-        
+
         results = []
         for p in response.points:
             payload = p.payload or {}

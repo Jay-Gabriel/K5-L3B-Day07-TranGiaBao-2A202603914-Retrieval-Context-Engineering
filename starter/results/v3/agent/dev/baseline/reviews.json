@@ -1,0 +1,222 @@
+[
+  {
+    "query_id": "d01",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p2 states 550,000 new cases each year. Final context is p3 definition/symptoms and contains no incidence count.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Only the definition/symptom page survived context selection; the p2 evidence in search results is absent from final context.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d02",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: fatigue and dyspnea match the original PDF p3 and the cited final-context passage.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p3 passage explicitly names both main clinical manifestations.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d03",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p6 lists alcohol and cocaine among toxic cardiomyopathies; answer supplies neither.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final p21 treatment-goal context has no toxic-cardiomyopathy agents.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d04",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p7 names stress cardiomyopathy as Takotsubo.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final p26 ARB prescribing passage contains no stress-cardiomyopathy name.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d05",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect document-wide absence claim: original PDF p8 explicitly lists verapamil and diltiazen. Citation p23 supports only the general harmful calcium-channel-blocker class, not the claim that the document gives no names.",
+    "citation_support": [
+      false
+    ],
+    "context_grade": 1,
+    "context_reason": "Final p23 context identifies the harmful drug class but lacks the two names requested; this is partial relevant evidence.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d06",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p12 gives functional symptoms, physical signs, preserved EF, and structural cardiac disease and/or diastolic dysfunction.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final p28 diuretic passage and p15 heading contain none of the requested diagnostic conditions.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d07",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: marked activity limitation, well at rest, symptoms with light activity match NYHA III in original PDF p16 and cited context.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p16 fragment contains the complete NYHA III description, despite adjacent class text.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d08",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: soluble ST2 and galectin-3 are explicitly linked to myocardial fibrosis in original PDF p20 and cited context.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p20 passage includes both biomarkers and their fibrosis-assessment role.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d09",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct and complete: all six requested nonmortality goals match original PDF p21 and cited context.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p21 treatment-goal passage contains symptom/QOL improvement, exercise capacity, fewer admissions, prevention of injury and reduced remodeling.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d10",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: weight loss, smoking cessation, no alcohol, less sodium, exercise, and fluid restriction for severe failure match original PDF p22 and citation.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p22 passage includes the full lifestyle list and severe-failure qualification on fluid restriction.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d11",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: diuretics, low-dose digoxin, and nitrates are the three symptom-improving treatments in original PDF p23 and citation.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p23 passage explicitly lists all three under symptom improvement.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d12",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: original PDF p24 says to repeat creatinine two weeks later; cited final context says the same.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p24 ACE-inhibitor slide includes the explicit two-week retesting interval.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d13",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect document-wide absence claim: original PDF p32, visually inspected, explicitly gives a target-dose goal of 8–12 weeks. The cited fragment supports resuming titration after symptoms normalize, but does not support saying the document lacks a week count.",
+    "citation_support": [
+      false
+    ],
+    "context_grade": 1,
+    "context_reason": "Final p32 fragment contains relevant titration advice but omits the earlier table row specifying 8–12 weeks; partial rather than complete evidence.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d14",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p40 names older patients and patients with chronic kidney disease as examples needing frequent visits and slow titration.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final p32 titration troubleshooting fragment has neither requested patient group.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d15",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p43 stage-C slide names bisoprolol, carvedilol, and metoprolol succinate.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final p52 conclusion mentions beta blockers only as a class and supplies no named stage-C agents.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "du01",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct abstention. Audited the entire 52-page original PDF text: neither EMPEROR nor empagliflozin occurs; no EMPEROR-Reduced trial results can be derived from the unrelated neprilysin fragment in final context.",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "context_reason": "Unanswerable case: final context has no requested evidence; absence was checked against the full original document, not inferred from top-k retrieval.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "du02",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct abstention. Full 52-page PDF audit found no clinic-price/fee schedule, revisit price, VND/VNĐ, or service-payment amount. Huế occurs in author/hospital references and transplantation material; đồng occurrences concern simultaneous action/synergy/resynchronization, not money. Final neprilysin context is unrelated.",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "context_reason": "Unanswerable case: final context has no requested evidence; absence was checked against the full original document, not inferred from top-k retrieval.",
+    "abstention_correct": true
+  }
+]

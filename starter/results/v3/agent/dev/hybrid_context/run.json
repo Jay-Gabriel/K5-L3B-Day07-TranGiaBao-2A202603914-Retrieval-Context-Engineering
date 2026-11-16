@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-11-16T04:56:18.960931+00:00",
+  "config_name": "hybrid_context",
+  "config": {
+    "method": "hybrid",
+    "top_k": 6,
+    "budget": 6000,
+    "max_searches": 3
+  },
+  "cases": 17,
+  "fingerprints": {
+    "starter/controller.py": "2fb83aa148f91d08a6f0aec785b0451f4b62f8dce80f7f8e572c3aee8a85e204",
+    "starter/agentic.py": "bbd1810be483589301c452c15ab1d23fc8d2ed61f81ebfa860cb318a1bd387f2",
+    "starter/retrievers.py": "39e62448bfec5bc0ff97f1b32836357397ae794b2012c4b5d37eb052bcbdf6df",
+    "starter/configs.py": "f1093c86c908af19fe4109142b500694fe9938ef6b1183bcf59b8919c969be57",
+    "starter/baseline.py": "03b8b16c42be7d19c820e506f4cea2a7496c462a00c77d1cfc9e7fc972301fdf",
+    "data/chunks.json": "1cd63240e83b7f24f7d6817cd3654f7580634178ce38dc3924721e079593ac2e",
+    "data/benchmark_v3/questions.json": "ec314fd5a09615064ff87120b4775406a9cd6e45b61d7df208e68b8c211d16a9",
+    "data/benchmark_v3/cases.json": "4cca5d3b337e71a0309293786ee9f0e43fdd95bdc146efc26d17cc3152b5e93e",
+    "starter/costs.py": "e8e46b063125ca303f899653fba88d2fcf25e4a0fe91ca69c5be931bfc85d446",
+    "starter/run_agent_benchmark.py": "7fa14a16eb6a729c228154f271771bfe2229c8a2057b5ffa312a2d7d3efead9e",
+    "starter/run_retrieval_benchmark.py": "2891709ac131839fa82ef64f1fd11491c1a1d277178920548b57fd861e856deb",
+    "starter/summarize_reviews.py": "acc35daf837167f243ab504500fe1e114aaf3b4c425d2f1fcd4fff425b8768d6",
+    "starter/select_config.py": "a6c66f4cbfb387d3bdb964c551da3b220ea932004c467399ee558a0bbee56aaf"
+  },
+  "runtime_settings": {
+    "campaign": "v3",
+    "billing_tier_assumption": "free",
+    "model": "gemini-3.1-flash-lite",
+    "collection": "rag_strategy_b",
+    "embedding": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "model": "gemini-3.1-flash-lite",
+  "evaluation": "pending separate content/citation/context review",
+  "cache": false
+}

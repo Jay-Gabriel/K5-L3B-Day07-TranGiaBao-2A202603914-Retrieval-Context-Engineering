@@ -5,7 +5,7 @@ import statistics
 from collections import Counter
 from pathlib import Path
 from agent_metrics import aggregate
-from configs import ROOT, write_json
+from configs import ROOT, BENCHMARK_DIR, write_json
 
 
 def summarize(cases,traces,reviews):
@@ -21,7 +21,7 @@ def summarize(cases,traces,reviews):
     answerable={c['id'] for c in cases if c['answerable']}
     counts=Counter()
     for t in traces:
-        if t['query_id'] in answerable and t['status']!='error':
+        if t['query_id'] in answerable:
             grade=by_id[t['query_id']]['context_grade']
             if type(grade) is not int or grade not in (0,1,2):raise ValueError('context_grade must be 0..2')
             counts[str(grade)]+=1
@@ -32,10 +32,10 @@ def summarize(cases,traces,reviews):
     summary['mean_model_calls']=statistics.mean(len(t['model_calls']) for t in traces)
     summary['median_ms']=statistics.median(t['elapsed_ms'] for t in traces)
     summary['tokens']={key:sum(t['usage'].get(key,0) for t in traces)
-                      for key in ('promptTokenCount','candidatesTokenCount','totalTokenCount')}
-    summary['cost_usd']=None
-    summary['cost_note']='Token usage recorded. Account billing was not queried; no invented $0 total.'
-    summary['review_note']='AI-assisted content and original-PDF audit; student verification pending.'
+                      for key in ('promptTokenCount','candidatesTokenCount','thoughtsTokenCount','totalTokenCount')}
+    from costs import estimate_cost
+    summary.update(estimate_cost(summary['tokens'],traces[0].get('model','unknown')))
+    summary['review_note']='Completed AI-assisted original-PDF/trace audit. No claim of human/student grading.'
     summary['student_verified']=all(r['student_verified'] for r in reviews)
     return summary
 
@@ -47,7 +47,7 @@ def main():
     run=load(args.run/'run.json')
     if not traces:raise ValueError('Trace rỗng')
     split=traces[0]['split']
-    cases=[c for c in load(ROOT/'data/cases.json') if c['split']==split]
+    cases=[c for c in load(BENCHMARK_DIR/'cases.json') if c['split']==split]
     expected={c['id'] for c in cases}
     if {t['query_id'] for t in traces}!=expected or len(traces)!=len(expected):
         raise ValueError('Run chưa đủ toàn bộ câu hỏi của split; không thu nhỏ mẫu số.')

@@ -41,7 +41,7 @@ def main():
     write_json(RESULTS/'selection.json',{'selected':selected,'config':CONFIGS[selected],
         'created_at':datetime.now(timezone.utc).isoformat(), 'split_used':'dev',
         'criterion':'Min errors; max audited grounded answer; max correct abstention; max sufficient context; min median latency.',
-        'review_status':'AI-assisted labels; student verification pending',
+        'review_status':'Completed AI-assisted original-PDF/trace audit; reviewer provenance retained',
         'dev_ranking':[{'config':name,'sort_key':key} for key,name,_ in scores],
         'fingerprints':fingerprints(),'runtime_settings':runtime_settings(),'reviewed_artifacts':artifacts})
     print('Frozen from dev:',selected)

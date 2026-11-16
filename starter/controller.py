@@ -44,7 +44,7 @@ TOOLS = [{'functionDeclarations': [
 class GeminiController:
     def __init__(self, model=None, api_key=None, timeout=40, max_searches=3):
         self.api_key = api_key or os.getenv('GEMINI_API_KEY')
-        self.model = (model or os.getenv('GEMINI_MODEL', 'gemini-2.5-flash-lite')).removeprefix('models/')
+        self.model = (model or os.getenv('GEMINI_MODEL', 'gemini-3.1-flash-lite')).removeprefix('models/')
         self.timeout = timeout
         self.max_searches = max_searches
         self.calls = []

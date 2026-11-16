@@ -1,0 +1,86 @@
+[
+  {
+    "query_id": "t31",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p2 explicitly states five-year mortality reaches 50%.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final p24 ACE-inhibitor prescribing passage has no five-year mortality estimate; generic mortality-reduction heading does not supply the requested statistic.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "t32",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: high risk of heart failure without structural heart disease or heart-failure symptoms matches original PDF p15/p16. The p16 alternative citation substantively supports all three elements; no unsupported added conditions.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final context contains the full stage-A definition: high risk, no structural disease, no functional heart-failure symptoms.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "t33",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p25 table identifies captopril as Capoten.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final p52 conclusion names broad drug classes and research agents, but contains neither captopril nor its brand mapping.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "t34",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p31 table gives amiloride renal elimination and 24-hour duration.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final search context is empty; neither required table cell was available.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "t35",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p50 gives survival of 80–90% at one year and 70% at five years.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final search context is empty; neither survival statistic was available.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "t3u1",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct abstention. Independent all-52-page original-PDF text scan found zero VICTORIA or vericiguat mentions, consistent with the stored absence audit and document-scope review. Final drug/classification passages contain no trial result; do not infer modern trial outcomes from older treatments.",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "context_reason": "Unanswerable case: final context contains no requested evidence; absence judged from the full original document and all-page scan, not solely top-k retrieval.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "t3u2",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct abstention. Independent all-52-page original-PDF text scan found zero warfarin, ginkgo, biloba or INR mentions, consistent with stored absence audit and document-scope review. Final context gives no quantitative interaction evidence; an INR change cannot be derived from unrelated drug passages.",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "context_reason": "Unanswerable case: final context contains no requested evidence; absence judged from the full original document and all-page scan, not solely top-k retrieval.",
+    "abstention_correct": true
+  }
+]

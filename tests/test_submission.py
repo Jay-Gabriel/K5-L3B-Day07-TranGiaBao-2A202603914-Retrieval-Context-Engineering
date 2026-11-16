@@ -80,3 +80,30 @@ class ProvenanceTests(unittest.TestCase):
             write_json(root/'run.json',{'fingerprints':fingerprints(),'runtime_settings':runtime_settings(),'model':runtime_settings()['model'],'config_name':'baseline','config':CONFIGS['baseline']})
             write_json(root/'traces.json',[]);write_json(root/'reviews.json',[]);write_json(root/'summary.json',{'review_note':'reviewed'})
             with self.assertRaises(ValueError):validate_dev_run(root)
+
+class ContextMetricTests(unittest.TestCase):
+    def test_answer_provider_error_does_not_erase_context_already_sent(self):
+        from summarize_reviews import summarize
+        cases=[{'id':'q','answerable':True}]
+        traces=[{'query_id':'q','status':'error','events':[{'event':'search'}],
+                 'citations':[],'model_calls':[],'elapsed_ms':1,'usage':{}}]
+        reviews=[{'query_id':'q','review_type':'ai_assisted','student_verified':False,
+                  'reason':'Answer API failed','context_reason':'Complete evidence was sent',
+                  'context_grade':2,'citation_support':[],'answer_grade':0}]
+        report=summarize(cases,traces,reviews)
+        self.assertEqual(report['pipeline_context_evidence'],{'n':1,'N':1})
+        self.assertEqual(report['context_review']['2'],1)
+        self.assertEqual(report['provider_errors'],1)
+
+class CostEstimateTests(unittest.TestCase):
+    def test_paid_equivalent_counts_output_thoughts_and_preserves_free_tier_basis(self):
+        from costs import estimate_cost
+        with patch.dict('os.environ',{'GEMINI_BILLING_TIER':'free'}):
+            result=estimate_cost({'promptTokenCount':1_000_000,'candidatesTokenCount':500_000,'thoughtsTokenCount':500_000},'gemini-3.1-flash-lite')
+        self.assertEqual(result['paid_equivalent_usd'],1.75)
+        self.assertEqual(result['cost_usd'],0.0)
+        self.assertFalse(result['invoice_verified'])
+    def test_unknown_account_tier_never_claims_zero_actual_cost(self):
+        from costs import estimate_cost
+        with patch.dict('os.environ',{'GEMINI_BILLING_TIER':'unknown'}):
+            self.assertIsNone(estimate_cost({},'gemini-3.1-flash-lite')['cost_usd'])

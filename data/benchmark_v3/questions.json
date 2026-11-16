@@ -1,0 +1,262 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "question": "Theo phần dịch tễ học trong bài giảng, có bao nhiêu trường hợp suy tim mới xuất hiện mỗi năm?",
+    "expected_answer": "550.000 trường hợp mỗi năm.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 2,
+        "evidence": "550,000 trường hợp mới xuất hiện mỗi năm."
+      }
+    ]
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "question": "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là gì?",
+    "expected_answer": "Mệt và khó thở.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 3,
+        "evidence": "Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở."
+      }
+    ]
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "question": "Trong nhóm bệnh cơ tim do độc chất, tài liệu nêu hai chất gây nghiện nào?",
+    "expected_answer": "Rượu và cocaine.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 6,
+        "evidence": "BCT do rượu \n- BCT do cocaine"
+      }
+    ]
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "question": "Bệnh cơ tim do stress còn được gọi bằng tên gì trong tài liệu?",
+    "expected_answer": "Takotsubo.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 7,
+        "evidence": "Bệnh cơ tim do stress (Takotsubo)"
+      }
+    ]
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "question": "Hai thuốc ức chế calci nào được nêu trong danh sách thuốc có thể làm nặng suy tim?",
+    "expected_answer": "Verapamil và diltiazen (cách viết trong tài liệu).",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 8,
+        "evidence": "Ức chế calci (verapamil, diltiazen)"
+      }
+    ]
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "question": "Tài liệu yêu cầu những điều kiện nào để chẩn đoán suy tim tâm trương?",
+    "expected_answer": "Triệu chứng cơ năng, triệu chứng thực thể, PXTM bảo tồn và chứng cứ bệnh cấu trúc cơ tim và/hoặc rối loạn chức năng tâm trương.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 12,
+        "evidence": "Chẩn đóan suy tim tâm trương: 4 điều kiện \n- TC/ CN \n- TC/ thực thể \n- PXTM bảo tồn \n- Chứng cứ bệnh cấu trúc cơ tim (dầy TTr, nhĩ trái lớn) và/hoặc rối lọan \nchức năng tâm trương"
+      }
+    ]
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "question": "Theo phân độ NYHA trong bài giảng, mức III được mô tả thế nào về vận động và triệu chứng khi nghỉ?",
+    "expected_answer": "Hạn chế nhiều vận động; khỏe khi nghỉ nhưng chỉ vận động nhẹ đã có triệu chứng cơ năng.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 16,
+        "evidence": "III Hạn chế nhiều vận động thể lực. Mặc dù bệnh nhân \nkhỏe khi nghỉ ngơi, nhưng chỉ vận động nhẹ đã có \ntriệu chứng cơ năng."
+      }
+    ]
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "question": "Hai chất chỉ điểm sinh học mới giúp khảo sát tình trạng sợi hóa cơ tim được nêu là gì?",
+    "expected_answer": "Soluble ST2 và galectin-3.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 20,
+        "evidence": "Chất chỉ điểm sinh học mới trong \nsuy tim \n• Soluble ST2, galectin-3 \n• Giúp khảo sát tình trạng sợi hoá cơ \ntim \n• Hiệu quả:"
+      }
+    ]
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "question": "Ngoài giảm tử vong, tài liệu nêu các mục tiêu điều trị suy tim nào?",
+    "expected_answer": "Cải thiện triệu chứng, chất lượng cuộc sống, gắng sức; giảm nhập viện; phòng tăng tổn thương và giảm tái cấu trúc cơ tim.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 21,
+        "evidence": "Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim"
+      }
+    ]
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "question": "Phần điều trị không thuốc liệt kê những thay đổi lối sống nào?",
+    "expected_answer": "Giảm cân, ngưng thuốc lá, không uống rượu, bớt natri, tập thể dục và hạn chế nước khi suy tim nặng.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 22,
+        "evidence": "Thay đổi lối sống: giảm cân, ngưng thuốc lá, \nkhông uống rượu, bớt mặn (bớt Natri), tập thể \ndục, hạn chế nước (suy tim nặng)"
+      }
+    ]
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "question": "Trong mục tác dụng thuốc, ba loại giúp cải thiện triệu chứng được liệt kê là gì?",
+    "expected_answer": "Lợi tiểu, digoxin liều thấp, nitrates.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 23,
+        "evidence": "Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates"
+      }
+    ]
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "question": "Theo slide ức chế men chuyển, creatinine được thử lại sau khoảng thời gian nào?",
+    "expected_answer": "Sau 2 tuần.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 24,
+        "evidence": "Liều từ thấp đến cao- Thử lại creatinine 2 tuần sau"
+      }
+    ]
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "question": "Theo hướng dẫn cách dùng chẹn beta trong bài giảng, mục tiêu đạt liều đích trong bao nhiêu tuần?",
+    "expected_answer": "8–12 tuần.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 32,
+        "evidence": "Mục tiêu đạt liều đích trong 8-12 tuần"
+      }
+    ]
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "question": "Trong chiến lược tối ưu điều trị nội, hai nhóm bệnh nhân nào được ví dụ là cần thăm khám thường xuyên và tăng liều chậm?",
+    "expected_answer": "Người cao tuổi và bệnh nhân bệnh thận mạn.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 40,
+        "evidence": "Một số bệnh nhân (TD: cao tuổi, bệnh thận mạn) cần thăm khám \nthường xuyên, tăng liều chậm"
+      }
+    ]
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "question": "Tại phần điều trị giai đoạn C, ba chẹn beta được nêu đích danh là gì?",
+    "expected_answer": "Bisoprolol, carvedilol hoặc metoprolol succinate.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 43,
+        "evidence": "Một trong 3 chẹn bêta (bisoprolol, carvedilol hoặc metoprolol \nsuccinate)"
+      }
+    ]
+  },
+  {
+    "id": "t31",
+    "split": "test",
+    "question": "Theo phần dịch tễ học, tỷ lệ tử vong sau 5 năm của bệnh nhân suy tim được nêu là bao nhiêu?",
+    "expected_answer": "Đến 50%.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 2,
+        "evidence": "Tử vong 5 năm chiếm đến 50%"
+      }
+    ]
+  },
+  {
+    "id": "t32",
+    "split": "test",
+    "question": "Theo sơ đồ ACC/AHA trong bài giảng, giai đoạn A được định nghĩa thế nào về nguy cơ, bệnh tim thực thể và triệu chứng?",
+    "expected_answer": "Nguy cơ cao suy tim, không có bệnh tim thực thể hoặc triệu chứng cơ năng suy tim.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 15,
+        "evidence": "Giai đoạn A \nNguy cơ cao suy tim \nkhông bệnh tim thực \nthể hoặc triệu chứng \ncơ năng suy tim"
+      }
+    ]
+  },
+  {
+    "id": "t33",
+    "split": "test",
+    "question": "Trong bảng thuốc UCMC, tên biệt dược của captopril là gì?",
+    "expected_answer": "Capoten.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 25,
+        "evidence": "Captopril \n Capoten"
+      }
+    ]
+  },
+  {
+    "id": "t34",
+    "split": "test",
+    "question": "Theo bảng lợi tiểu giữ kali, amiloride thải trừ qua cơ quan nào và có thời gian tác dụng bao nhiêu giờ?",
+    "expected_answer": "Thận; 24 giờ.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 31,
+        "evidence": "Amiloride \n 5 mg qd \n 20 mg \n Thận \n 24 giờ"
+      }
+    ]
+  },
+  {
+    "id": "t35",
+    "split": "test",
+    "question": "Theo slide ghép tim, tỷ lệ sống còn sau 1 năm và sau 5 năm lần lượt là bao nhiêu?",
+    "expected_answer": "Sau 1 năm 80–90%; sau 5 năm 70%.",
+    "gold": [
+      {
+        "source_id": "cme2._suy_timgs_minh",
+        "page": 50,
+        "evidence": "Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%"
+      }
+    ]
+  }
+]

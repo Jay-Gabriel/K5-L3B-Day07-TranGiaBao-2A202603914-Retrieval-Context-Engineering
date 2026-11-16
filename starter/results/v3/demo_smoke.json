@@ -1,0 +1,287 @@
+{
+  "checked_at": "2026-11-16T05:11:26.331166+00:00",
+  "events": [
+    {
+      "type": "question",
+      "question": "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là gì?",
+      "config_name": "lexical_context"
+    },
+    {
+      "type": "searching",
+      "query": "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là gì?",
+      "iteration": 1
+    },
+    {
+      "type": "retrieved",
+      "query": "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là gì?",
+      "results": [
+        {
+          "id": "cme2._suy_timgs_minh_p3_para_0",
+          "text": "2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6",
+          "source_id": "cme2._suy_timgs_minh",
+          "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+          "page": 3,
+          "metadata": {
+            "total_pages": 52,
+            "is_empty": false,
+            "char_count": 590,
+            "chunk_type": "by_paragraph",
+            "chunk_index": 0,
+            "char_length": 590
+          },
+          "score": 0.32431247629293686,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "cme2._suy_timgs_minh_p4_para_0",
+          "text": "2/23/18 \n4 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \nPhân loại EF Mô tả \nI. Suy Tim với \nEF giảm \n (HFrEF) \n≤40% - ST tâm thu. -  Điều trị hữu hiệu hiện nay đã được xác định. II. Suy Tim với EF \nduy trì (HFpEF) \n≥50% - ST tâm trương. - Một vài tiêu chuẩn được dùng để xác định HFpEF. -  Chẩn đoán HFpEF là thử thách vì cần phải loại \ntrừ các nguyên nhân không do tim gây ST. -  Chưa có điều trị hữu hiệu . a. HFpEF, Giới \nhạn \n41% - \n49% \nĐặc điểm lâm sàng, điều trị và tiên lượng tương tự \nnhư nhóm bệnh nhân HFpEF. b. HFpEF, \nCải thiện \n>40% - Là nhóm HFpEF trước đây còn HFrEF. -  EF cải thiện hoặc hồi phục về lâm sàng khác với \nnhóm EF duy trì và EF suy giảm. - Cần có các nghiên cứu thêm .",
+          "source_id": "cme2._suy_timgs_minh",
+          "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+          "page": 4,
+          "metadata": {
+            "total_pages": 52,
+            "is_empty": false,
+            "char_count": 1037,
+            "chunk_type": "by_paragraph",
+            "chunk_index": 0,
+            "char_length": 716
+          },
+          "score": 0.15253243382783216,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "cme2._suy_timgs_minh_p35_para_0",
+          "text": "2/23/18 \n35 \nCn 2014 về chẩn đoán và điều trị suy tim \n69 \nCác thuốc \nđược chứng \nminh kéo dài \nđời sống b/n \nsuy tim tâm \nthu mạn \nhoặc sau \nNMCT \n TL: McMurray JJV \net al. Euro. H. \nJournal (2012); 33: \n1787-1847 \nCn 2014 về chẩn đoán và điều trị suy tim \nLCZ696: thuốc đầu Xên trong nhóm \n ức chế thụ thҳ angiotensin và neprilysin (ARNI)\n\n♣ LCZ696 là một thuốc mới vừa có tác dụng ức chế \n neprilysin vừa có tác dụng chҮn thụ thҳ AT11-3\n\n♣ LCZ696 là một phức hợp muối gồm hai nửa (với \n tỉ lệ mol 1:1) đều có hoạt nh:2,3 \n - sacubitril (AHU377) - một Xền chất; được \n chuyҳn hóa Xếp thành chất ức chế neprilysin \n LBQ657, và\n\n- valsartan - một thuốc chҮn thụ thҳ T1\n\nCấu trúc 3D của LCZ6962",
+          "source_id": "cme2._suy_timgs_minh",
+          "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+          "page": 35,
+          "metadata": {
+            "total_pages": 52,
+            "is_empty": false,
+            "char_count": 945,
+            "chunk_type": "by_paragraph",
+            "chunk_index": 0,
+            "char_length": 693
+          },
+          "score": 0.11364839460663967,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "cme2._suy_timgs_minh_p52_para_0",
+          "text": "2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI",
+          "source_id": "cme2._suy_timgs_minh",
+          "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+          "page": 52,
+          "metadata": {
+            "total_pages": 52,
+            "is_empty": false,
+            "char_count": 596,
+            "chunk_type": "by_paragraph",
+            "chunk_index": 0,
+            "char_length": 596
+          },
+          "score": 0.11270311721839248,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "cme2._suy_timgs_minh_p29_para_0",
+          "text": "2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B",
+          "source_id": "cme2._suy_timgs_minh",
+          "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+          "page": 29,
+          "metadata": {
+            "total_pages": 52,
+            "is_empty": false,
+            "char_count": 754,
+            "chunk_type": "by_paragraph",
+            "chunk_index": 0,
+            "char_length": 754
+          },
+          "score": 0.10905973821125843,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "cme2._suy_timgs_minh_p2_para_0",
+          "text": "2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4",
+          "source_id": "cme2._suy_timgs_minh",
+          "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+          "page": 2,
+          "metadata": {
+            "total_pages": 52,
+            "is_empty": false,
+            "char_count": 711,
+            "chunk_type": "by_paragraph",
+            "chunk_index": 0,
+            "char_length": 711
+          },
+          "score": 0.0997779794938321,
+          "strategy": "tfidf"
+        }
+      ],
+      "context_ids": [
+        "cme2._suy_timgs_minh_p3_para_0",
+        "cme2._suy_timgs_minh_p4_para_0",
+        "cme2._suy_timgs_minh_p35_para_0",
+        "cme2._suy_timgs_minh_p52_para_0",
+        "cme2._suy_timgs_minh_p29_para_0",
+        "cme2._suy_timgs_minh_p2_para_0"
+      ],
+      "context": "[cme2._suy_timgs_minh_p3_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 3]\n2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6\n\n[cme2._suy_timgs_minh_p4_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 4]\n2/23/18 \n4 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \nPhân loại EF Mô tả \nI. Suy Tim với \nEF giảm \n (HFrEF) \n≤40% - ST tâm thu. -  Điều trị hữu hiệu hiện nay đã được xác định. II. Suy Tim với EF \nduy trì (HFpEF) \n≥50% - ST tâm trương. - Một vài tiêu chuẩn được dùng để xác định HFpEF. -  Chẩn đoán HFpEF là thử thách vì cần phải loại \ntrừ các nguyên nhân không do tim gây ST. -  Chưa có điều trị hữu hiệu . a. HFpEF, Giới \nhạn \n41% - \n49% \nĐặc điểm lâm sàng, điều trị và tiên lượng tương tự \nnhư nhóm bệnh nhân HFpEF. b. HFpEF, \nCải thiện \n>40% - Là nhóm HFpEF trước đây còn HFrEF. -  EF cải thiện hoặc hồi phục về lâm sàng khác với \nnhóm EF duy trì và EF suy giảm. - Cần có các nghiên cứu thêm .\n\n[cme2._suy_timgs_minh_p35_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 35]\n2/23/18 \n35 \nCn 2014 về chẩn đoán và điều trị suy tim \n69 \nCác thuốc \nđược chứng \nminh kéo dài \nđời sống b/n \nsuy tim tâm \nthu mạn \nhoặc sau \nNMCT \n TL: McMurray JJV \net al. Euro. H. \nJournal (2012); 33: \n1787-1847 \nCn 2014 về chẩn đoán và điều trị suy tim \nLCZ696: thuốc đầu Xên trong nhóm \n ức chế thụ thҳ angiotensin và neprilysin (ARNI)\n\n♣ LCZ696 là một thuốc mới vừa có tác dụng ức chế \n neprilysin vừa có tác dụng chҮn thụ thҳ AT11-3\n\n♣ LCZ696 là một phức hợp muối gồm hai nửa (với \n tỉ lệ mol 1:1) đều có hoạt nh:2,3 \n - sacubitril (AHU377) - một Xền chất; được \n chuyҳn hóa Xếp thành chất ức chế neprilysin \n LBQ657, và\n\n- valsartan - một thuốc chҮn thụ thҳ T1\n\nCấu trúc 3D của LCZ6962\n\n[cme2._suy_timgs_minh_p52_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 52]\n2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI\n\n[cme2._suy_timgs_minh_p29_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 29]\n2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B\n\n[cme2._suy_timgs_minh_p2_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 2]\n2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4"
+    },
+    {
+      "type": "complete",
+      "result": {
+        "status": "answered",
+        "answer": "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là mệt và khó thở [cme2._suy_timgs_minh_p3_para_0].",
+        "citations": [
+          "cme2._suy_timgs_minh_p3_para_0"
+        ],
+        "sources": [
+          {
+            "id": "cme2._suy_timgs_minh_p3_para_0",
+            "text": "2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 3,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 590,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 590
+            },
+            "score": 0.32431247629293686,
+            "strategy": "tfidf",
+            "cited": true
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p4_para_0",
+            "text": "2/23/18 \n4 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \nPhân loại EF Mô tả \nI. Suy Tim với \nEF giảm \n (HFrEF) \n≤40% - ST tâm thu. -  Điều trị hữu hiệu hiện nay đã được xác định. II. Suy Tim với EF \nduy trì (HFpEF) \n≥50% - ST tâm trương. - Một vài tiêu chuẩn được dùng để xác định HFpEF. -  Chẩn đoán HFpEF là thử thách vì cần phải loại \ntrừ các nguyên nhân không do tim gây ST. -  Chưa có điều trị hữu hiệu . a. HFpEF, Giới \nhạn \n41% - \n49% \nĐặc điểm lâm sàng, điều trị và tiên lượng tương tự \nnhư nhóm bệnh nhân HFpEF. b. HFpEF, \nCải thiện \n>40% - Là nhóm HFpEF trước đây còn HFrEF. -  EF cải thiện hoặc hồi phục về lâm sàng khác với \nnhóm EF duy trì và EF suy giảm. - Cần có các nghiên cứu thêm .",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 4,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1037,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 716
+            },
+            "score": 0.15253243382783216,
+            "strategy": "tfidf",
+            "cited": false
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p35_para_0",
+            "text": "2/23/18 \n35 \nCn 2014 về chẩn đoán và điều trị suy tim \n69 \nCác thuốc \nđược chứng \nminh kéo dài \nđời sống b/n \nsuy tim tâm \nthu mạn \nhoặc sau \nNMCT \n TL: McMurray JJV \net al. Euro. H. \nJournal (2012); 33: \n1787-1847 \nCn 2014 về chẩn đoán và điều trị suy tim \nLCZ696: thuốc đầu Xên trong nhóm \n ức chế thụ thҳ angiotensin và neprilysin (ARNI)\n\n♣ LCZ696 là một thuốc mới vừa có tác dụng ức chế \n neprilysin vừa có tác dụng chҮn thụ thҳ AT11-3\n\n♣ LCZ696 là một phức hợp muối gồm hai nửa (với \n tỉ lệ mol 1:1) đều có hoạt nh:2,3 \n - sacubitril (AHU377) - một Xền chất; được \n chuyҳn hóa Xếp thành chất ức chế neprilysin \n LBQ657, và\n\n- valsartan - một thuốc chҮn thụ thҳ T1\n\nCấu trúc 3D của LCZ6962",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 35,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 945,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 693
+            },
+            "score": 0.11364839460663967,
+            "strategy": "tfidf",
+            "cited": false
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p52_para_0",
+            "text": "2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 52,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 596,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 596
+            },
+            "score": 0.11270311721839248,
+            "strategy": "tfidf",
+            "cited": false
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p29_para_0",
+            "text": "2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 29,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 754,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 754
+            },
+            "score": 0.10905973821125843,
+            "strategy": "tfidf",
+            "cited": false
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p2_para_0",
+            "text": "2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 2,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 711,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 711
+            },
+            "score": 0.0997779794938321,
+            "strategy": "tfidf",
+            "cited": false
+          }
+        ],
+        "config_name": "lexical_context",
+        "config": {
+          "method": "tfidf",
+          "top_k": 6,
+          "budget": 6000,
+          "max_searches": 3
+        },
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 6887,
+        "search_count": 1,
+        "model_call_count": 2,
+        "tokens": 3480,
+        "steps": [
+          {
+            "query": "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là gì?",
+            "result_count": 6,
+            "pages": [
+              3,
+              4,
+              35,
+              52,
+              29,
+              2
+            ],
+            "context_ids": [
+              "cme2._suy_timgs_minh_p3_para_0",
+              "cme2._suy_timgs_minh_p4_para_0",
+              "cme2._suy_timgs_minh_p35_para_0",
+              "cme2._suy_timgs_minh_p52_para_0",
+              "cme2._suy_timgs_minh_p29_para_0",
+              "cme2._suy_timgs_minh_p2_para_0"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "note": "Live HTTP streaming smoke; not part of test metrics."
+}

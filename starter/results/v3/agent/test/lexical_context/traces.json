@@ -1,0 +1,1886 @@
+[
+  {
+    "query_id": "t31",
+    "question": "Theo phần dịch tễ học, tỷ lệ tử vong sau 5 năm của bệnh nhân suy tim được nêu là bao nhiêu?",
+    "split": "test",
+    "model": "gemini-3.1-flash-lite",
+    "config_name": "lexical_context",
+    "config": {
+      "method": "tfidf",
+      "top_k": 6,
+      "budget": 6000,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Theo phần dịch tễ học, tỷ lệ tử vong sau 5 năm của bệnh nhân suy tim được nêu là bao nhiêu?",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p2_para_0",
+            "text": "2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 2,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 711,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 711
+            },
+            "score": 0.2762331786951279,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p44_para_0",
+            "text": "2/23/18 \n44 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị suy tim với chức năng \nthất trái bảo tồn \n• Nghiên cứu CHARM- Preserved (3023 bệnh nhân): \ncandesartan không giảm có ý nghĩa tiêu chí chính (tử \nvong tim mạch, suy tim) \n• Nghiên cứu PEP- CHF (850 bệnh nhân perindopril): \ngiảm có ý nghĩa tử vong tim mạch và suy tim/ 1 năm \n• Lợi tiểu: giảm triệu chứng \n• Kiểm soát tốt THA và TMCB cơ tim, tần số thất, RN \n87 \nn TL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nHạn chế muối nước\n\nHạn chế nước (1.5 đến 2 L/d) là thích hợp \ntrong giai đoạn D, đặc biệt ở bệnh nhân \ngiảm natri máu, nhằm giảm triệu chứng \nsung huyết.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 44,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 855,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 769
+            },
+            "score": 0.17633751250318475,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p50_para_0",
+            "text": "2/23/18 \n50 \nCn 2014 về chẩn đoán và điều trị suy tim \n Ghép tim \n• Khuyến cáo loại I: Đánh giá việc cấy ghép tim được chỉ \nđịnh cẩn thận ở những BN ST giai đoạn D mặc dù đã điều \ntrị bằng dụng cụ và phẫu thuật (mức độ chứng cứ C). \n• Cấy ghép tim được xem là tiêu chuẩn vàng trong điều \ntrị ST giai đoạn cuối kháng trị. \n•  Ghép tim đã cải thiện đáng kể chức năng tim và chất \nlượng cuộc sống. Các lợi ích sống còn được thấy trên \nnhững BN ST có nguy cơ TV cao. \n• Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%\n\nCn 2014 về chẩn đoán và điều trị suy tim \nSống còn bệnh nhân ghép tim \nTL: Hertz MJ et al. Heart Lung Transplant 2008; 27 : 937 \n100",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 50,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 647,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 643
+            },
+            "score": 0.15432011623978847,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p23_para_0",
+            "text": "2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 23,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 582,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 582
+            },
+            "score": 0.14890736036971297,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p17_para_0",
+            "text": "2/23/18 \n17 \nCn 2014 về chẩn đoán và điều trị suy tim \nKhả năng chẩn đoán của khảo sát \nhình ảnh không xâm nhập \nTL: Friedrich MG. J Am Cardiol Img 1: 652, 2008 33 \nCn 2014 về chẩn đoán và điều trị suy tim \nBệnh sử và khám thực thể bệnh nhân suy tim (1) \n34 \nHistory Comments \nCác dấu hiệu gợi ý nguyên nhân suy tim (ST) Hỏi kỹ tiền sử gia đình \nCác nguyên nhân suy tim nêu trên \nThời gian bệnh Bệnh nhân mới bị suy tim TTh có thể hồi phục \ntheo thời gian \nĐộ nặng và khởi phát khó thở và mệt \nCác triệu chứng: đau ngực, khả năng gắng sức, \nvận động, tình dục \nPhân độ NYHA, các triệu chứng TMCB \nChán ăn, no sớm, giảm cân Triệu chứng tiêu hoá thường gặp ở ST.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 17,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 970,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 660
+            },
+            "score": 0.14622281600039413,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p3_para_0",
+            "text": "2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 3,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 590,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 590
+            },
+            "score": 0.13691304299337775,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p2_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 2]\n2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4\n\n[cme2._suy_timgs_minh_p44_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 44]\n2/23/18 \n44 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị suy tim với chức năng \nthất trái bảo tồn \n• Nghiên cứu CHARM- Preserved (3023 bệnh nhân): \ncandesartan không giảm có ý nghĩa tiêu chí chính (tử \nvong tim mạch, suy tim) \n• Nghiên cứu PEP- CHF (850 bệnh nhân perindopril): \ngiảm có ý nghĩa tử vong tim mạch và suy tim/ 1 năm \n• Lợi tiểu: giảm triệu chứng \n• Kiểm soát tốt THA và TMCB cơ tim, tần số thất, RN \n87 \nn TL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nHạn chế muối nước\n\nHạn chế nước (1.5 đến 2 L/d) là thích hợp \ntrong giai đoạn D, đặc biệt ở bệnh nhân \ngiảm natri máu, nhằm giảm triệu chứng \nsung huyết.\n\n[cme2._suy_timgs_minh_p50_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 50]\n2/23/18 \n50 \nCn 2014 về chẩn đoán và điều trị suy tim \n Ghép tim \n• Khuyến cáo loại I: Đánh giá việc cấy ghép tim được chỉ \nđịnh cẩn thận ở những BN ST giai đoạn D mặc dù đã điều \ntrị bằng dụng cụ và phẫu thuật (mức độ chứng cứ C). \n• Cấy ghép tim được xem là tiêu chuẩn vàng trong điều \ntrị ST giai đoạn cuối kháng trị. \n•  Ghép tim đã cải thiện đáng kể chức năng tim và chất \nlượng cuộc sống. Các lợi ích sống còn được thấy trên \nnhững BN ST có nguy cơ TV cao. \n• Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%\n\nCn 2014 về chẩn đoán và điều trị suy tim \nSống còn bệnh nhân ghép tim \nTL: Hertz MJ et al. Heart Lung Transplant 2008; 27 : 937 \n100\n\n[cme2._suy_timgs_minh_p23_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 23]\n2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao\n\n[cme2._suy_timgs_minh_p17_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 17]\n2/23/18 \n17 \nCn 2014 về chẩn đoán và điều trị suy tim \nKhả năng chẩn đoán của khảo sát \nhình ảnh không xâm nhập \nTL: Friedrich MG. J Am Cardiol Img 1: 652, 2008 33 \nCn 2014 về chẩn đoán và điều trị suy tim \nBệnh sử và khám thực thể bệnh nhân suy tim (1) \n34 \nHistory Comments \nCác dấu hiệu gợi ý nguyên nhân suy tim (ST) Hỏi kỹ tiền sử gia đình \nCác nguyên nhân suy tim nêu trên \nThời gian bệnh Bệnh nhân mới bị suy tim TTh có thể hồi phục \ntheo thời gian \nĐộ nặng và khởi phát khó thở và mệt \nCác triệu chứng: đau ngực, khả năng gắng sức, \nvận động, tình dục \nPhân độ NYHA, các triệu chứng TMCB \nChán ăn, no sớm, giảm cân Triệu chứng tiêu hoá thường gặp ở ST.\n\n[cme2._suy_timgs_minh_p3_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 3]\n2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p2_para_0",
+          "cme2._suy_timgs_minh_p44_para_0",
+          "cme2._suy_timgs_minh_p50_para_0",
+          "cme2._suy_timgs_minh_p23_para_0",
+          "cme2._suy_timgs_minh_p17_para_0",
+          "cme2._suy_timgs_minh_p3_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Theo phần dịch tễ học, tỷ lệ tử vong sau 5 năm của bệnh nhân suy tim chiếm đến 50% [cme2._suy_timgs_minh_p2_para_0].",
+    "citations": [
+      "cme2._suy_timgs_minh_p2_para_0"
+    ],
+    "model_calls": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 8830.35,
+        "usage": {
+          "promptTokenCount": 466,
+          "candidatesTokenCount": 39,
+          "totalTokenCount": 505,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 466
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Theo phần dịch tễ học, tỷ lệ tử vong sau 5 năm của bệnh nhân suy tim được nêu là bao nhiêu?"
+                      },
+                      "id": "call_2656695188640565304"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0TDyYFFF0AtipPEymGFD6abMolsSada7hrZqJL5z/tfCc/ue3bpmJc0FTmFVbc1lcMTtWRF49WuZIxomfHZFKYnUI1GnKW/u+vv/g3VhF3AM1LIA2ydYOgBKkNW+y3e6dFRUqZkqtksnkFXm//"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 466,
+            "candidatesTokenCount": 39,
+            "totalTokenCount": 505,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 466
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "LI_6apS6KezirfcP77DI4Qo"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 3560.54,
+        "usage": {
+          "promptTokenCount": 2827,
+          "candidatesTokenCount": 84,
+          "totalTokenCount": 2911,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2827
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "citations": [
+                          "cme2._suy_timgs_minh_p2_para_0"
+                        ],
+                        "answer": "Theo phần dịch tễ học, tỷ lệ tử vong sau 5 năm của bệnh nhân suy tim chiếm đến 50% [cme2._suy_timgs_minh_p2_para_0]."
+                      },
+                      "id": "call_8361603709657181606"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0T6ixFmdJCnvK/AuQRo8d+Y55zOecBHuduGSMUKaj86853TpkbFLH11QehNFjBLGHS7o9rpyJUP4O1uz+N2NFKZKfVO9n+m+5vRvGmILfqokO3lkXZlJRxiEEw6pW5A8EKYd2aPVgWVrVTwrBq"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 2827,
+            "candidatesTokenCount": 84,
+            "totalTokenCount": 2911,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 2827
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "NI_6aq6pGK_irfcPqOnv2QI"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 12391.47,
+    "usage": {
+      "promptTokenCount": 3293,
+      "candidatesTokenCount": 123,
+      "thoughtsTokenCount": 0,
+      "totalTokenCount": 3416
+    },
+    "cost_usd": 0.0,
+    "paid_equivalent_usd": 0.00100775,
+    "billing_tier_assumption": "free",
+    "invoice_verified": false,
+    "cost_note": "Estimated marginal text API charge under the configured billing tier; free=$0, paid=standard token estimate, unknown=null; not a billing invoice. Paid-equivalent uses standard $0.25/M input and $1.50/M output including thoughts. Excludes local compute/Qdrant hosting.",
+    "cost_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
+    "cost_rates_checked_at": "2026-11-16"
+  },
+  {
+    "query_id": "t32",
+    "question": "Theo sơ đồ ACC/AHA trong bài giảng, giai đoạn A được định nghĩa thế nào về nguy cơ, bệnh tim thực thể và triệu chứng?",
+    "split": "test",
+    "model": "gemini-3.1-flash-lite",
+    "config_name": "lexical_context",
+    "config": {
+      "method": "tfidf",
+      "top_k": 6,
+      "budget": 6000,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Theo sơ đồ ACC/AHA trong bài giảng, giai đoạn A được định nghĩa thế nào về nguy cơ, bệnh tim thực thể và triệu chứng?",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p15_para_1",
+            "text": "Cn 2014 về chẩn đoán và điều trị suy tim \nCác giai đoạn suy tim/ACC/AHA \nGiai đoạn A \nNguy cơ cao suy tim \nkhông bệnh tim thực \nthể hoặc triệu chứng \ncơ năng suy tim \nGiai đoạn B \nCó bệnh tim \nthực thể nhưng \nkhông triệu \nchứng suy tim \nGiai đoạn C \nCó bệnh tim thực \nthể trước kia hoặc \nhiện tại có triệu \nchứng cơ năng suy \ntim \nGiai đoạn D \nSuy tim kháng \ntrị, cần can \nthiệp đặc biệt \n. THA \n. bệnh xơ vữa ĐM \n. ĐTĐ \n. Béo phì \n. Hội chứng Ch. hóa \nhoặc \n. Dùng thuốc độc với \ntim; tiền sử có bệnh \n. Tiền sử \nNMCT \n. Tái cấu \ntrúc thất trái \n. Bệnh van \ntim không \ntriệu chứng \ncơ năng \nCó bệnh \ntim thực \nthể \nKèm khó \nthở, mệt \ngiảm gắng \nsức \nB/n có triệu \nchứng cơ \nnăng rất nặng \nlúc nghỉ mặc \ndù điều trị nội \ntối đa \nTL : Hunt SA et al.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 15,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 948,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 1,
+              "char_length": 748
+            },
+            "score": 0.3999798831983968,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p16_para_0",
+            "text": "2/23/18 \n16 \nCn 2014 về chẩn đoán và điều trị suy tim \nAt Risk of Heart \nFailure \nHeart \nFailure \nHunt SA, Abraham WT, Chin MH et al. Circulation 2005 \nPhân độ suy tim theo ACC/AHA \nCn 2014 về chẩn đoán và điều trị suy tim \nCác GĐ suy tim theo AHA/ACCF (2013)và NYHA \n Theo ACCF/AHA Theo NYHA A Nguy cơ cao suy tim không bệnh \ntim thực thể hoặc triệu chứng cơ \nnăng suy tim\n\nB Có bệnh tim thực thể nhưng \nkhông triệu chứng suy tim \n I Không hạn chế, vận động thể lực thông thường không \ngây mệt, khó thở hoặc hồi hộp. \n C Có bệnh tim thực thể trước kia \nhoặc hiện tại có t/c cơ năng suy \ntim",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 16,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1074,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 591
+            },
+            "score": 0.3345762178386592,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p41_para_0",
+            "text": "2/23/18 \n41 \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn A suy tim \n Nhóm I \n• Khảo sát định kỳ triệu chứng cơ năng và thực thể suy tim/ bn \nnguy cơ cao (MCC:C) \n• Khảo sát không xâm nhập (td: siêu âm tim) chức năng tim/ bn \ncó tiền sử gia đình bệnh cơ tim hoặc tiền sử sử dụng thuốc có \nđộc tính với cơ tim (C) \n Nhóm IIa \n• UCMC/ bệnh xơ vữa động mạch, ĐTĐ, THA có kèm YTNC \ntim mạch (A) \n• Chẹn thụ thể Angiotensin II có thể thay thế UCMC (C). KHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn B suy tim \n• Tất cả các biện pháp của giai đoạn A ( A, B, C) \n• Chẹn bêta và UCMC: mọi bệnh nhân sau NMCT bất \nkể PXTM hay triệu chứng cơ năng của suy tim.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 41,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1124,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 742
+            },
+            "score": 0.29844128611596804,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p3_para_0",
+            "text": "2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 3,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 590,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 590
+            },
+            "score": 0.18014086412579539,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p21_para_0",
+            "text": "2/23/18 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nMục tiêu điều trị suy tim \n• Giảm tử vong \n• Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim \n42",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 21,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 488,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 488
+            },
+            "score": 0.17692975542744582,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p11_para_0",
+            "text": "2/23/18 \n11 \nCn 2014 về chẩn đoán và điều trị suy tim \nHoạt hóa hệ renin-angiotensin-\naldosterone/suy tim \nTL: Nohria A et al. In Colluci WS (ed): Atlas of Heart Failure, 4th ed Philadelphia \nCurrent Medicine 2005 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \nsuy tim \n4. Điều trị : thuốc mới, điều trị theo giai đoạn",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 11,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 445,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 445
+            },
+            "score": 0.17386942287859136,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p15_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 15]\nCn 2014 về chẩn đoán và điều trị suy tim \nCác giai đoạn suy tim/ACC/AHA \nGiai đoạn A \nNguy cơ cao suy tim \nkhông bệnh tim thực \nthể hoặc triệu chứng \ncơ năng suy tim \nGiai đoạn B \nCó bệnh tim \nthực thể nhưng \nkhông triệu \nchứng suy tim \nGiai đoạn C \nCó bệnh tim thực \nthể trước kia hoặc \nhiện tại có triệu \nchứng cơ năng suy \ntim \nGiai đoạn D \nSuy tim kháng \ntrị, cần can \nthiệp đặc biệt \n. THA \n. bệnh xơ vữa ĐM \n. ĐTĐ \n. Béo phì \n. Hội chứng Ch. hóa \nhoặc \n. Dùng thuốc độc với \ntim; tiền sử có bệnh \n. Tiền sử \nNMCT \n. Tái cấu \ntrúc thất trái \n. Bệnh van \ntim không \ntriệu chứng \ncơ năng \nCó bệnh \ntim thực \nthể \nKèm khó \nthở, mệt \ngiảm gắng \nsức \nB/n có triệu \nchứng cơ \nnăng rất nặng \nlúc nghỉ mặc \ndù điều trị nội \ntối đa \nTL : Hunt SA et al.\n\n[cme2._suy_timgs_minh_p16_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 16]\n2/23/18 \n16 \nCn 2014 về chẩn đoán và điều trị suy tim \nAt Risk of Heart \nFailure \nHeart \nFailure \nHunt SA, Abraham WT, Chin MH et al. Circulation 2005 \nPhân độ suy tim theo ACC/AHA \nCn 2014 về chẩn đoán và điều trị suy tim \nCác GĐ suy tim theo AHA/ACCF (2013)và NYHA \n Theo ACCF/AHA Theo NYHA A Nguy cơ cao suy tim không bệnh \ntim thực thể hoặc triệu chứng cơ \nnăng suy tim\n\nB Có bệnh tim thực thể nhưng \nkhông triệu chứng suy tim \n I Không hạn chế, vận động thể lực thông thường không \ngây mệt, khó thở hoặc hồi hộp. \n C Có bệnh tim thực thể trước kia \nhoặc hiện tại có t/c cơ năng suy \ntim\n\n[cme2._suy_timgs_minh_p41_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 41]\n2/23/18 \n41 \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn A suy tim \n Nhóm I \n• Khảo sát định kỳ triệu chứng cơ năng và thực thể suy tim/ bn \nnguy cơ cao (MCC:C) \n• Khảo sát không xâm nhập (td: siêu âm tim) chức năng tim/ bn \ncó tiền sử gia đình bệnh cơ tim hoặc tiền sử sử dụng thuốc có \nđộc tính với cơ tim (C) \n Nhóm IIa \n• UCMC/ bệnh xơ vữa động mạch, ĐTĐ, THA có kèm YTNC \ntim mạch (A) \n• Chẹn thụ thể Angiotensin II có thể thay thế UCMC (C). KHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn B suy tim \n• Tất cả các biện pháp của giai đoạn A ( A, B, C) \n• Chẹn bêta và UCMC: mọi bệnh nhân sau NMCT bất \nkể PXTM hay triệu chứng cơ năng của suy tim.\n\n[cme2._suy_timgs_minh_p3_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 3]\n2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6\n\n[cme2._suy_timgs_minh_p21_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 21]\n2/23/18 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nMục tiêu điều trị suy tim \n• Giảm tử vong \n• Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim \n42\n\n[cme2._suy_timgs_minh_p11_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 11]\n2/23/18 \n11 \nCn 2014 về chẩn đoán và điều trị suy tim \nHoạt hóa hệ renin-angiotensin-\naldosterone/suy tim \nTL: Nohria A et al. In Colluci WS (ed): Atlas of Heart Failure, 4th ed Philadelphia \nCurrent Medicine 2005 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \nsuy tim \n4. Điều trị : thuốc mới, điều trị theo giai đoạn",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p15_para_1",
+          "cme2._suy_timgs_minh_p16_para_0",
+          "cme2._suy_timgs_minh_p41_para_0",
+          "cme2._suy_timgs_minh_p3_para_0",
+          "cme2._suy_timgs_minh_p21_para_0",
+          "cme2._suy_timgs_minh_p11_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Theo sơ đồ ACC/AHA, giai đoạn A được định nghĩa là nhóm có nguy cơ cao suy tim, không có bệnh tim thực thể hoặc triệu chứng cơ năng suy tim [cme2._suy_timgs_minh_p15_para_1, cme2._suy_timgs_minh_p16_para_0]. [cme2._suy_timgs_minh_p15_para_1] [cme2._suy_timgs_minh_p16_para_0]",
+    "citations": [
+      "cme2._suy_timgs_minh_p15_para_1",
+      "cme2._suy_timgs_minh_p16_para_0"
+    ],
+    "model_calls": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 2388.4,
+        "usage": {
+          "promptTokenCount": 471,
+          "candidatesTokenCount": 44,
+          "totalTokenCount": 515,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 471
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Theo sơ đồ ACC/AHA trong bài giảng, giai đoạn A được định nghĩa thế nào về nguy cơ, bệnh tim thực thể và triệu chứng?"
+                      },
+                      "id": "call_2125070560474901928"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0TcchkPaQhp+AMxo76ipRSAHFsYKratotSc/b44TMLffUPrLdCctdYycveyyVZl86gWq12pA7axadssbxfb5Kn+KqS9n5HXc7TnNwTq72NeVpkHj8kM4wgYZkBsn3dWDwlpxAR/Hfw8bvZaJNd"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 471,
+            "candidatesTokenCount": 44,
+            "totalTokenCount": 515,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 471
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "OI_6apGKLuHnrfcPjMHlmQY"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 5291.77,
+        "usage": {
+          "promptTokenCount": 2679,
+          "candidatesTokenCount": 140,
+          "totalTokenCount": 2819,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2679
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "answer": "Theo sơ đồ ACC/AHA, giai đoạn A được định nghĩa là nhóm có nguy cơ cao suy tim, không có bệnh tim thực thể hoặc triệu chứng cơ năng suy tim [cme2._suy_timgs_minh_p15_para_1, cme2._suy_timgs_minh_p16_para_0].",
+                        "citations": [
+                          "cme2._suy_timgs_minh_p15_para_1",
+                          "cme2._suy_timgs_minh_p16_para_0"
+                        ]
+                      },
+                      "id": "call_15685580136300606444"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0TT/y40JDBZX0agmznnDwOL9f5uKFOYMiu4/QHkcuDZlkrJV6IZkIhkZqrRJeSf8A66JnoX0LB0k6okEvaXd3Et8+1hIGjjRdxaJvR4kpjYA6hGFqk1vaTh4Tm8VfZ0KROPUnmsn205Bvx6QO8"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 2679,
+            "candidatesTokenCount": 140,
+            "totalTokenCount": 2819,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 2679
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "PY_6aqf3MPX-1e8P3JG-2Q4"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 7680.84,
+    "usage": {
+      "promptTokenCount": 3150,
+      "candidatesTokenCount": 184,
+      "thoughtsTokenCount": 0,
+      "totalTokenCount": 3334
+    },
+    "cost_usd": 0.0,
+    "paid_equivalent_usd": 0.0010635,
+    "billing_tier_assumption": "free",
+    "invoice_verified": false,
+    "cost_note": "Estimated marginal text API charge under the configured billing tier; free=$0, paid=standard token estimate, unknown=null; not a billing invoice. Paid-equivalent uses standard $0.25/M input and $1.50/M output including thoughts. Excludes local compute/Qdrant hosting.",
+    "cost_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
+    "cost_rates_checked_at": "2026-11-16"
+  },
+  {
+    "query_id": "t33",
+    "question": "Trong bảng thuốc UCMC, tên biệt dược của captopril là gì?",
+    "split": "test",
+    "model": "gemini-3.1-flash-lite",
+    "config_name": "lexical_context",
+    "config": {
+      "method": "tfidf",
+      "top_k": 6,
+      "budget": 6000,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Trong bảng thuốc UCMC, tên biệt dược của captopril là gì?",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p52_para_0",
+            "text": "2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 52,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 596,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 596
+            },
+            "score": 0.1489164662693846,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p27_para_0",
+            "text": "2/23/18 \n27 \n Thuốc UCTT được dùng qua các nghiên cứu \nTên gốc Biệt \ndược \nThuốc khởi \nđầu \nLiều đích Liều trung \nbình theo các \nNC \nCandesartan Atacand 4-8 mg qd 32 mg qd 24 mg/ngày \nLosartan Cozaar 12.5-25 mg \nqd \n150 mg qd 129 mg /ngày \nValsartan Diovan 40 mg bid 160 mg \nbid \n254 mg /ngày \nCn 2014 về chẩn đoán và điều trị suy tim \nThời gian nữa đời kéo dài của thuốc chẹn thụ thể AGII \nBurnier M., Lancet 2000;355:637-645 \nBrunner HR., J Hum Hypertens 2002;16(Suppl 2):S13-S16",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 27,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 481,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 481
+            },
+            "score": 0.12642913188516078,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p25_para_1",
+            "text": "Thuốc UCMC được dùng qua các nghiên cứu \nTên gốc Tên biệt \ndược \nLiều khởi đầu Liều đích Liều TB theo các \nnghiên cứu \nCaptopril \n Capoten \n6.25 mg tid \n 50 mg tid \n122.7 mg/ng \nEnalapril \n Vasotec \n2.5 mg bid \n 10 mg bid \n16.6 mg/ngày \nFosinopril \nMonopril \n5-10 mg qd \n 80 mg qd \nN/A \nLisinopril \n Zestril, \nPrinivil \n2.5-5 mg qd \n 20 mg qd \n4.5 mg/ngày, 33.2 \nmg/ngày* \nQuinapril \n Accupril \n5 mg bid \n 80 mg qd \nN/A \nRamipril \n Altace \n 1.25-2.5 mg qd \n10 mg qd \nN/A \nTrandolapril \nMavik \n 1 mg qd \n 4 mg qd \nN/A \n*Không có sự khác biệt tử vong giữa nhóm có liều cao và liều thấp, nhưng giảm 12% \nnguy cơ tử vong hoặc nhập viện ở nhóm liều cao so với liều thấp.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 25,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1214,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 1,
+              "char_length": 665
+            },
+            "score": 0.12010184009690641,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p25_para_2",
+            "text": "Cn 2014 về chẩn đoán và điều trị suy tim \nCác thuốc chẹn thụ thể \nangiotensin II/ suy tim tâm thu \n• Loại I, MCC A:bệnh nhân có PXTM ≤ 40% vẫn còn \ntriệu chứng cơ năng dù liều tối đa UCMC và chẹn \nbêta \n• Loại I, MCC B: thay thế khi bệnh nhân không dung \nnạp được UCMC \n• Chống chỉ định: \n• Tương tự UCMC, ngoại trừ phù mạch \n• Bệnh nhân đang sử dụng UCMC và đối kháng \naldosterone \n50 \nTL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure \n2008. Eur. Heart J 2008; 29: 2388-2442",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 25,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1214,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 2,
+              "char_length": 532
+            },
+            "score": 0.1157177445177971,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p23_para_0",
+            "text": "2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 23,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 582,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 582
+            },
+            "score": 0.10428212371420811,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p41_para_0",
+            "text": "2/23/18 \n41 \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn A suy tim \n Nhóm I \n• Khảo sát định kỳ triệu chứng cơ năng và thực thể suy tim/ bn \nnguy cơ cao (MCC:C) \n• Khảo sát không xâm nhập (td: siêu âm tim) chức năng tim/ bn \ncó tiền sử gia đình bệnh cơ tim hoặc tiền sử sử dụng thuốc có \nđộc tính với cơ tim (C) \n Nhóm IIa \n• UCMC/ bệnh xơ vữa động mạch, ĐTĐ, THA có kèm YTNC \ntim mạch (A) \n• Chẹn thụ thể Angiotensin II có thể thay thế UCMC (C). KHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn B suy tim \n• Tất cả các biện pháp của giai đoạn A ( A, B, C) \n• Chẹn bêta và UCMC: mọi bệnh nhân sau NMCT bất \nkể PXTM hay triệu chứng cơ năng của suy tim.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 41,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1124,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 742
+            },
+            "score": 0.10079564740688583,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p52_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 52]\n2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI\n\n[cme2._suy_timgs_minh_p27_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 27]\n2/23/18 \n27 \n Thuốc UCTT được dùng qua các nghiên cứu \nTên gốc Biệt \ndược \nThuốc khởi \nđầu \nLiều đích Liều trung \nbình theo các \nNC \nCandesartan Atacand 4-8 mg qd 32 mg qd 24 mg/ngày \nLosartan Cozaar 12.5-25 mg \nqd \n150 mg qd 129 mg /ngày \nValsartan Diovan 40 mg bid 160 mg \nbid \n254 mg /ngày \nCn 2014 về chẩn đoán và điều trị suy tim \nThời gian nữa đời kéo dài của thuốc chẹn thụ thể AGII \nBurnier M., Lancet 2000;355:637-645 \nBrunner HR., J Hum Hypertens 2002;16(Suppl 2):S13-S16\n\n[cme2._suy_timgs_minh_p25_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 25]\nThuốc UCMC được dùng qua các nghiên cứu \nTên gốc Tên biệt \ndược \nLiều khởi đầu Liều đích Liều TB theo các \nnghiên cứu \nCaptopril \n Capoten \n6.25 mg tid \n 50 mg tid \n122.7 mg/ng \nEnalapril \n Vasotec \n2.5 mg bid \n 10 mg bid \n16.6 mg/ngày \nFosinopril \nMonopril \n5-10 mg qd \n 80 mg qd \nN/A \nLisinopril \n Zestril, \nPrinivil \n2.5-5 mg qd \n 20 mg qd \n4.5 mg/ngày, 33.2 \nmg/ngày* \nQuinapril \n Accupril \n5 mg bid \n 80 mg qd \nN/A \nRamipril \n Altace \n 1.25-2.5 mg qd \n10 mg qd \nN/A \nTrandolapril \nMavik \n 1 mg qd \n 4 mg qd \nN/A \n*Không có sự khác biệt tử vong giữa nhóm có liều cao và liều thấp, nhưng giảm 12% \nnguy cơ tử vong hoặc nhập viện ở nhóm liều cao so với liều thấp.\n\n[cme2._suy_timgs_minh_p25_para_2 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 25]\nCn 2014 về chẩn đoán và điều trị suy tim \nCác thuốc chẹn thụ thể \nangiotensin II/ suy tim tâm thu \n• Loại I, MCC A:bệnh nhân có PXTM ≤ 40% vẫn còn \ntriệu chứng cơ năng dù liều tối đa UCMC và chẹn \nbêta \n• Loại I, MCC B: thay thế khi bệnh nhân không dung \nnạp được UCMC \n• Chống chỉ định: \n• Tương tự UCMC, ngoại trừ phù mạch \n• Bệnh nhân đang sử dụng UCMC và đối kháng \naldosterone \n50 \nTL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure \n2008. Eur. Heart J 2008; 29: 2388-2442\n\n[cme2._suy_timgs_minh_p23_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 23]\n2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao\n\n[cme2._suy_timgs_minh_p41_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 41]\n2/23/18 \n41 \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn A suy tim \n Nhóm I \n• Khảo sát định kỳ triệu chứng cơ năng và thực thể suy tim/ bn \nnguy cơ cao (MCC:C) \n• Khảo sát không xâm nhập (td: siêu âm tim) chức năng tim/ bn \ncó tiền sử gia đình bệnh cơ tim hoặc tiền sử sử dụng thuốc có \nđộc tính với cơ tim (C) \n Nhóm IIa \n• UCMC/ bệnh xơ vữa động mạch, ĐTĐ, THA có kèm YTNC \ntim mạch (A) \n• Chẹn thụ thể Angiotensin II có thể thay thế UCMC (C). KHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn B suy tim \n• Tất cả các biện pháp của giai đoạn A ( A, B, C) \n• Chẹn bêta và UCMC: mọi bệnh nhân sau NMCT bất \nkể PXTM hay triệu chứng cơ năng của suy tim.",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p52_para_0",
+          "cme2._suy_timgs_minh_p27_para_0",
+          "cme2._suy_timgs_minh_p25_para_1",
+          "cme2._suy_timgs_minh_p25_para_2",
+          "cme2._suy_timgs_minh_p23_para_0",
+          "cme2._suy_timgs_minh_p41_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Trong bảng thuốc UCMC, tên biệt dược của captopril là Capoten [cme2._suy_timgs_minh_p25_para_1].",
+    "citations": [
+      "cme2._suy_timgs_minh_p25_para_1"
+    ],
+    "model_calls": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 5355.4,
+        "usage": {
+          "promptTokenCount": 456,
+          "candidatesTokenCount": 29,
+          "totalTokenCount": 485,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 456
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Trong bảng thuốc UCMC, tên biệt dược của captopril là gì?"
+                      },
+                      "id": "call_17661247827382401749"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0TcmCYP3bA/mnjlBgLZW9gH/6Zf2YhHH3s0gndEw84JPMNCE+dX7CYoSPoFChlTw2GI9c72wO9JuJFPwy4YcTKZr/cFGY7RzmWDXFx1nzkHd3r0L5olmDwpF0jXDQIuSvAQQCm7B4Yy7BNT49z"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 456,
+            "candidatesTokenCount": 29,
+            "totalTokenCount": 485,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 456
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "Qo_6avakB9Pb1e8P0J75uA4"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 4915.3,
+        "usage": {
+          "promptTokenCount": 2775,
+          "candidatesTokenCount": 76,
+          "totalTokenCount": 2851,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2775
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "citations": [
+                          "cme2._suy_timgs_minh_p25_para_1"
+                        ],
+                        "answer": "Trong bảng thuốc UCMC, tên biệt dược của captopril là Capoten [cme2._suy_timgs_minh_p25_para_1]."
+                      },
+                      "id": "call_14318723187073326883"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0ThbAQOrqP6G6884AkAD5craEQVfTLSYK3lzt3/qb73pFF5Rc1qdj8P2YD8sziazpEfbVauRJBsbHcBi0fwURw2UA2XhbFegPbC+VNDwOuihHJyLFou3wxSZZoDz2sd7eDKzM9dS4JVtgnY2oG"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 2775,
+            "candidatesTokenCount": 76,
+            "totalTokenCount": 2851,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 2775
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "Ro_6aoqUJvby2roP4um6yAE"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 10271.31,
+    "usage": {
+      "promptTokenCount": 3231,
+      "candidatesTokenCount": 105,
+      "thoughtsTokenCount": 0,
+      "totalTokenCount": 3336
+    },
+    "cost_usd": 0.0,
+    "paid_equivalent_usd": 0.00096525,
+    "billing_tier_assumption": "free",
+    "invoice_verified": false,
+    "cost_note": "Estimated marginal text API charge under the configured billing tier; free=$0, paid=standard token estimate, unknown=null; not a billing invoice. Paid-equivalent uses standard $0.25/M input and $1.50/M output including thoughts. Excludes local compute/Qdrant hosting.",
+    "cost_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
+    "cost_rates_checked_at": "2026-11-16"
+  },
+  {
+    "query_id": "t34",
+    "question": "Theo bảng lợi tiểu giữ kali, amiloride thải trừ qua cơ quan nào và có thời gian tác dụng bao nhiêu giờ?",
+    "split": "test",
+    "model": "gemini-3.1-flash-lite",
+    "config_name": "lexical_context",
+    "config": {
+      "method": "tfidf",
+      "top_k": 6,
+      "budget": 6000,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Theo bảng lợi tiểu giữ kali, amiloride thải trừ qua cơ quan nào và có thời gian tác dụng bao nhiêu giờ?",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p31_para_0",
+            "text": "2/23/18 \n31 \nAll available for oral or IV \nadministration 61 \nLợi tiểu giữ kali \nTên gốc Liều khởi \nđầu \nLiều tối đa/ \nngày \nThải trừ Thời gian \ntác dụng \nSpironolactone \n12.5-25 mg \nqd \n 50 mg \n Chuyển hóa \n48-72 giờ \nEplerenone \n 25-50 mg qd \n 100 mg \n Thận, \nChuyển hóa \nKhông rõ \nAmiloride \n 5 mg qd \n 20 mg \n Thận \n 24 giờ \nTriamterene \n 50-75 mg \nbid \n 200 mg \n Chuyển hóa \n7-9 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nChẹn bêta/ suy tim tâm thu \n (Loại I, MCC: A) \n• Tất cả bệnh nhân có PXTM ≤ 40%, NYHA II →IV \n• Đã được dùng liều đầy đủ UCMC hoặc chẹn thụ thể \nAG II ± đối kháng aldoslerone \n• Lâm sàng đang ổn định \n• Không bị: \n– Suyễn \n– Blốc NT II,III, hội chứng suy nút xoang, nhịp \nxoang chậm (< 50/phút) \n62",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 31,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 729,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 729
+            },
+            "score": 0.2495106904223764,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p29_para_0",
+            "text": "2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 29,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 754,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 754
+            },
+            "score": 0.1824635651966437,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p30_para_0",
+            "text": "2/23/18 \n30 \nAll available for oral or IV \nadministration 59 \nLợi tiểu vòng \nTên gốc Liều khởi \nđầu \nLiều tối \nđa \nĐào thải: Thận \n– CHóa. \nThời gian \ntác dụng \nFurosemide 20-40mg \nqd or bid \n 600 mg 65%T-35% CH 4-6 giờ \nBumetanide 0.5-1.0 mg \nqd or bid \n 10 mg 62%T/38%CH 6-8 giờ \nTorsemide 10-20 mg \nqd \n 200 mg 20%T-80%CH 12-16 giờ \nEthacrynic \nacid \n25-50 mg \nqd or bid \n 200 mg 67%T-33%CH 6 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nCác thuốc đối kháng aldosterone/ \nsuy tim tâm thu (Loại I, MCC: B) \n• PXTM ≤ 35%, NYHA III- IV , đã sử dụng liều \ntốt nhất chẹn bêta và UCMC \n• Chống chỉ định: \n– K + > 5 mmol/L \n– Creatinine máu > 220 Mmol/L (~2.5 mg/dL) \n– Dùng chung viên Kali \n– Phối hợp với UCMC và chẹn thụ thể angiotensin II \n60",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 30,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 744,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 744
+            },
+            "score": 0.17920574321084257,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p28_para_0",
+            "text": "2/23/18 \n28 \nCn 2014 về chẩn đoán và điều trị suy tim \nLợi tiểu/ suy tim tâm thu \n• Loại I, MCC B: suy tim kèm triệu chứng \ncơ năng của sung huyết \n55 \nCn 2014 về chẩn đoán và điều trị suy tim \n56 \nLiều lượng lợi \ntiểu thường sử \ndụng điều trị suy \ntim (tâm thu, \ntâm trương, \nmạn, cấp) \n TL: McMurray JJV et al. Euro. H. Journal \n(2012); 33: 1787-1847",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 28,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 352,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 352
+            },
+            "score": 0.11146370912004311,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p40_para_1",
+            "text": "Bệnh nhân không ngưng đột ngột điều trị \n8. Xem xét lại cẩn thận liều lượng thuốc điều trị suy tim chỉ để giảm triệu \nchứng (TD: lợi tiểu, nitrates) trong khi tăng liều. 9. Chỉnh liều tạm thời khi có bệnh không phải ở tim hết hợp (TD: nhiễm \ntrùng phổi, nguy cơ thiếu nước) \n10. Hướng dẫn bệnh nhân và gia đình về lợi điểm của điều trị theo khuyến \ncáo. TL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \n80",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 40,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1274,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 1,
+              "char_length": 469
+            },
+            "score": 0.10227706987134319,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p17_para_0",
+            "text": "2/23/18 \n17 \nCn 2014 về chẩn đoán và điều trị suy tim \nKhả năng chẩn đoán của khảo sát \nhình ảnh không xâm nhập \nTL: Friedrich MG. J Am Cardiol Img 1: 652, 2008 33 \nCn 2014 về chẩn đoán và điều trị suy tim \nBệnh sử và khám thực thể bệnh nhân suy tim (1) \n34 \nHistory Comments \nCác dấu hiệu gợi ý nguyên nhân suy tim (ST) Hỏi kỹ tiền sử gia đình \nCác nguyên nhân suy tim nêu trên \nThời gian bệnh Bệnh nhân mới bị suy tim TTh có thể hồi phục \ntheo thời gian \nĐộ nặng và khởi phát khó thở và mệt \nCác triệu chứng: đau ngực, khả năng gắng sức, \nvận động, tình dục \nPhân độ NYHA, các triệu chứng TMCB \nChán ăn, no sớm, giảm cân Triệu chứng tiêu hoá thường gặp ở ST.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 17,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 970,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 660
+            },
+            "score": 0.09928738551107372,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p31_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 31]\n2/23/18 \n31 \nAll available for oral or IV \nadministration 61 \nLợi tiểu giữ kali \nTên gốc Liều khởi \nđầu \nLiều tối đa/ \nngày \nThải trừ Thời gian \ntác dụng \nSpironolactone \n12.5-25 mg \nqd \n 50 mg \n Chuyển hóa \n48-72 giờ \nEplerenone \n 25-50 mg qd \n 100 mg \n Thận, \nChuyển hóa \nKhông rõ \nAmiloride \n 5 mg qd \n 20 mg \n Thận \n 24 giờ \nTriamterene \n 50-75 mg \nbid \n 200 mg \n Chuyển hóa \n7-9 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nChẹn bêta/ suy tim tâm thu \n (Loại I, MCC: A) \n• Tất cả bệnh nhân có PXTM ≤ 40%, NYHA II →IV \n• Đã được dùng liều đầy đủ UCMC hoặc chẹn thụ thể \nAG II ± đối kháng aldoslerone \n• Lâm sàng đang ổn định \n• Không bị: \n– Suyễn \n– Blốc NT II,III, hội chứng suy nút xoang, nhịp \nxoang chậm (< 50/phút) \n62\n\n[cme2._suy_timgs_minh_p29_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 29]\n2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B\n\n[cme2._suy_timgs_minh_p30_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 30]\n2/23/18 \n30 \nAll available for oral or IV \nadministration 59 \nLợi tiểu vòng \nTên gốc Liều khởi \nđầu \nLiều tối \nđa \nĐào thải: Thận \n– CHóa. \nThời gian \ntác dụng \nFurosemide 20-40mg \nqd or bid \n 600 mg 65%T-35% CH 4-6 giờ \nBumetanide 0.5-1.0 mg \nqd or bid \n 10 mg 62%T/38%CH 6-8 giờ \nTorsemide 10-20 mg \nqd \n 200 mg 20%T-80%CH 12-16 giờ \nEthacrynic \nacid \n25-50 mg \nqd or bid \n 200 mg 67%T-33%CH 6 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nCác thuốc đối kháng aldosterone/ \nsuy tim tâm thu (Loại I, MCC: B) \n• PXTM ≤ 35%, NYHA III- IV , đã sử dụng liều \ntốt nhất chẹn bêta và UCMC \n• Chống chỉ định: \n– K + > 5 mmol/L \n– Creatinine máu > 220 Mmol/L (~2.5 mg/dL) \n– Dùng chung viên Kali \n– Phối hợp với UCMC và chẹn thụ thể angiotensin II \n60\n\n[cme2._suy_timgs_minh_p28_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 28]\n2/23/18 \n28 \nCn 2014 về chẩn đoán và điều trị suy tim \nLợi tiểu/ suy tim tâm thu \n• Loại I, MCC B: suy tim kèm triệu chứng \ncơ năng của sung huyết \n55 \nCn 2014 về chẩn đoán và điều trị suy tim \n56 \nLiều lượng lợi \ntiểu thường sử \ndụng điều trị suy \ntim (tâm thu, \ntâm trương, \nmạn, cấp) \n TL: McMurray JJV et al. Euro. H. Journal \n(2012); 33: 1787-1847\n\n[cme2._suy_timgs_minh_p40_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 40]\nBệnh nhân không ngưng đột ngột điều trị \n8. Xem xét lại cẩn thận liều lượng thuốc điều trị suy tim chỉ để giảm triệu \nchứng (TD: lợi tiểu, nitrates) trong khi tăng liều. 9. Chỉnh liều tạm thời khi có bệnh không phải ở tim hết hợp (TD: nhiễm \ntrùng phổi, nguy cơ thiếu nước) \n10. Hướng dẫn bệnh nhân và gia đình về lợi điểm của điều trị theo khuyến \ncáo. TL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \n80\n\n[cme2._suy_timgs_minh_p17_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 17]\n2/23/18 \n17 \nCn 2014 về chẩn đoán và điều trị suy tim \nKhả năng chẩn đoán của khảo sát \nhình ảnh không xâm nhập \nTL: Friedrich MG. J Am Cardiol Img 1: 652, 2008 33 \nCn 2014 về chẩn đoán và điều trị suy tim \nBệnh sử và khám thực thể bệnh nhân suy tim (1) \n34 \nHistory Comments \nCác dấu hiệu gợi ý nguyên nhân suy tim (ST) Hỏi kỹ tiền sử gia đình \nCác nguyên nhân suy tim nêu trên \nThời gian bệnh Bệnh nhân mới bị suy tim TTh có thể hồi phục \ntheo thời gian \nĐộ nặng và khởi phát khó thở và mệt \nCác triệu chứng: đau ngực, khả năng gắng sức, \nvận động, tình dục \nPhân độ NYHA, các triệu chứng TMCB \nChán ăn, no sớm, giảm cân Triệu chứng tiêu hoá thường gặp ở ST.",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p31_para_0",
+          "cme2._suy_timgs_minh_p29_para_0",
+          "cme2._suy_timgs_minh_p30_para_0",
+          "cme2._suy_timgs_minh_p28_para_0",
+          "cme2._suy_timgs_minh_p40_para_1",
+          "cme2._suy_timgs_minh_p17_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Theo bảng lợi tiểu giữ kali, amiloride thải trừ qua thận và có thời gian tác dụng là 24 giờ [cme2._suy_timgs_minh_p31_para_0].",
+    "citations": [
+      "cme2._suy_timgs_minh_p31_para_0"
+    ],
+    "model_calls": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 2152.64,
+        "usage": {
+          "promptTokenCount": 466,
+          "candidatesTokenCount": 39,
+          "totalTokenCount": 505,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 466
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Theo bảng lợi tiểu giữ kali, amiloride thải trừ qua cơ quan nào và có thời gian tác dụng bao nhiêu giờ?"
+                      },
+                      "id": "call_15004020408475190062"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0TckNKYV11ZT0WOlNIaXjARjI+Vmphp6kt9iDORv5745mZ7ozkxKvZSYHhSd4N5LFzudR0e/eUvcuBxH1f7Aq+eppsmfHdkfkYUTywDfw6E2Rp2YqBciiokduyoLIKUyQ+S+jN4i935X148uYW"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 466,
+            "candidatesTokenCount": 39,
+            "totalTokenCount": 505,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 466
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "So_6atvIPMSy1e8P_tex-QY"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 5164.29,
+        "usage": {
+          "promptTokenCount": 2833,
+          "candidatesTokenCount": 85,
+          "totalTokenCount": 2918,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2833
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "citations": [
+                          "cme2._suy_timgs_minh_p31_para_0"
+                        ],
+                        "answer": "Theo bảng lợi tiểu giữ kali, amiloride thải trừ qua thận và có thời gian tác dụng là 24 giờ [cme2._suy_timgs_minh_p31_para_0]."
+                      },
+                      "id": "call_718749432160567390"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0TTy56JmBRc6FhjhKHszJo3fjiIl2FJaSvQOuSltyaOUWMqyiaPxUWR0PcxQAk2n+APCXQBFqP26UATU/rAu8HFf7skkOa3y0W5OqtD1t9ONpt6ZS/2Il9lzW4wryZ6GO4eeoNDmpJlA6mmROK"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 2833,
+            "candidatesTokenCount": 85,
+            "totalTokenCount": 2918,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 2833
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "T4_6arvSMYO-vr0Pn-jG8Qo"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 7317.61,
+    "usage": {
+      "promptTokenCount": 3299,
+      "candidatesTokenCount": 124,
+      "thoughtsTokenCount": 0,
+      "totalTokenCount": 3423
+    },
+    "cost_usd": 0.0,
+    "paid_equivalent_usd": 0.00101075,
+    "billing_tier_assumption": "free",
+    "invoice_verified": false,
+    "cost_note": "Estimated marginal text API charge under the configured billing tier; free=$0, paid=standard token estimate, unknown=null; not a billing invoice. Paid-equivalent uses standard $0.25/M input and $1.50/M output including thoughts. Excludes local compute/Qdrant hosting.",
+    "cost_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
+    "cost_rates_checked_at": "2026-11-16"
+  },
+  {
+    "query_id": "t35",
+    "question": "Theo slide ghép tim, tỷ lệ sống còn sau 1 năm và sau 5 năm lần lượt là bao nhiêu?",
+    "split": "test",
+    "model": "gemini-3.1-flash-lite",
+    "config_name": "lexical_context",
+    "config": {
+      "method": "tfidf",
+      "top_k": 6,
+      "budget": 6000,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Theo slide ghép tim, tỷ lệ sống còn sau 1 năm và sau 5 năm lần lượt là bao nhiêu?",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p50_para_0",
+            "text": "2/23/18 \n50 \nCn 2014 về chẩn đoán và điều trị suy tim \n Ghép tim \n• Khuyến cáo loại I: Đánh giá việc cấy ghép tim được chỉ \nđịnh cẩn thận ở những BN ST giai đoạn D mặc dù đã điều \ntrị bằng dụng cụ và phẫu thuật (mức độ chứng cứ C). \n• Cấy ghép tim được xem là tiêu chuẩn vàng trong điều \ntrị ST giai đoạn cuối kháng trị. \n•  Ghép tim đã cải thiện đáng kể chức năng tim và chất \nlượng cuộc sống. Các lợi ích sống còn được thấy trên \nnhững BN ST có nguy cơ TV cao. \n• Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%\n\nCn 2014 về chẩn đoán và điều trị suy tim \nSống còn bệnh nhân ghép tim \nTL: Hertz MJ et al. Heart Lung Transplant 2008; 27 : 937 \n100",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 50,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 647,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 643
+            },
+            "score": 0.3592019971136054,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p2_para_0",
+            "text": "2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 2,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 711,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 711
+            },
+            "score": 0.16799582626073753,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p47_para_0",
+            "text": "2/23/18 \n47 \nICD (Implantable Cardiac Defibrillators) \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị bằng dụng cụ suy tim tâm thu GĐ C (1) \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \n 94 \nICD giúp phòng ngừa Xên phát đột tử/ PXTM ≤ \n35%, 40 ngày sau NMCT và NYHA II- III; khả năng \nsống 1 năm \nCRT/ b/n có PXTM ≤ 35%, nhịp xoang, blốc \nnhánh trái với QRS ≥ 150 ms. NYHA II, III hoặc \nNYHA IV ngoại trú \nICD giúp phòng ngừa Xên phát đột tử/ b/n có \nPXTM ≤ 30%, 40 ngày sau NMCT, NYHA 1 dưới \nđiều trị kèm khả năng sống > 1 năm \nCRT/ b/n có PXTM ≤ 35%, nhịp xoang, QRS ≥ 150 \nms không kèm blốc nhánh trái, NYHA III hoặc \nNYHA IV ngoại trú",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 47,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 711,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 711
+            },
+            "score": 0.16264283879200545,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p40_para_0",
+            "text": "2/23/18 \n40 \nCn 2014 về chẩn đoán và điều trị suy tim \nChiến lược tối ưu điều trị nội (1) \n1. Tăng liều nhỏ đến liều cao nhất bệnh nhân dung nạp được \n2. Một số bệnh nhân (TD: cao tuổi, bệnh thận mạn) cần thăm khám \nthường xuyên, tăng liều chậm \n3. Theo dõi dấu sinh tồn chặt chẽ trước và trong khi tăng liều [HA tư thế \nđứng, tần số tim, triệu chứng cơ năng khi đứng, tim chậm, Hatth thấp \n(80-100mmHg)] \n4. Lần lượt chỉnh liều từng nhóm thuốc \n5. Theo dõi chức năng thận, điện giải đồ \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \n79 \nCn 2014 về chẩn đoán và điều trị suy tim \nChiến lược tối ưu điều trị nội (2) \n6. Bệnh nhân có thể có cảm giác mệt hay yếu khi tăng liều. Nếu dấu sinh \ntồn tốt, triệu chứng sẽ hết sau vài ngày. 7.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 40,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1274,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 800
+            },
+            "score": 0.12497008699410167,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p35_para_0",
+            "text": "2/23/18 \n35 \nCn 2014 về chẩn đoán và điều trị suy tim \n69 \nCác thuốc \nđược chứng \nminh kéo dài \nđời sống b/n \nsuy tim tâm \nthu mạn \nhoặc sau \nNMCT \n TL: McMurray JJV \net al. Euro. H. \nJournal (2012); 33: \n1787-1847 \nCn 2014 về chẩn đoán và điều trị suy tim \nLCZ696: thuốc đầu Xên trong nhóm \n ức chế thụ thҳ angiotensin và neprilysin (ARNI)\n\n♣ LCZ696 là một thuốc mới vừa có tác dụng ức chế \n neprilysin vừa có tác dụng chҮn thụ thҳ AT11-3\n\n♣ LCZ696 là một phức hợp muối gồm hai nửa (với \n tỉ lệ mol 1:1) đều có hoạt nh:2,3 \n - sacubitril (AHU377) - một Xền chất; được \n chuyҳn hóa Xếp thành chất ức chế neprilysin \n LBQ657, và\n\n- valsartan - một thuốc chҮn thụ thҳ T1\n\nCấu trúc 3D của LCZ6962",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 35,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 945,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 693
+            },
+            "score": 0.11116072120713852,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p21_para_0",
+            "text": "2/23/18 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nMục tiêu điều trị suy tim \n• Giảm tử vong \n• Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim \n42",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 21,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 488,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 488
+            },
+            "score": 0.10813607065691104,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p50_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 50]\n2/23/18 \n50 \nCn 2014 về chẩn đoán và điều trị suy tim \n Ghép tim \n• Khuyến cáo loại I: Đánh giá việc cấy ghép tim được chỉ \nđịnh cẩn thận ở những BN ST giai đoạn D mặc dù đã điều \ntrị bằng dụng cụ và phẫu thuật (mức độ chứng cứ C). \n• Cấy ghép tim được xem là tiêu chuẩn vàng trong điều \ntrị ST giai đoạn cuối kháng trị. \n•  Ghép tim đã cải thiện đáng kể chức năng tim và chất \nlượng cuộc sống. Các lợi ích sống còn được thấy trên \nnhững BN ST có nguy cơ TV cao. \n• Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%\n\nCn 2014 về chẩn đoán và điều trị suy tim \nSống còn bệnh nhân ghép tim \nTL: Hertz MJ et al. Heart Lung Transplant 2008; 27 : 937 \n100\n\n[cme2._suy_timgs_minh_p2_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 2]\n2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4\n\n[cme2._suy_timgs_minh_p47_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 47]\n2/23/18 \n47 \nICD (Implantable Cardiac Defibrillators) \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị bằng dụng cụ suy tim tâm thu GĐ C (1) \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \n 94 \nICD giúp phòng ngừa Xên phát đột tử/ PXTM ≤ \n35%, 40 ngày sau NMCT và NYHA II- III; khả năng \nsống 1 năm \nCRT/ b/n có PXTM ≤ 35%, nhịp xoang, blốc \nnhánh trái với QRS ≥ 150 ms. NYHA II, III hoặc \nNYHA IV ngoại trú \nICD giúp phòng ngừa Xên phát đột tử/ b/n có \nPXTM ≤ 30%, 40 ngày sau NMCT, NYHA 1 dưới \nđiều trị kèm khả năng sống > 1 năm \nCRT/ b/n có PXTM ≤ 35%, nhịp xoang, QRS ≥ 150 \nms không kèm blốc nhánh trái, NYHA III hoặc \nNYHA IV ngoại trú\n\n[cme2._suy_timgs_minh_p40_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 40]\n2/23/18 \n40 \nCn 2014 về chẩn đoán và điều trị suy tim \nChiến lược tối ưu điều trị nội (1) \n1. Tăng liều nhỏ đến liều cao nhất bệnh nhân dung nạp được \n2. Một số bệnh nhân (TD: cao tuổi, bệnh thận mạn) cần thăm khám \nthường xuyên, tăng liều chậm \n3. Theo dõi dấu sinh tồn chặt chẽ trước và trong khi tăng liều [HA tư thế \nđứng, tần số tim, triệu chứng cơ năng khi đứng, tim chậm, Hatth thấp \n(80-100mmHg)] \n4. Lần lượt chỉnh liều từng nhóm thuốc \n5. Theo dõi chức năng thận, điện giải đồ \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \n79 \nCn 2014 về chẩn đoán và điều trị suy tim \nChiến lược tối ưu điều trị nội (2) \n6. Bệnh nhân có thể có cảm giác mệt hay yếu khi tăng liều. Nếu dấu sinh \ntồn tốt, triệu chứng sẽ hết sau vài ngày. 7.\n\n[cme2._suy_timgs_minh_p35_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 35]\n2/23/18 \n35 \nCn 2014 về chẩn đoán và điều trị suy tim \n69 \nCác thuốc \nđược chứng \nminh kéo dài \nđời sống b/n \nsuy tim tâm \nthu mạn \nhoặc sau \nNMCT \n TL: McMurray JJV \net al. Euro. H. \nJournal (2012); 33: \n1787-1847 \nCn 2014 về chẩn đoán và điều trị suy tim \nLCZ696: thuốc đầu Xên trong nhóm \n ức chế thụ thҳ angiotensin và neprilysin (ARNI)\n\n♣ LCZ696 là một thuốc mới vừa có tác dụng ức chế \n neprilysin vừa có tác dụng chҮn thụ thҳ AT11-3\n\n♣ LCZ696 là một phức hợp muối gồm hai nửa (với \n tỉ lệ mol 1:1) đều có hoạt nh:2,3 \n - sacubitril (AHU377) - một Xền chất; được \n chuyҳn hóa Xếp thành chất ức chế neprilysin \n LBQ657, và\n\n- valsartan - một thuốc chҮn thụ thҳ T1\n\nCấu trúc 3D của LCZ6962\n\n[cme2._suy_timgs_minh_p21_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 21]\n2/23/18 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nMục tiêu điều trị suy tim \n• Giảm tử vong \n• Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim \n42",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p50_para_0",
+          "cme2._suy_timgs_minh_p2_para_0",
+          "cme2._suy_timgs_minh_p47_para_0",
+          "cme2._suy_timgs_minh_p40_para_0",
+          "cme2._suy_timgs_minh_p35_para_0",
+          "cme2._suy_timgs_minh_p21_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Theo slide ghép tim, tỷ lệ sống còn sau 1 năm là 80% - 90% và sau 5 năm là 70% [cme2._suy_timgs_minh_p50_para_0].",
+    "citations": [
+      "cme2._suy_timgs_minh_p50_para_0"
+    ],
+    "model_calls": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 6200.22,
+        "usage": {
+          "promptTokenCount": 464,
+          "candidatesTokenCount": 37,
+          "totalTokenCount": 501,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 464
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Theo slide ghép tim, tỷ lệ sống còn sau 1 năm và sau 5 năm lần lượt là bao nhiêu?"
+                      },
+                      "id": "call_7708063870934273033"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0TLY2mmLEJ12UBxWAIJ9wlztpKH9BnsZJbzKW+KOPBl4wcEjUTtDrApXbhCoo/UuKLWuPsp0lbtlRCRZGoArKzm/Uqp9hi0VTyF229/Y2GrzQwF+d0ODfbudo5OTgv/WzcSclNhJ2MbgF0qNTr"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 464,
+            "candidatesTokenCount": 37,
+            "totalTokenCount": 501,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 464
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "U4_6apq3Nb__2roPhZi7sAo"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 2490.4,
+        "usage": {
+          "promptTokenCount": 2930,
+          "candidatesTokenCount": 93,
+          "totalTokenCount": 3023,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2930
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "answer": "Theo slide ghép tim, tỷ lệ sống còn sau 1 năm là 80% - 90% và sau 5 năm là 70% [cme2._suy_timgs_minh_p50_para_0].",
+                        "citations": [
+                          "cme2._suy_timgs_minh_p50_para_0"
+                        ]
+                      },
+                      "id": "call_2797003946290367526"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0TizSkpaDCXaySjz/YMx9OPG3mRMDsz5imiOv+QKa9XdPP0RJmnFLFLayPzpI9tmz0aGwT7BfhwqzcEOstmiyqdBz4oeyFxlRRcdV9YGzmPTOXfKyew5TLMbO8uRc7Go5a9zwoTyR6cpEowCm3"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 2930,
+            "candidatesTokenCount": 93,
+            "totalTokenCount": 3023,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 2930
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "WI_6apipGfiPrfcPu6eg6QY"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 8691.29,
+    "usage": {
+      "promptTokenCount": 3394,
+      "candidatesTokenCount": 130,
+      "thoughtsTokenCount": 0,
+      "totalTokenCount": 3524
+    },
+    "cost_usd": 0.0,
+    "paid_equivalent_usd": 0.0010435,
+    "billing_tier_assumption": "free",
+    "invoice_verified": false,
+    "cost_note": "Estimated marginal text API charge under the configured billing tier; free=$0, paid=standard token estimate, unknown=null; not a billing invoice. Paid-equivalent uses standard $0.25/M input and $1.50/M output including thoughts. Excludes local compute/Qdrant hosting.",
+    "cost_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
+    "cost_rates_checked_at": "2026-11-16"
+  },
+  {
+    "query_id": "t3u1",
+    "question": "Trong tài liệu, thử nghiệm VICTORIA cho thấy vericiguat cải thiện kết cục suy tim như thế nào?",
+    "split": "test",
+    "model": "gemini-3.1-flash-lite",
+    "config_name": "lexical_context",
+    "config": {
+      "method": "tfidf",
+      "top_k": 6,
+      "budget": 6000,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Trong tài liệu, thử nghiệm VICTORIA cho thấy vericiguat cải thiện kết cục suy tim như thế nào?",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p34_para_0",
+            "text": "2/23/18 \n34 \nCn 2014 về chẩn đoán và điều trị suy tim \nDigoxin/ Suy tim tâm thu \n• Loại I, MCC C: \n– PXTM ≤ 40%, có triệu chứng cơ năng kèm \nrung nhĩ \n• Loại IIa, MCC B: \n– PXTM ≤ 40%, có triệu chứng cơ năng, nhịp \nxoang \n67 \nTL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị lâu dài và tiên lượng trong suy tim \n• Thuốc làm giảm tử vong \n– Chẹn thụ thể \n– Ức chế men chuyển \n– Kháng aldosterone \n– Isosorbide và \nhydralazine ở người da \nđen \n• Thuốc cải thiện triệu chứng \nnhưng không cải thiện tiên \nlượng: \n– Glycoside trợ Xm \n– Lợi Xểu vòng.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 34,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 853,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 693
+            },
+            "score": 0.12755636617386973,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p23_para_0",
+            "text": "2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 23,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 582,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 582
+            },
+            "score": 0.12746610094707805,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p4_para_0",
+            "text": "2/23/18 \n4 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \nPhân loại EF Mô tả \nI. Suy Tim với \nEF giảm \n (HFrEF) \n≤40% - ST tâm thu. -  Điều trị hữu hiệu hiện nay đã được xác định. II. Suy Tim với EF \nduy trì (HFpEF) \n≥50% - ST tâm trương. - Một vài tiêu chuẩn được dùng để xác định HFpEF. -  Chẩn đoán HFpEF là thử thách vì cần phải loại \ntrừ các nguyên nhân không do tim gây ST. -  Chưa có điều trị hữu hiệu . a. HFpEF, Giới \nhạn \n41% - \n49% \nĐặc điểm lâm sàng, điều trị và tiên lượng tương tự \nnhư nhóm bệnh nhân HFpEF. b. HFpEF, \nCải thiện \n>40% - Là nhóm HFpEF trước đây còn HFrEF. -  EF cải thiện hoặc hồi phục về lâm sàng khác với \nnhóm EF duy trì và EF suy giảm. - Cần có các nghiên cứu thêm .",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 4,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1037,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 716
+            },
+            "score": 0.11892995615959104,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p21_para_0",
+            "text": "2/23/18 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nMục tiêu điều trị suy tim \n• Giảm tử vong \n• Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim \n42",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 21,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 488,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 488
+            },
+            "score": 0.1162341443021034,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p52_para_0",
+            "text": "2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 52,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 596,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 596
+            },
+            "score": 0.1086564597467997,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p50_para_0",
+            "text": "2/23/18 \n50 \nCn 2014 về chẩn đoán và điều trị suy tim \n Ghép tim \n• Khuyến cáo loại I: Đánh giá việc cấy ghép tim được chỉ \nđịnh cẩn thận ở những BN ST giai đoạn D mặc dù đã điều \ntrị bằng dụng cụ và phẫu thuật (mức độ chứng cứ C). \n• Cấy ghép tim được xem là tiêu chuẩn vàng trong điều \ntrị ST giai đoạn cuối kháng trị. \n•  Ghép tim đã cải thiện đáng kể chức năng tim và chất \nlượng cuộc sống. Các lợi ích sống còn được thấy trên \nnhững BN ST có nguy cơ TV cao. \n• Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%\n\nCn 2014 về chẩn đoán và điều trị suy tim \nSống còn bệnh nhân ghép tim \nTL: Hertz MJ et al. Heart Lung Transplant 2008; 27 : 937 \n100",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 50,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 647,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 643
+            },
+            "score": 0.09233301840336852,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p34_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 34]\n2/23/18 \n34 \nCn 2014 về chẩn đoán và điều trị suy tim \nDigoxin/ Suy tim tâm thu \n• Loại I, MCC C: \n– PXTM ≤ 40%, có triệu chứng cơ năng kèm \nrung nhĩ \n• Loại IIa, MCC B: \n– PXTM ≤ 40%, có triệu chứng cơ năng, nhịp \nxoang \n67 \nTL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị lâu dài và tiên lượng trong suy tim \n• Thuốc làm giảm tử vong \n– Chẹn thụ thể \n– Ức chế men chuyển \n– Kháng aldosterone \n– Isosorbide và \nhydralazine ở người da \nđen \n• Thuốc cải thiện triệu chứng \nnhưng không cải thiện tiên \nlượng: \n– Glycoside trợ Xm \n– Lợi Xểu vòng.\n\n[cme2._suy_timgs_minh_p23_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 23]\n2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao\n\n[cme2._suy_timgs_minh_p4_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 4]\n2/23/18 \n4 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \nPhân loại EF Mô tả \nI. Suy Tim với \nEF giảm \n (HFrEF) \n≤40% - ST tâm thu. -  Điều trị hữu hiệu hiện nay đã được xác định. II. Suy Tim với EF \nduy trì (HFpEF) \n≥50% - ST tâm trương. - Một vài tiêu chuẩn được dùng để xác định HFpEF. -  Chẩn đoán HFpEF là thử thách vì cần phải loại \ntrừ các nguyên nhân không do tim gây ST. -  Chưa có điều trị hữu hiệu . a. HFpEF, Giới \nhạn \n41% - \n49% \nĐặc điểm lâm sàng, điều trị và tiên lượng tương tự \nnhư nhóm bệnh nhân HFpEF. b. HFpEF, \nCải thiện \n>40% - Là nhóm HFpEF trước đây còn HFrEF. -  EF cải thiện hoặc hồi phục về lâm sàng khác với \nnhóm EF duy trì và EF suy giảm. - Cần có các nghiên cứu thêm .\n\n[cme2._suy_timgs_minh_p21_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 21]\n2/23/18 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nMục tiêu điều trị suy tim \n• Giảm tử vong \n• Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim \n42\n\n[cme2._suy_timgs_minh_p52_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 52]\n2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI\n\n[cme2._suy_timgs_minh_p50_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 50]\n2/23/18 \n50 \nCn 2014 về chẩn đoán và điều trị suy tim \n Ghép tim \n• Khuyến cáo loại I: Đánh giá việc cấy ghép tim được chỉ \nđịnh cẩn thận ở những BN ST giai đoạn D mặc dù đã điều \ntrị bằng dụng cụ và phẫu thuật (mức độ chứng cứ C). \n• Cấy ghép tim được xem là tiêu chuẩn vàng trong điều \ntrị ST giai đoạn cuối kháng trị. \n•  Ghép tim đã cải thiện đáng kể chức năng tim và chất \nlượng cuộc sống. Các lợi ích sống còn được thấy trên \nnhững BN ST có nguy cơ TV cao. \n• Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%\n\nCn 2014 về chẩn đoán và điều trị suy tim \nSống còn bệnh nhân ghép tim \nTL: Hertz MJ et al. Heart Lung Transplant 2008; 27 : 937 \n100",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p34_para_0",
+          "cme2._suy_timgs_minh_p23_para_0",
+          "cme2._suy_timgs_minh_p4_para_0",
+          "cme2._suy_timgs_minh_p21_para_0",
+          "cme2._suy_timgs_minh_p52_para_0",
+          "cme2._suy_timgs_minh_p50_para_0"
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_calls": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 5550.64,
+        "usage": {
+          "promptTokenCount": 464,
+          "candidatesTokenCount": 37,
+          "totalTokenCount": 501,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 464
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Trong tài liệu, thử nghiệm VICTORIA cho thấy vericiguat cải thiện kết cục suy tim như thế nào?"
+                      },
+                      "id": "call_10753331797686231470"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0T7Y/DvhSLDsddTgc6aMkMw56GAy7ZRUnuhNdXvv5fhJvAD671k4nQymRKKVHOpr2evGoDm9oBUAM3EHfLOZQD94NY+iDA0Pqg5MfqVVIveVvs1kfrD7PyGoFaLaEZV2etQo3v37Bgjh3PoTJ9"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 464,
+            "candidatesTokenCount": 37,
+            "totalTokenCount": 501,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 464
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "XY_6auicBd-WosUP5deJkQg"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 3430.71,
+        "usage": {
+          "promptTokenCount": 2757,
+          "candidatesTokenCount": 30,
+          "totalTokenCount": 2787,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2757
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+                        "citations": []
+                      },
+                      "id": "call_6256239921314619287"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0T+T1Jn99t/66XTYf8ld8cr3x6kt6T+auyCta9ikkWYUzP1d5dIkEPyGAdv+T3d/sih5z6lUItUesjaSS3/gqc5XgmBJ3rLtPGGZjLVaSLN7hrn3BW+oIvZWOQYtCrXNFaRtNa7Zw8MaqmXios"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 2757,
+            "candidatesTokenCount": 30,
+            "totalTokenCount": 2787,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 2757
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "YY_6av2fHZbA1e8P6MTQ0QE"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 8981.93,
+    "usage": {
+      "promptTokenCount": 3221,
+      "candidatesTokenCount": 67,
+      "thoughtsTokenCount": 0,
+      "totalTokenCount": 3288
+    },
+    "cost_usd": 0.0,
+    "paid_equivalent_usd": 0.00090575,
+    "billing_tier_assumption": "free",
+    "invoice_verified": false,
+    "cost_note": "Estimated marginal text API charge under the configured billing tier; free=$0, paid=standard token estimate, unknown=null; not a billing invoice. Paid-equivalent uses standard $0.25/M input and $1.50/M output including thoughts. Excludes local compute/Qdrant hosting.",
+    "cost_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
+    "cost_rates_checked_at": "2026-11-16"
+  },
+  {
+    "query_id": "t3u2",
+    "question": "Theo tài liệu, phối hợp warfarin với ginkgo biloba làm thay đổi INR bao nhiêu?",
+    "split": "test",
+    "model": "gemini-3.1-flash-lite",
+    "config_name": "lexical_context",
+    "config": {
+      "method": "tfidf",
+      "top_k": 6,
+      "budget": 6000,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "phối hợp warfarin với ginkgo biloba làm thay đổi INR bao nhiêu?",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p29_para_0",
+            "text": "2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 29,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 754,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 754
+            },
+            "score": 0.1612532155692891,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p45_para_0",
+            "text": "2/23/18 \n45 \nCn 2014 về chẩn đoán và điều trị suy tim \nThuốc tăng co bóp tim \nCho đến khi xác định điều trị (V .d., tái tưới máu \nmạch vành, MCS, ghép tim) hoặc giải quyết vấn đề \nlàm nặng cấp tính, bệnh nhân sốc tim cần dùng tạm \nthời thuốc vận mạch đường TM nhằm duy trì tưới \nmáu chung và nhu cầu cơ quan đích.\n\nSự hỗ trợ thuốc vận mạch liên tục là thích hợp như \n“ giải pháp bắt cầu” ở bệnh nhân giai đoạn D \nkháng trị với điều trị nội khoa toàn diện , đây là \nđối tượng thích hợp cho sự chờ đợi tuần hoàn cơ \nhọc hoặc ghép tim.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 45,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1216,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 532
+            },
+            "score": 0.10178100048599117,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p22_para_0",
+            "text": "2/23/18 \n22 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác biện pháp cơ bản điều trị suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị không thuốc \n• Hướng dẫn bệnh nhân có thể tự chăm sóc, hiểu \nbiết về tật bệnh, triệu chứng bệnh bắt đầu nặng \nhơn. \n• Hiểu biết về điều trị, tác dụng không mong muốn \ncủa thuốc. \n• Thay đổi lối sống: giảm cân, ngưng thuốc lá, \nkhông uống rượu, bớt mặn (bớt Natri), tập thể \ndục, hạn chế nước (suy tim nặng) \n44",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 22,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 455,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 455
+            },
+            "score": 0.09466630382575023,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p9_para_0",
+            "text": "2/23/18 \n9 \nSinh lý bệnh Suy tim \nTổn thương cơ tim Giảm chức năng TTT \nHoạt hóa hệ RAA, TKTU, ET, \nv.v… \nNgộ độc cơ tim Co mạch ngoại biên Rối loạn huyết động \nTái cấu trúc & \ntiến triển xấu chức năng TTT \nCác triệu chứng suy tim Số người mắc & tử vong \nANP \nBNP \n Biến đổi TK-TD Hiệu quả có lợi Hiệu quả bất lợi \n ↑ hoạt giao cảm ↑ HR ,↑ co bóp, \n co mạch → ↑ V trở về, \n↑ làm đầy \nCo mạch → \nHậu gánh →↑ công \n→ ↑ Tiêu thụ O2 \n ↑ Renin-Angiotensin \n Aldosterone \nGiữ muối & nước→↑ \nVR \nCo mạch → \n↑ hậu gánh \n ↑ Vasopressin Tương tự Tương tự\n\n↑ interleukins &TNFα Có thể có vai trò trong \nphì đại cơ tim \nApoptosis \n ↑Endothelin Co mạch→↑ VR ↑ Hậu gánh \nBiến đổi thần kinh thể dịch trong suy tim",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 9,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 701,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 698
+            },
+            "score": 0.08442473108976004,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p34_para_1",
+            "text": "• Thuốc làm tăng nguy cơ \ntử vong: \n– Dobutamine \n– Xamoterol \n– Pimobendam \n– Flosequinan \n– Vesnarinone \n– Ibopamine \n– Inamrinone \n– Milrinone \n– Enoximone",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 34,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 853,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 1,
+              "char_length": 158
+            },
+            "score": 0.07681666694830151,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p14_para_0",
+            "text": "2/23/18 \n14 \nCn 2014 về chẩn đoán và điều trị suy tim \nNeprilysin có ái lӌc cao với NP và CNP, và ái lӌc thấp với BNP \n Atrial natriuretic peptide \n (ANP) \n H2N\n\nHOOC-\n\nC-type natriuretic peptide \n (CNP) \n H2N\n\nHOOC-\n\nB-type natriuretic peptide \n (BNP) \n H2N \nHOOC-\n\n♣ BNP ít bị phkn hủy bởi neprilysin \n ♣ Neprilysin có ái lực cao với cả NP lẫn CNP1,3 \n♣ Қc chế neprilysin làm tăng các tác dụng của NP và CNP,1 dẫn đến: \n -Dãn mạch \n – ↑ lợi niệu/bài Na niệu \n - љ tăng sinh \n – љ phì đại \n - љ ldosterone \n – љ trương lӌc giao cảm \n - љ Xền tải Xm \n - ↑ trữ máu ӂ nh mạch\n\nANP=atrial natriuretic peptide; BNP=B-type natriuretic peptide;\n\nhơn so với ANP và CNP1,3\n\n♣ BNP giảm khi neprilysin và hệ RAA \n bị ức chế đồng thời1,2\n\n♣ Giảm BNP phản ánh sự cải thiện \n huyết động ở bệnh nhkn suy tim4",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 14,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1821,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 794
+            },
+            "score": 0.06400956276452659,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p29_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 29]\n2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B\n\n[cme2._suy_timgs_minh_p45_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 45]\n2/23/18 \n45 \nCn 2014 về chẩn đoán và điều trị suy tim \nThuốc tăng co bóp tim \nCho đến khi xác định điều trị (V .d., tái tưới máu \nmạch vành, MCS, ghép tim) hoặc giải quyết vấn đề \nlàm nặng cấp tính, bệnh nhân sốc tim cần dùng tạm \nthời thuốc vận mạch đường TM nhằm duy trì tưới \nmáu chung và nhu cầu cơ quan đích.\n\nSự hỗ trợ thuốc vận mạch liên tục là thích hợp như \n“ giải pháp bắt cầu” ở bệnh nhân giai đoạn D \nkháng trị với điều trị nội khoa toàn diện , đây là \nđối tượng thích hợp cho sự chờ đợi tuần hoàn cơ \nhọc hoặc ghép tim.\n\n[cme2._suy_timgs_minh_p22_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 22]\n2/23/18 \n22 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác biện pháp cơ bản điều trị suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị không thuốc \n• Hướng dẫn bệnh nhân có thể tự chăm sóc, hiểu \nbiết về tật bệnh, triệu chứng bệnh bắt đầu nặng \nhơn. \n• Hiểu biết về điều trị, tác dụng không mong muốn \ncủa thuốc. \n• Thay đổi lối sống: giảm cân, ngưng thuốc lá, \nkhông uống rượu, bớt mặn (bớt Natri), tập thể \ndục, hạn chế nước (suy tim nặng) \n44\n\n[cme2._suy_timgs_minh_p9_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 9]\n2/23/18 \n9 \nSinh lý bệnh Suy tim \nTổn thương cơ tim Giảm chức năng TTT \nHoạt hóa hệ RAA, TKTU, ET, \nv.v… \nNgộ độc cơ tim Co mạch ngoại biên Rối loạn huyết động \nTái cấu trúc & \ntiến triển xấu chức năng TTT \nCác triệu chứng suy tim Số người mắc & tử vong \nANP \nBNP \n Biến đổi TK-TD Hiệu quả có lợi Hiệu quả bất lợi \n ↑ hoạt giao cảm ↑ HR ,↑ co bóp, \n co mạch → ↑ V trở về, \n↑ làm đầy \nCo mạch → \nHậu gánh →↑ công \n→ ↑ Tiêu thụ O2 \n ↑ Renin-Angiotensin \n Aldosterone \nGiữ muối & nước→↑ \nVR \nCo mạch → \n↑ hậu gánh \n ↑ Vasopressin Tương tự Tương tự\n\n↑ interleukins &TNFα Có thể có vai trò trong \nphì đại cơ tim \nApoptosis \n ↑Endothelin Co mạch→↑ VR ↑ Hậu gánh \nBiến đổi thần kinh thể dịch trong suy tim\n\n[cme2._suy_timgs_minh_p34_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 34]\n• Thuốc làm tăng nguy cơ \ntử vong: \n– Dobutamine \n– Xamoterol \n– Pimobendam \n– Flosequinan \n– Vesnarinone \n– Ibopamine \n– Inamrinone \n– Milrinone \n– Enoximone\n\n[cme2._suy_timgs_minh_p14_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 14]\n2/23/18 \n14 \nCn 2014 về chẩn đoán và điều trị suy tim \nNeprilysin có ái lӌc cao với NP và CNP, và ái lӌc thấp với BNP \n Atrial natriuretic peptide \n (ANP) \n H2N\n\nHOOC-\n\nC-type natriuretic peptide \n (CNP) \n H2N\n\nHOOC-\n\nB-type natriuretic peptide \n (BNP) \n H2N \nHOOC-\n\n♣ BNP ít bị phkn hủy bởi neprilysin \n ♣ Neprilysin có ái lực cao với cả NP lẫn CNP1,3 \n♣ Қc chế neprilysin làm tăng các tác dụng của NP và CNP,1 dẫn đến: \n -Dãn mạch \n – ↑ lợi niệu/bài Na niệu \n - љ tăng sinh \n – љ phì đại \n - љ ldosterone \n – љ trương lӌc giao cảm \n - љ Xền tải Xm \n - ↑ trữ máu ӂ nh mạch\n\nANP=atrial natriuretic peptide; BNP=B-type natriuretic peptide;\n\nhơn so với ANP và CNP1,3\n\n♣ BNP giảm khi neprilysin và hệ RAA \n bị ức chế đồng thời1,2\n\n♣ Giảm BNP phản ánh sự cải thiện \n huyết động ở bệnh nhkn suy tim4",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p29_para_0",
+          "cme2._suy_timgs_minh_p45_para_0",
+          "cme2._suy_timgs_minh_p22_para_0",
+          "cme2._suy_timgs_minh_p9_para_0",
+          "cme2._suy_timgs_minh_p34_para_1",
+          "cme2._suy_timgs_minh_p14_para_0"
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_calls": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 5510.55,
+        "usage": {
+          "promptTokenCount": 460,
+          "candidatesTokenCount": 30,
+          "totalTokenCount": 490,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 460
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "phối hợp warfarin với ginkgo biloba làm thay đổi INR bao nhiêu?"
+                      },
+                      "id": "call_2268428468586087324"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0TEdt1hEl4pIAT6lh7pHdD69b4QMBxqSz3po4oEh7zEtCZQYLayueANYGEeafxqb+V5PD+QQbhJzqqTt0RZ+vaeT2w5wewJK2O90uqeMLOPoCS+ngksZXm0azJW7Q182fvS6Ryoesp/08w53It"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 460,
+            "candidatesTokenCount": 30,
+            "totalTokenCount": 490,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 460
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "ZY_6aqD_OYzirfcPsZCZsAw"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.1-flash-lite",
+        "elapsed_ms": 3435.17,
+        "usage": {
+          "promptTokenCount": 2571,
+          "candidatesTokenCount": 30,
+          "totalTokenCount": 2601,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2571
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "citations": [],
+                        "answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này."
+                      },
+                      "id": "call_11734744120224869821"
+                    },
+                    "thoughtSignature": "EnMKcQFpFH0TtgXXcR8aYB5XIhdKJ0/T6yDIKiSJPOswEDuJ/avdPF6XJv/HD/koTJ++Oap1XY9s9Md7toxbZWPOUUCL17mVPxG9h5x/S7QE54uwGipBaUvT6d/JqexwfJLAe1ddhlfaCljBSJ68Zfkh0zO8"
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 2571,
+            "candidatesTokenCount": 30,
+            "totalTokenCount": 2601,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 2571
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.1-flash-lite",
+          "responseId": "ao_6atn_FYf92roPsaauuQo"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 8946.13,
+    "usage": {
+      "promptTokenCount": 3031,
+      "candidatesTokenCount": 60,
+      "thoughtsTokenCount": 0,
+      "totalTokenCount": 3091
+    },
+    "cost_usd": 0.0,
+    "paid_equivalent_usd": 0.00084775,
+    "billing_tier_assumption": "free",
+    "invoice_verified": false,
+    "cost_note": "Estimated marginal text API charge under the configured billing tier; free=$0, paid=standard token estimate, unknown=null; not a billing invoice. Paid-equivalent uses standard $0.25/M input and $1.50/M output including thoughts. Excludes local compute/Qdrant hosting.",
+    "cost_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
+    "cost_rates_checked_at": "2026-11-16"
+  }
+]

@@ -1,0 +1,351 @@
+[
+  {
+    "query_id": "t31",
+    "split": "test",
+    "question": "Theo phần dịch tễ học, tỷ lệ tử vong sau 5 năm của bệnh nhân suy tim được nêu là bao nhiêu?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p2_para_0",
+        "text": "2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 2,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 711,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 711
+        },
+        "score": 0.2762331786951279,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p44_para_0",
+        "text": "2/23/18 \n44 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị suy tim với chức năng \nthất trái bảo tồn \n• Nghiên cứu CHARM- Preserved (3023 bệnh nhân): \ncandesartan không giảm có ý nghĩa tiêu chí chính (tử \nvong tim mạch, suy tim) \n• Nghiên cứu PEP- CHF (850 bệnh nhân perindopril): \ngiảm có ý nghĩa tử vong tim mạch và suy tim/ 1 năm \n• Lợi tiểu: giảm triệu chứng \n• Kiểm soát tốt THA và TMCB cơ tim, tần số thất, RN \n87 \nn TL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nHạn chế muối nước\n\nHạn chế nước (1.5 đến 2 L/d) là thích hợp \ntrong giai đoạn D, đặc biệt ở bệnh nhân \ngiảm natri máu, nhằm giảm triệu chứng \nsung huyết.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 44,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 855,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 769
+        },
+        "score": 0.17633751250318475,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p50_para_0",
+        "text": "2/23/18 \n50 \nCn 2014 về chẩn đoán và điều trị suy tim \n Ghép tim \n• Khuyến cáo loại I: Đánh giá việc cấy ghép tim được chỉ \nđịnh cẩn thận ở những BN ST giai đoạn D mặc dù đã điều \ntrị bằng dụng cụ và phẫu thuật (mức độ chứng cứ C). \n• Cấy ghép tim được xem là tiêu chuẩn vàng trong điều \ntrị ST giai đoạn cuối kháng trị. \n•  Ghép tim đã cải thiện đáng kể chức năng tim và chất \nlượng cuộc sống. Các lợi ích sống còn được thấy trên \nnhững BN ST có nguy cơ TV cao. \n• Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%\n\nCn 2014 về chẩn đoán và điều trị suy tim \nSống còn bệnh nhân ghép tim \nTL: Hertz MJ et al. Heart Lung Transplant 2008; 27 : 937 \n100",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 50,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 647,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 643
+        },
+        "score": 0.15432011623978847,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.37,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "t32",
+    "split": "test",
+    "question": "Theo sơ đồ ACC/AHA trong bài giảng, giai đoạn A được định nghĩa thế nào về nguy cơ, bệnh tim thực thể và triệu chứng?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p15_para_1",
+        "text": "Cn 2014 về chẩn đoán và điều trị suy tim \nCác giai đoạn suy tim/ACC/AHA \nGiai đoạn A \nNguy cơ cao suy tim \nkhông bệnh tim thực \nthể hoặc triệu chứng \ncơ năng suy tim \nGiai đoạn B \nCó bệnh tim \nthực thể nhưng \nkhông triệu \nchứng suy tim \nGiai đoạn C \nCó bệnh tim thực \nthể trước kia hoặc \nhiện tại có triệu \nchứng cơ năng suy \ntim \nGiai đoạn D \nSuy tim kháng \ntrị, cần can \nthiệp đặc biệt \n. THA \n. bệnh xơ vữa ĐM \n. ĐTĐ \n. Béo phì \n. Hội chứng Ch. hóa \nhoặc \n. Dùng thuốc độc với \ntim; tiền sử có bệnh \n. Tiền sử \nNMCT \n. Tái cấu \ntrúc thất trái \n. Bệnh van \ntim không \ntriệu chứng \ncơ năng \nCó bệnh \ntim thực \nthể \nKèm khó \nthở, mệt \ngiảm gắng \nsức \nB/n có triệu \nchứng cơ \nnăng rất nặng \nlúc nghỉ mặc \ndù điều trị nội \ntối đa \nTL : Hunt SA et al.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 15,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 948,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 1,
+          "char_length": 748
+        },
+        "score": 0.3999798831983968,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p16_para_0",
+        "text": "2/23/18 \n16 \nCn 2014 về chẩn đoán và điều trị suy tim \nAt Risk of Heart \nFailure \nHeart \nFailure \nHunt SA, Abraham WT, Chin MH et al. Circulation 2005 \nPhân độ suy tim theo ACC/AHA \nCn 2014 về chẩn đoán và điều trị suy tim \nCác GĐ suy tim theo AHA/ACCF (2013)và NYHA \n Theo ACCF/AHA Theo NYHA A Nguy cơ cao suy tim không bệnh \ntim thực thể hoặc triệu chứng cơ \nnăng suy tim\n\nB Có bệnh tim thực thể nhưng \nkhông triệu chứng suy tim \n I Không hạn chế, vận động thể lực thông thường không \ngây mệt, khó thở hoặc hồi hộp. \n C Có bệnh tim thực thể trước kia \nhoặc hiện tại có t/c cơ năng suy \ntim",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 16,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 1074,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 591
+        },
+        "score": 0.3345762178386592,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p41_para_0",
+        "text": "2/23/18 \n41 \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn A suy tim \n Nhóm I \n• Khảo sát định kỳ triệu chứng cơ năng và thực thể suy tim/ bn \nnguy cơ cao (MCC:C) \n• Khảo sát không xâm nhập (td: siêu âm tim) chức năng tim/ bn \ncó tiền sử gia đình bệnh cơ tim hoặc tiền sử sử dụng thuốc có \nđộc tính với cơ tim (C) \n Nhóm IIa \n• UCMC/ bệnh xơ vữa động mạch, ĐTĐ, THA có kèm YTNC \ntim mạch (A) \n• Chẹn thụ thể Angiotensin II có thể thay thế UCMC (C). KHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn B suy tim \n• Tất cả các biện pháp của giai đoạn A ( A, B, C) \n• Chẹn bêta và UCMC: mọi bệnh nhân sau NMCT bất \nkể PXTM hay triệu chứng cơ năng của suy tim.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 41,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 1124,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 742
+        },
+        "score": 0.29844128611596804,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p16_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 16]\n2/23/18 \n16 \nCn 2014 về chẩn đoán và điều trị suy tim \nAt Risk of Heart \nFailure \nHeart \nFailure \nHunt SA, Abraham WT, Chin MH et al. Circulation 2005 \nPhân độ suy tim theo ACC/AHA \nCn 2014 về chẩn đoán và điều trị suy tim \nCác GĐ suy tim theo AHA/ACCF (2013)và NYHA \n Theo ACCF/AHA Theo NYHA A Nguy cơ cao suy tim không bệnh \ntim thực thể hoặc triệu chứng cơ \nnăng suy tim\n\nB Có bệnh tim thực thể nhưng \nkhông triệu chứng suy tim \n I Không hạn chế, vận động thể lực thông thường không \ngây mệt, khó thở hoặc hồi hộp. \n C Có bệnh tim thực thể trước kia \nhoặc hiện tại có t/c cơ năng suy \ntim",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p16_para_0"
+    ],
+    "context_chars": 759,
+    "elapsed_ms": 0.29,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "t33",
+    "split": "test",
+    "question": "Trong bảng thuốc UCMC, tên biệt dược của captopril là gì?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p52_para_0",
+        "text": "2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 52,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 596,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 596
+        },
+        "score": 0.1489164662693846,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p27_para_0",
+        "text": "2/23/18 \n27 \n Thuốc UCTT được dùng qua các nghiên cứu \nTên gốc Biệt \ndược \nThuốc khởi \nđầu \nLiều đích Liều trung \nbình theo các \nNC \nCandesartan Atacand 4-8 mg qd 32 mg qd 24 mg/ngày \nLosartan Cozaar 12.5-25 mg \nqd \n150 mg qd 129 mg /ngày \nValsartan Diovan 40 mg bid 160 mg \nbid \n254 mg /ngày \nCn 2014 về chẩn đoán và điều trị suy tim \nThời gian nữa đời kéo dài của thuốc chẹn thụ thể AGII \nBurnier M., Lancet 2000;355:637-645 \nBrunner HR., J Hum Hypertens 2002;16(Suppl 2):S13-S16",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 27,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 481,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 481
+        },
+        "score": 0.12642913188516078,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p25_para_1",
+        "text": "Thuốc UCMC được dùng qua các nghiên cứu \nTên gốc Tên biệt \ndược \nLiều khởi đầu Liều đích Liều TB theo các \nnghiên cứu \nCaptopril \n Capoten \n6.25 mg tid \n 50 mg tid \n122.7 mg/ng \nEnalapril \n Vasotec \n2.5 mg bid \n 10 mg bid \n16.6 mg/ngày \nFosinopril \nMonopril \n5-10 mg qd \n 80 mg qd \nN/A \nLisinopril \n Zestril, \nPrinivil \n2.5-5 mg qd \n 20 mg qd \n4.5 mg/ngày, 33.2 \nmg/ngày* \nQuinapril \n Accupril \n5 mg bid \n 80 mg qd \nN/A \nRamipril \n Altace \n 1.25-2.5 mg qd \n10 mg qd \nN/A \nTrandolapril \nMavik \n 1 mg qd \n 4 mg qd \nN/A \n*Không có sự khác biệt tử vong giữa nhóm có liều cao và liều thấp, nhưng giảm 12% \nnguy cơ tử vong hoặc nhập viện ở nhóm liều cao so với liều thấp.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 25,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 1214,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 1,
+          "char_length": 665
+        },
+        "score": 0.12010184009690641,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p52_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 52]\n2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p52_para_0"
+    ],
+    "context_chars": 764,
+    "elapsed_ms": 0.13,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "t34",
+    "split": "test",
+    "question": "Theo bảng lợi tiểu giữ kali, amiloride thải trừ qua cơ quan nào và có thời gian tác dụng bao nhiêu giờ?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p31_para_0",
+        "text": "2/23/18 \n31 \nAll available for oral or IV \nadministration 61 \nLợi tiểu giữ kali \nTên gốc Liều khởi \nđầu \nLiều tối đa/ \nngày \nThải trừ Thời gian \ntác dụng \nSpironolactone \n12.5-25 mg \nqd \n 50 mg \n Chuyển hóa \n48-72 giờ \nEplerenone \n 25-50 mg qd \n 100 mg \n Thận, \nChuyển hóa \nKhông rõ \nAmiloride \n 5 mg qd \n 20 mg \n Thận \n 24 giờ \nTriamterene \n 50-75 mg \nbid \n 200 mg \n Chuyển hóa \n7-9 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nChẹn bêta/ suy tim tâm thu \n (Loại I, MCC: A) \n• Tất cả bệnh nhân có PXTM ≤ 40%, NYHA II →IV \n• Đã được dùng liều đầy đủ UCMC hoặc chẹn thụ thể \nAG II ± đối kháng aldoslerone \n• Lâm sàng đang ổn định \n• Không bị: \n– Suyễn \n– Blốc NT II,III, hội chứng suy nút xoang, nhịp \nxoang chậm (< 50/phút) \n62",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 31,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 729,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 729
+        },
+        "score": 0.2495106904223764,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p29_para_0",
+        "text": "2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 29,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 754,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 754
+        },
+        "score": 0.1824635651966437,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p30_para_0",
+        "text": "2/23/18 \n30 \nAll available for oral or IV \nadministration 59 \nLợi tiểu vòng \nTên gốc Liều khởi \nđầu \nLiều tối \nđa \nĐào thải: Thận \n– CHóa. \nThời gian \ntác dụng \nFurosemide 20-40mg \nqd or bid \n 600 mg 65%T-35% CH 4-6 giờ \nBumetanide 0.5-1.0 mg \nqd or bid \n 10 mg 62%T/38%CH 6-8 giờ \nTorsemide 10-20 mg \nqd \n 200 mg 20%T-80%CH 12-16 giờ \nEthacrynic \nacid \n25-50 mg \nqd or bid \n 200 mg 67%T-33%CH 6 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nCác thuốc đối kháng aldosterone/ \nsuy tim tâm thu (Loại I, MCC: B) \n• PXTM ≤ 35%, NYHA III- IV , đã sử dụng liều \ntốt nhất chẹn bêta và UCMC \n• Chống chỉ định: \n– K + > 5 mmol/L \n– Creatinine máu > 220 Mmol/L (~2.5 mg/dL) \n– Dùng chung viên Kali \n– Phối hợp với UCMC và chẹn thụ thể angiotensin II \n60",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 30,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 744,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 744
+        },
+        "score": 0.17920574321084257,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "t35",
+    "split": "test",
+    "question": "Theo slide ghép tim, tỷ lệ sống còn sau 1 năm và sau 5 năm lần lượt là bao nhiêu?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p50_para_0",
+        "text": "2/23/18 \n50 \nCn 2014 về chẩn đoán và điều trị suy tim \n Ghép tim \n• Khuyến cáo loại I: Đánh giá việc cấy ghép tim được chỉ \nđịnh cẩn thận ở những BN ST giai đoạn D mặc dù đã điều \ntrị bằng dụng cụ và phẫu thuật (mức độ chứng cứ C). \n• Cấy ghép tim được xem là tiêu chuẩn vàng trong điều \ntrị ST giai đoạn cuối kháng trị. \n•  Ghép tim đã cải thiện đáng kể chức năng tim và chất \nlượng cuộc sống. Các lợi ích sống còn được thấy trên \nnhững BN ST có nguy cơ TV cao. \n• Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%\n\nCn 2014 về chẩn đoán và điều trị suy tim \nSống còn bệnh nhân ghép tim \nTL: Hertz MJ et al. Heart Lung Transplant 2008; 27 : 937 \n100",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 50,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 647,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 643
+        },
+        "score": 0.3592019971136054,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p2_para_0",
+        "text": "2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 2,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 711,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 711
+        },
+        "score": 0.16799582626073753,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p47_para_0",
+        "text": "2/23/18 \n47 \nICD (Implantable Cardiac Defibrillators) \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị bằng dụng cụ suy tim tâm thu GĐ C (1) \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \n 94 \nICD giúp phòng ngừa Xên phát đột tử/ PXTM ≤ \n35%, 40 ngày sau NMCT và NYHA II- III; khả năng \nsống 1 năm \nCRT/ b/n có PXTM ≤ 35%, nhịp xoang, blốc \nnhánh trái với QRS ≥ 150 ms. NYHA II, III hoặc \nNYHA IV ngoại trú \nICD giúp phòng ngừa Xên phát đột tử/ b/n có \nPXTM ≤ 30%, 40 ngày sau NMCT, NYHA 1 dưới \nđiều trị kèm khả năng sống > 1 năm \nCRT/ b/n có PXTM ≤ 35%, nhịp xoang, QRS ≥ 150 \nms không kèm blốc nhánh trái, NYHA III hoặc \nNYHA IV ngoại trú",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 47,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 711,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 711
+        },
+        "score": 0.16264283879200545,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.19,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  }
+]

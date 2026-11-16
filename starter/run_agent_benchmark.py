@@ -7,16 +7,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 from agentic import run_agent
 from controller import GeminiController
-from configs import CONFIGS, ROOT, RESULTS, build_retrievers, load_data, output_dir, write_json, digest
+from configs import BENCHMARK_DIR, CAMPAIGN, CONFIGS, ROOT, RESULTS, build_retrievers, load_data, output_dir, write_json, digest
 
 FROZEN_FILES = ['starter/controller.py', 'starter/agentic.py', 'starter/retrievers.py',
                 'starter/configs.py', 'starter/baseline.py', 'data/chunks.json',
-                'data/questions.json', 'data/cases.json', 'starter/run_agent_benchmark.py',
+                str((BENCHMARK_DIR/'questions.json').relative_to(ROOT)), str((BENCHMARK_DIR/'cases.json').relative_to(ROOT)), 'starter/costs.py', 'starter/run_agent_benchmark.py',
                 'starter/run_retrieval_benchmark.py', 'starter/summarize_reviews.py', 'starter/select_config.py']
 
 
 def runtime_settings():
-    return {'model': os.getenv('GEMINI_MODEL', 'gemini-2.5-flash-lite').removeprefix('models/'),
+    return {'campaign': CAMPAIGN, 'billing_tier_assumption':os.getenv('GEMINI_BILLING_TIER','unknown'), 'model': os.getenv('GEMINI_MODEL', 'gemini-3.1-flash-lite').removeprefix('models/'),
             'collection': os.getenv('QDRANT_COLLECTION', 'rag_strategy_b'),
             'embedding': os.getenv('EMBEDDING_MODEL', 'sentence-transformers/all-MiniLM-L6-v2')}
 
@@ -70,9 +70,9 @@ def run_config(name, retriever, cases, out):
         trace['model_calls'] = controller.calls
         trace['elapsed_ms'] = round((time.perf_counter()-start)*1000, 2)
         trace['usage'] = {key: sum(call['usage'].get(key, 0) for call in controller.calls)
-                          for key in ('promptTokenCount', 'candidatesTokenCount', 'totalTokenCount')}
-        trace['cost_usd'] = None
-        trace['cost_note'] = 'Not billed/estimated by this runner; token counts are recorded.'
+                          for key in ('promptTokenCount', 'candidatesTokenCount', 'thoughtsTokenCount', 'totalTokenCount')}
+        from costs import estimate_cost
+        trace.update(estimate_cost(trace['usage'], controller.model))
         traces.append(trace)
         reviews.append(review_template(case, trace))
         write_json(out / 'traces.json', traces)

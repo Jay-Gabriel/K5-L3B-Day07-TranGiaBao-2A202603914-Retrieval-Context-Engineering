@@ -1,0 +1,95 @@
+[
+  {
+    "query_id": "t31",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: the answer preserves the original p2 wording that five-year mortality reaches 50%; cited final context explicitly gives this statistic.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p2 epidemiology passage supplies the five-year time horizon and 50% mortality value.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "t32",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: high risk of heart failure without structural heart disease or heart-failure symptoms matches original PDF p15/p16. The p16 alternative citation substantively supports all three elements; no unsupported added conditions. Both p15 and p16 citations independently support this definition.",
+    "citation_support": [
+      true,
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final context contains the full stage-A definition: high risk, no structural disease, no functional heart-failure symptoms.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "t33",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: Capoten is aligned with captopril in the original p25 ACE-inhibitor table, visually verified, and the cited final-context table.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p25 table contains the captopril–Capoten row with the required generic-to-brand relationship.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "t34",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: renal elimination and 24-hour duration both match the amiloride row in original PDF p31, visually verified, and cited final context.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p31 potassium-sparing-diuretic table supplies both requested amiloride cells: kidney and 24 hours.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "t35",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: one-year survival 80–90% and five-year survival 70% match original PDF p50 and cited context; both horizons and the range are preserved.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p50 transplantation slide explicitly supplies both survival percentages and corresponding horizons.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "t3u1",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct abstention. Independent all-52-page original-PDF text scan found zero VICTORIA or vericiguat mentions, consistent with the stored absence audit and document-scope review. Final drug/classification passages contain no trial result; do not infer modern trial outcomes from older treatments.",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "context_reason": "Unanswerable case: final context contains no requested evidence; absence judged from the full original document and all-page scan, not solely top-k retrieval.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "t3u2",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct abstention. Independent all-52-page original-PDF text scan found zero warfarin, ginkgo, biloba or INR mentions, consistent with stored absence audit and document-scope review. Final context gives no quantitative interaction evidence; an INR change cannot be derived from unrelated drug passages.",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "context_reason": "Unanswerable case: final context contains no requested evidence; absence judged from the full original document and all-page scan, not solely top-k retrieval.",
+    "abstention_correct": true
+  }
+]

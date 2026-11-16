@@ -11,7 +11,7 @@ from pathlib import Path
 
 WEB = Path(__file__).resolve().parent
 sys.path.insert(0, str(WEB.parent))
-from configs import CONFIGS, ROOT, RESULTS, build_retrievers, load_data
+from configs import CAMPAIGN, CONFIGS, ROOT, RESULTS, build_retrievers, load_data
 from agentic import run_agent
 from controller import GeminiController
 
@@ -102,8 +102,8 @@ class DemoHandler(http.server.BaseHTTPRequestHandler):
                 total=sum(c['split']=='test' and not c['answerable'] for c in cases)
                 record['abstention_all_cases']={'n':record['abstention']['n'],'N':total}
                 records.append(record)
-            return self.json_response({'records':records,'version':'v2',
-                'note':'Nhãn do AI hỗ trợ đối chiếu, chờ sinh viên duyệt. Điểm số chỉ mô tả bộ câu hỏi này.'})
+            return self.json_response({'records':records,'version':CAMPAIGN,
+                'note':'Nhãn đã được AI hỗ trợ đọc câu trả lời/context và đối chiếu nguồn gốc; không tự động suy ra từ ID citation. Điểm số chỉ mô tả bộ câu hỏi này.'})
         self.json_response({'status':'error','error':'Không tìm thấy đường dẫn.'},404)
 
     def do_POST(self):

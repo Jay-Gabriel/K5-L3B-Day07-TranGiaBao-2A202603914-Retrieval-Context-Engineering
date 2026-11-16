@@ -1,0 +1,8 @@
+{
+  "reviews_sha256": "92f8020eaf7899ad164d6106f1e86f650b98290f97574f010b95d2bae49acaef",
+  "semantic_false_abstention": {
+    "n": 1,
+    "N": 15
+  },
+  "note": "Semantic refusals read from answer content, including false document-wide absence with a citation; status-based false_abstention is retained separately in summary.json."
+}

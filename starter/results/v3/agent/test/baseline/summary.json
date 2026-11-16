@@ -1,0 +1,62 @@
+{
+  "cases": 7,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 7,
+    "N": 7
+  },
+  "grounded_answer": {
+    "0": 4,
+    "1": 0,
+    "2": 1,
+    "N": 5,
+    "mean": 0.4
+  },
+  "citation_validity": {
+    "n": 1,
+    "N": 1
+  },
+  "answer_citation_coverage": {
+    "n": 1,
+    "N": 1
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 4,
+    "N": 5
+  },
+  "context_review": {
+    "0": 4,
+    "1": 0,
+    "2": 1,
+    "N": 5
+  },
+  "pipeline_context_evidence": {
+    "n": 1,
+    "N": 5
+  },
+  "search_count_distribution": {
+    "1": 1,
+    "3": 6
+  },
+  "mean_model_calls": 3.7142857142857144,
+  "median_ms": 18128.56,
+  "tokens": {
+    "promptTokenCount": 17243,
+    "candidatesTokenCount": 844,
+    "thoughtsTokenCount": 0,
+    "totalTokenCount": 18087
+  },
+  "cost_usd": 0.0,
+  "paid_equivalent_usd": 0.00557675,
+  "billing_tier_assumption": "free",
+  "invoice_verified": false,
+  "cost_note": "Estimated marginal text API charge under the configured billing tier; free=$0, paid=standard token estimate, unknown=null; not a billing invoice. Paid-equivalent uses standard $0.25/M input and $1.50/M output including thoughts. Excludes local compute/Qdrant hosting.",
+  "cost_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
+  "cost_rates_checked_at": "2026-11-16",
+  "review_note": "Completed AI-assisted original-PDF/trace audit. No claim of human/student grading.",
+  "student_verified": false
+}

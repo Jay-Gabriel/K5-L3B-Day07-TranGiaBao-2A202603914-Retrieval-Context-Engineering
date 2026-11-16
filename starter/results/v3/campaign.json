@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-11-16T04:48:32.599094+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "previous_campaign": "v2, preserved at commit 74ff068",
+  "billing_tier_assumption": "free, based on same project FreeTier quota response stored in v2/service_limits.json; not invoice verified",
+  "scope": "Mandatory base assignment; bonus is optional and not claimed.",
+  "selection_criterion": "Min provider errors; max audited grounded answer; max correct abstention; max sufficient context; min median latency.",
+  "label_provenance": "AI-assisted source/trace content audit; not claimed to be human/student grading."
+}

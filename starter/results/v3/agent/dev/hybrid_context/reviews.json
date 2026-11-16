@@ -1,0 +1,228 @@
+[
+  {
+    "query_id": "d01",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: 550,000 new cases per year exactly matches original PDF p2 and the cited final-context incidence bullet.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final context includes the p2 epidemiology bullet with the requested annual incidence count.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d02",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: fatigue and dyspnea match the original PDF p3 and the cited final-context passage.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p3 passage explicitly names both main clinical manifestations.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d03",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: alcohol and cocaine match the toxic-cardiomyopathy list in original PDF p6 and cited final-context passage.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p6 passage explicitly includes both alcohol and cocaine under toxic cardiomyopathy.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d04",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p7 calls stress cardiomyopathy Takotsubo.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final context includes surgery/devices, transplantation, diuretics, goals, stages, and the first cause-list page, but no stress-cardiomyopathy synonym. Shared cause-list topic alone is not answer evidence.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d05",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect document-wide absence claim: original PDF p8 explicitly lists verapamil and diltiazen. Citation p23 supports only the general harmful calcium-channel-blocker class, not the claim that the document gives no names.",
+    "citation_support": [
+      false
+    ],
+    "context_grade": 1,
+    "context_reason": "Final context includes the p23 harmful calcium-channel-blocker class, but none of the surrounding treatment/stage/history passages names the two requested agents; partial relevant evidence only.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d06",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p12 requires functional symptoms, physical signs, preserved EF, and structural disease and/or diastolic dysfunction.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final p12 extraction is only the heading/reference; the remaining headings and treatment/stage passages provide none of the four diagnostic requirements.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d07",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: marked activity limitation, well at rest, symptoms with light activity match NYHA III in original PDF p16 and cited context.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p16 fragment contains the complete NYHA III description, despite adjacent class text.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d08",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Incorrect abstention: original PDF p20 explicitly lists soluble ST2 and galectin-3 for myocardial fibrosis.",
+    "citation_support": [],
+    "context_grade": 0,
+    "context_reason": "Final context covers goals, symptoms, inotropes, diuretics, conclusions, stages, and epidemiology; it contains neither fibrosis biomarker nor a substantive part of the requested pair.",
+    "answer_grade": 0,
+    "answer_refused": true
+  },
+  {
+    "query_id": "d09",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct and complete: all six requested nonmortality goals match original PDF p21 and cited context.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p21 treatment-goal passage contains symptom/QOL improvement, exercise capacity, fewer admissions, prevention of injury and reduced remodeling.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d10",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: weight loss, smoking cessation, no alcohol, less sodium, exercise, and fluid restriction for severe failure match original PDF p22 and citation.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p22 passage includes the full lifestyle list and severe-failure qualification on fluid restriction.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d11",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: diuretics, low-dose digoxin, and nitrates are the three symptom-improving treatments in original PDF p23 and citation.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p23 passage explicitly lists all three under symptom improvement.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d12",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: original PDF p24 says to repeat creatinine two weeks later; cited final context says the same.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p24 ACE-inhibitor slide includes the explicit two-week retesting interval.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d13",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: target dose within 8–12 weeks matches the original PDF p32 table, visually inspected, and the cited final-context row.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final context contains the complete p32 initial titration instructions, including the explicit 8–12-week goal.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d14",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: older patients and patients with chronic kidney disease match the two examples in original PDF p40 and cited passage.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p40 treatment-optimization passage explicitly links both groups to frequent visits and slow titration.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "d15",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct: bisoprolol, carvedilol, and metoprolol succinate match original PDF p43 stage-C slide and cited passage.",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Final p43 stage-C passage names all three beta blockers, including the succinate formulation.",
+    "answer_grade": 2,
+    "answer_refused": false
+  },
+  {
+    "query_id": "du01",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct abstention. Entire 52-page original PDF text was audited: neither EMPEROR nor empagliflozin occurs. The final diuretic, neprilysin, stage and symptom passages contain no trial results; absence is established from the full document.",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "context_reason": "Unanswerable case: final context has no requested evidence; absence was checked against the full original document, not inferred from top-k retrieval.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "du02",
+    "reviewer": "Codex independent AI-assisted source/trace audit",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Correct abstention. Full 52-page original-PDF audit found no fee schedule, revisit price, VND/VNĐ, or service-payment amount. Huế references and đồng occurrences concern author/hospital/transplantation and simultaneous action/synergy/resynchronization, not payment. Final hospital-title/history/treatment context supplies no price.",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "context_reason": "Unanswerable case: final context has no requested evidence; absence was checked against the full original document, not inferred from top-k retrieval.",
+    "abstention_correct": true
+  }
+]
