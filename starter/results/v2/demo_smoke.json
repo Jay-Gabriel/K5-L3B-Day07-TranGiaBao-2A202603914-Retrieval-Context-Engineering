@@ -1,0 +1,12 @@
+{
+  "question": "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là gì?",
+  "status": "Có câu trả lời kèm nguồn",
+  "answer": "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là mệt và khó thở Nguồn · trang 3.",
+  "error": "",
+  "queries": [
+    "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là gì?"
+  ],
+  "source_count": 6,
+  "metadata": "10.0 giây\n1 lượt tìm\n2 lần gọi model\ngemini-3.1-flash-lite",
+  "js_errors": []
+}

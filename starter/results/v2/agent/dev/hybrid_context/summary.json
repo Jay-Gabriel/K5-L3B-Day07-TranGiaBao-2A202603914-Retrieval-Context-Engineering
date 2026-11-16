@@ -1,0 +1,57 @@
+{
+  "cases": 17,
+  "provider_errors": 1,
+  "tool_use": {
+    "n": 16,
+    "N": 16
+  },
+  "grounded_answer": {
+    "0": 3,
+    "1": 0,
+    "2": 11,
+    "N": 14,
+    "mean": 1.5714285714285714
+  },
+  "citation_validity": {
+    "n": 11,
+    "N": 11
+  },
+  "answer_citation_coverage": {
+    "n": 11,
+    "N": 11
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 3,
+    "N": 14
+  },
+  "context_review": {
+    "0": 2,
+    "1": 1,
+    "2": 11,
+    "N": 15
+  },
+  "pipeline_context_evidence": {
+    "n": 11,
+    "N": 15
+  },
+  "search_count_distribution": {
+    "1": 9,
+    "2": 2,
+    "3": 6
+  },
+  "mean_model_calls": 2.823529411764706,
+  "median_ms": 18143.52,
+  "tokens": {
+    "promptTokenCount": 91415,
+    "candidatesTokenCount": 2004,
+    "totalTokenCount": 93419
+  },
+  "cost_usd": null,
+  "cost_note": "Token usage recorded. Account billing was not queried; no invented $0 total.",
+  "review_note": "AI-assisted content and original-PDF audit; student verification pending.",
+  "student_verified": false
+}

@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-11-16T04:14:18.952936+00:00",
+  "benchmark_model": "gemini-3.5-flash-lite",
+  "http_status": 429,
+  "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+  "quota_value": 500,
+  "demo_model": "gemini-3.1-flash-lite",
+  "demo_smoke": "demo_smoke.json",
+  "note": "Demo uses a separately disclosed model. Original benchmark errors remain unchanged."
+}

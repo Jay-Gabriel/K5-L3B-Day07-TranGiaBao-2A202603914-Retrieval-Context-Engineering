@@ -1,0 +1,186 @@
+[
+  {
+    "query_id": "d01",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d02",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d03",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d04",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d05",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d06",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d07",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d08",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d09",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d10",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d11",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d12",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d13",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d14",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "d15",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [],
+    "context_grade": null,
+    "context_reason": null,
+    "answer_grade": null
+  },
+  {
+    "query_id": "du01",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "context_reason": null,
+    "abstention_correct": null
+  },
+  {
+    "query_id": "du02",
+    "reviewer": null,
+    "review_type": "pending",
+    "reason": null,
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "context_reason": null,
+    "abstention_correct": null
+  }
+]

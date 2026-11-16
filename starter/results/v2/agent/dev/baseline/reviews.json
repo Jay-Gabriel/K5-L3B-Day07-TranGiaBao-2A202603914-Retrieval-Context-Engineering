@@ -1,0 +1,203 @@
+[
+  {
+    "query_id": "d01",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối câu có đáp án; tỷ lệ mắc mới 550.000/năm ở PDF trang 2 không có trong context cuối chỉ gồm trang 3.",
+    "context_grade": 0,
+    "context_reason": "Từ chối câu có đáp án; tỷ lệ mắc mới 550.000/năm ở PDF trang 2 không có trong context cuối chỉ gồm trang 3.",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d02",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Trả lời đủ mệt và khó thở; citation trang 3 nằm trong context và khớp dòng biểu hiện lâm sàng của PDF.",
+    "context_grade": 2,
+    "context_reason": "Trả lời đủ mệt và khó thở; citation trang 3 nằm trong context và khớp dòng biểu hiện lâm sàng của PDF.",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d03",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối câu có đáp án; context cuối trống, thiếu rượu và cocaine tại PDF trang 6.",
+    "context_grade": 0,
+    "context_reason": "Từ chối câu có đáp án; context cuối trống, thiếu rượu và cocaine tại PDF trang 6.",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d04",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối; context trống, không chứa Takotsubo của PDF trang 7.",
+    "context_grade": 0,
+    "context_reason": "Từ chối; context trống, không chứa Takotsubo của PDF trang 7.",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d05",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối; context trang 23 chỉ nói nhóm chẹn kênh calci, thiếu hai tên verapamil và diltiazen ở trang 8.",
+    "context_grade": 1,
+    "context_reason": "Từ chối; context trang 23 chỉ nói nhóm chẹn kênh calci, thiếu hai tên verapamil và diltiazen ở trang 8.",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d06",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối; context trang 28 và tiêu đề trang 15 không chứa bốn điều kiện chẩn đoán ở PDF trang 12.",
+    "context_grade": 0,
+    "context_reason": "Từ chối; context trang 28 và tiêu đề trang 15 không chứa bốn điều kiện chẩn đoán ở PDF trang 12.",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d07",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng đủ NYHA III: hạn chế nhiều, khỏe khi nghỉ nhưng vận động nhẹ gây triệu chứng. Nguồn trang 16 trong context và khớp bảng PDF.",
+    "context_grade": 2,
+    "context_reason": "Đúng đủ NYHA III: hạn chế nhiều, khỏe khi nghỉ nhưng vận động nhẹ gây triệu chứng. Nguồn trang 16 trong context và khớp bảng PDF.",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d08",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng hai tên Soluble ST2 và galectin-3. Context trang 20 chứa cả tên và vai trò khảo sát sợi hóa như PDF.",
+    "context_grade": 2,
+    "context_reason": "Đúng hai tên Soluble ST2 và galectin-3. Context trang 20 chứa cả tên và vai trò khảo sát sợi hóa như PDF.",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d09",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Liệt kê đầy đủ cải thiện triệu chứng/chất lượng sống/gắng sức, giảm nhập viện, phòng tổn thương và giảm tái cấu trúc. Nguồn trang 21 hỗ trợ toàn bộ.",
+    "context_grade": 2,
+    "context_reason": "Liệt kê đầy đủ cải thiện triệu chứng/chất lượng sống/gắng sức, giảm nhập viện, phòng tổn thương và giảm tái cấu trúc. Nguồn trang 21 hỗ trợ toàn bộ.",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d10",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đủ sáu thay đổi lối sống, giữ điều kiện hạn chế nước khi suy tim nặng. Citation trang 22 có trong context và khớp PDF.",
+    "context_grade": 2,
+    "context_reason": "Đủ sáu thay đổi lối sống, giữ điều kiện hạn chế nước khi suy tim nặng. Citation trang 22 có trong context và khớp PDF.",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d11",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng lợi tiểu, digoxin liều thấp và nitrates; không bỏ điều kiện liều thấp. Nguồn trang 23 hỗ trợ đủ.",
+    "context_grade": 2,
+    "context_reason": "Đúng lợi tiểu, digoxin liều thấp và nitrates; không bỏ điều kiện liều thấp. Nguồn trang 23 hỗ trợ đủ.",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d12",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng thời điểm thử lại creatinine sau 2 tuần; PDF trang 24 có dòng tương ứng và nằm trong context.",
+    "context_grade": 2,
+    "context_reason": "Đúng thời điểm thử lại creatinine sau 2 tuần; PDF trang 24 có dòng tương ứng và nằm trong context.",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d13",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối; context trang 32 para_1 nói điều chỉnh liều nhưng không có mục tiêu 8–12 tuần ở para_0 của cùng trang PDF.",
+    "context_grade": 1,
+    "context_reason": "Từ chối; context trang 32 para_1 nói điều chỉnh liều nhưng không có mục tiêu 8–12 tuần ở para_0 của cùng trang PDF.",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d14",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối; context chỉ có đoạn điều chỉnh liều trang 32, thiếu điều kiện cao tuổi/bệnh thận mạn được hỏi ở trang 40.",
+    "context_grade": 1,
+    "context_reason": "Từ chối; context chỉ có đoạn điều chỉnh liều trang 32, thiếu điều kiện cao tuổi/bệnh thận mạn được hỏi ở trang 40.",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d15",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối; context trang 52 có nhắc nhóm chẹn beta nhưng không có ba tên bisoprolol/carvedilol/metoprolol succinate ở trang 43.",
+    "context_grade": 1,
+    "context_reason": "Từ chối; context trang 52 có nhắc nhóm chẹn beta nhưng không có ba tên bisoprolol/carvedilol/metoprolol succinate ở trang 43.",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "du01",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối không thêm thông tin thử nghiệm. Đối chiếu toàn văn: không có EMPEROR-Reduced/empagliflozin, không dùng kết quả top-k để kết luận toàn tài liệu.",
+    "context_grade": "not_applicable",
+    "context_reason": "Từ chối không thêm thông tin thử nghiệm. Đối chiếu toàn văn: không có EMPEROR-Reduced/empagliflozin, không dùng kết quả top-k để kết luận toàn tài liệu.",
+    "citation_support": [],
+    "abstention_correct": true
+  },
+  {
+    "query_id": "du02",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối không suy đoán giá. Tài liệu chuyên môn không có bảng viện phí/giá tái khám tại Huế; đã kiểm tra toàn văn.",
+    "context_grade": "not_applicable",
+    "context_reason": "Từ chối không suy đoán giá. Tài liệu chuyên môn không có bảng viện phí/giá tái khám tại Huế; đã kiểm tra toàn văn.",
+    "citation_support": [],
+    "abstention_correct": true
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "query_id": "d01",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng 550.000 trường hợp mới/năm; đoạn trang 2 nằm trong context cuối và khớp dòng dịch tễ trong PDF gốc.",
+    "context_reason": "Đúng 550.000 trường hợp mới/năm; đoạn trang 2 nằm trong context cuối và khớp dòng dịch tễ trong PDF gốc.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d02",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng và đủ hai biểu hiện mệt và khó thở; citation trang 3 nằm trong context và hỗ trợ toàn bộ câu trả lời.",
+    "context_reason": "Đúng và đủ hai biểu hiện mệt và khó thở; citation trang 3 nằm trong context và hỗ trợ toàn bộ câu trả lời.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d03",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng hai chất rượu và cocaine; đoạn nguyên nhân do độc chất trang 6 trong context hỗ trợ đủ hai tên.",
+    "context_reason": "Đúng hai chất rượu và cocaine; đoạn nguyên nhân do độc chất trang 6 trong context hỗ trợ đủ hai tên.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d04",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Lỗi vector store: ResponseHandlingException timeout sau các lượt tìm, không có kết quả cuối. Báo lỗi riêng, không gọi đây là abstention đúng.",
+    "context_reason": "Lỗi vector store: ResponseHandlingException timeout sau các lượt tìm, không có kết quả cuối. Báo lỗi riêng, không gọi đây là abstention đúng.",
+    "context_grade": 0,
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d05",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối câu có đáp án. Context có nhóm chẹn calci ở trang 23 nhưng thiếu hai tên verapamil/diltiazen tại trang 8.",
+    "context_reason": "Từ chối câu có đáp án. Context có nhóm chẹn calci ở trang 23 nhưng thiếu hai tên verapamil/diltiazen tại trang 8.",
+    "context_grade": 1,
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d06",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối câu có đáp án. Context chỉ có tiêu đề chẩn đoán trang 12 para_0 và các đoạn liên quan; thiếu bốn điều kiện ở para_1.",
+    "context_reason": "Từ chối câu có đáp án. Context chỉ có tiêu đề chẩn đoán trang 12 para_0 và các đoạn liên quan; thiếu bốn điều kiện ở para_1.",
+    "context_grade": 0,
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d07",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đủ NYHA III: hạn chế nhiều, khỏe khi nghỉ, vận động nhẹ đã có triệu chứng; khớp bảng PDF trang 16 và context.",
+    "context_reason": "Đủ NYHA III: hạn chế nhiều, khỏe khi nghỉ, vận động nhẹ đã có triệu chứng; khớp bảng PDF trang 16 và context.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d08",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối câu có đáp án. Context không có Soluble ST2/galectin-3 ở trang 20; các đoạn mục tiêu/khám/sinh lý không trả lời được tên chất chỉ điểm.",
+    "context_reason": "Từ chối câu có đáp án. Context không có Soluble ST2/galectin-3 ở trang 20; các đoạn mục tiêu/khám/sinh lý không trả lời được tên chất chỉ điểm.",
+    "context_grade": 0,
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d09",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đủ mục tiêu ngoài giảm tử vong: triệu chứng, chất lượng sống, gắng sức, nhập viện, tổn thương và tái cấu trúc; PDF trang 21 hỗ trợ.",
+    "context_reason": "Đủ mục tiêu ngoài giảm tử vong: triệu chứng, chất lượng sống, gắng sức, nhập viện, tổn thương và tái cấu trúc; PDF trang 21 hỗ trợ.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d10",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đủ sáu thay đổi lối sống, giữ điều kiện hạn chế nước đối với suy tim nặng; context và PDF trang 22 hỗ trợ toàn bộ.",
+    "context_reason": "Đủ sáu thay đổi lối sống, giữ điều kiện hạn chế nước đối với suy tim nặng; context và PDF trang 22 hỗ trợ toàn bộ.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d11",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng lợi tiểu, digoxin LIỀU THẤP, nitrates; giữ đúng điều kiện từ danh sách trang 23 trong context.",
+    "context_reason": "Đúng lợi tiểu, digoxin LIỀU THẤP, nitrates; giữ đúng điều kiện từ danh sách trang 23 trong context.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d12",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng thử lại creatinine sau 2 tuần; dòng này có trong context và bản gốc PDF trang 24.",
+    "context_reason": "Đúng thử lại creatinine sau 2 tuần; dòng này có trong context và bản gốc PDF trang 24.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d13",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng mục tiêu 8–12 tuần; ô cách sử dụng chẹn beta trong PDF trang 32 và đoạn para_0 trong context hỗ trợ.",
+    "context_reason": "Đúng mục tiêu 8–12 tuần; ô cách sử dụng chẹn beta trong PDF trang 32 và đoạn para_0 trong context hỗ trợ.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d14",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng hai nhóm cao tuổi và bệnh thận mạn; dòng số 2 ở PDF trang 40 có trong context và citation hỗ trợ đủ.",
+    "context_reason": "Đúng hai nhóm cao tuổi và bệnh thận mạn; dòng số 2 ở PDF trang 40 có trong context và citation hỗ trợ đủ.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d15",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng bisoprolol, carvedilol, metoprolol succinate; giữ đúng dạng succinate, không mở rộng nhóm thuốc. PDF trang 43 trong context hỗ trợ.",
+    "context_reason": "Đúng bisoprolol, carvedilol, metoprolol succinate; giữ đúng dạng succinate, không mở rộng nhóm thuốc. PDF trang 43 trong context hỗ trợ.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "du01",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối không thêm kết quả thử nghiệm. Kiểm tra toàn văn/PDF: không có EMPEROR-Reduced hoặc empagliflozin; không suy ra thiếu evidence chỉ từ top-k.",
+    "context_reason": "Từ chối không thêm kết quả thử nghiệm. Kiểm tra toàn văn/PDF: không có EMPEROR-Reduced hoặc empagliflozin; không suy ra thiếu evidence chỉ từ top-k.",
+    "context_grade": "not_applicable",
+    "citation_support": [],
+    "abstention_correct": true
+  },
+  {
+    "query_id": "du02",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối không bịa giá tái khám. Kiểm tra phạm vi toàn văn: không có bảng viện phí tái khám Huế; các đoạn retrieval không cung cấp giá.",
+    "context_reason": "Từ chối không bịa giá tái khám. Kiểm tra phạm vi toàn văn: không có bảng viện phí tái khám Huế; các đoạn retrieval không cung cấp giá.",
+    "context_grade": "not_applicable",
+    "citation_support": [],
+    "abstention_correct": true
+  }
+]

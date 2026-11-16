@@ -1,0 +1,1064 @@
+[
+  {
+    "query_id": "d01",
+    "split": "dev",
+    "question": "Theo phần dịch tễ học trong bài giảng, có bao nhiêu trường hợp suy tim mới xuất hiện mỗi năm?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p2_para_0",
+        "text": "2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 2,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 711,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 711
+        },
+        "score": 0.29759993893963654,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p3_para_0",
+        "text": "2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 3,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 590,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 590
+        },
+        "score": 0.15209323136594938,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p11_para_0",
+        "text": "2/23/18 \n11 \nCn 2014 về chẩn đoán và điều trị suy tim \nHoạt hóa hệ renin-angiotensin-\naldosterone/suy tim \nTL: Nohria A et al. In Colluci WS (ed): Atlas of Heart Failure, 4th ed Philadelphia \nCurrent Medicine 2005 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \nsuy tim \n4. Điều trị : thuốc mới, điều trị theo giai đoạn",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 11,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 445,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 445
+        },
+        "score": 0.14061159957383226,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p3_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 3]\n2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p3_para_0"
+    ],
+    "context_chars": 756,
+    "elapsed_ms": 0.97,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d02",
+    "split": "dev",
+    "question": "Hai biểu hiện lâm sàng chính của suy tim được bài giảng nêu là gì?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p3_para_0",
+        "text": "2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 3,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 590,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 590
+        },
+        "score": 0.32431247629293686,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p4_para_0",
+        "text": "2/23/18 \n4 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \nPhân loại EF Mô tả \nI. Suy Tim với \nEF giảm \n (HFrEF) \n≤40% - ST tâm thu. -  Điều trị hữu hiệu hiện nay đã được xác định. II. Suy Tim với EF \nduy trì (HFpEF) \n≥50% - ST tâm trương. - Một vài tiêu chuẩn được dùng để xác định HFpEF. -  Chẩn đoán HFpEF là thử thách vì cần phải loại \ntrừ các nguyên nhân không do tim gây ST. -  Chưa có điều trị hữu hiệu . a. HFpEF, Giới \nhạn \n41% - \n49% \nĐặc điểm lâm sàng, điều trị và tiên lượng tương tự \nnhư nhóm bệnh nhân HFpEF. b. HFpEF, \nCải thiện \n>40% - Là nhóm HFpEF trước đây còn HFrEF. -  EF cải thiện hoặc hồi phục về lâm sàng khác với \nnhóm EF duy trì và EF suy giảm. - Cần có các nghiên cứu thêm .",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 4,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 1037,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 716
+        },
+        "score": 0.15253243382783216,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p35_para_0",
+        "text": "2/23/18 \n35 \nCn 2014 về chẩn đoán và điều trị suy tim \n69 \nCác thuốc \nđược chứng \nminh kéo dài \nđời sống b/n \nsuy tim tâm \nthu mạn \nhoặc sau \nNMCT \n TL: McMurray JJV \net al. Euro. H. \nJournal (2012); 33: \n1787-1847 \nCn 2014 về chẩn đoán và điều trị suy tim \nLCZ696: thuốc đầu Xên trong nhóm \n ức chế thụ thҳ angiotensin và neprilysin (ARNI)\n\n♣ LCZ696 là một thuốc mới vừa có tác dụng ức chế \n neprilysin vừa có tác dụng chҮn thụ thҳ AT11-3\n\n♣ LCZ696 là một phức hợp muối gồm hai nửa (với \n tỉ lệ mol 1:1) đều có hoạt nh:2,3 \n - sacubitril (AHU377) - một Xền chất; được \n chuyҳn hóa Xếp thành chất ức chế neprilysin \n LBQ657, và\n\n- valsartan - một thuốc chҮn thụ thҳ T1\n\nCấu trúc 3D của LCZ6962",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 35,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 945,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 693
+        },
+        "score": 0.11364839460663967,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p3_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 3]\n2/23/18 \n3 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \n• Suy tim là một hội chứng lâm sàng phức tạp do tổn \nthương cấu trúc hoặc chức năng đổ đầy thất hoặc tống \nmáu. \n• Biểu hiện lâm sàng chính của suy tim là mệt và khó \nthở. \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. \nDOI: 10.1016/j.jacc.2013.05.019 6",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p3_para_0"
+    ],
+    "context_chars": 756,
+    "elapsed_ms": 0.49,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d03",
+    "split": "dev",
+    "question": "Trong nhóm bệnh cơ tim do độc chất, tài liệu nêu hai chất gây nghiện nào?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p6_para_0",
+        "text": "2/23/18 \n6 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. 2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nNguyên nhân suy tim (1) \n1. Bệnh cơ tim dãn nở: TMCB, bệnh van tim, THA… \n2. Bệnh cơ tim gia đình (Familial Cardiomyopathies) \n3. Bệnh cơ tim do chuyển hoá và nội tiết \n- Béo phì, đái tháo đường, bệnh tuyến giáp \n- Bệnh cực đại đầu chi và bệnh thiếu hormone tăng trưởng (GH) \n4. Bệnh cơ tim do độc chất \n- BCT do rượu \n- BCT do cocaine \n- BCT liên quan đến điều trị ung thư: anthracyclines, \ntrastuzumab, cyclophosphamide, taxoids, mitomycin –C, 5-\nfluorouracil, interferons \nTL: Yancy CW et al.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 6,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 874,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 777
+        },
+        "score": 0.2269742406485485,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p35_para_0",
+        "text": "2/23/18 \n35 \nCn 2014 về chẩn đoán và điều trị suy tim \n69 \nCác thuốc \nđược chứng \nminh kéo dài \nđời sống b/n \nsuy tim tâm \nthu mạn \nhoặc sau \nNMCT \n TL: McMurray JJV \net al. Euro. H. \nJournal (2012); 33: \n1787-1847 \nCn 2014 về chẩn đoán và điều trị suy tim \nLCZ696: thuốc đầu Xên trong nhóm \n ức chế thụ thҳ angiotensin và neprilysin (ARNI)\n\n♣ LCZ696 là một thuốc mới vừa có tác dụng ức chế \n neprilysin vừa có tác dụng chҮn thụ thҳ AT11-3\n\n♣ LCZ696 là một phức hợp muối gồm hai nửa (với \n tỉ lệ mol 1:1) đều có hoạt nh:2,3 \n - sacubitril (AHU377) - một Xền chất; được \n chuyҳn hóa Xếp thành chất ức chế neprilysin \n LBQ657, và\n\n- valsartan - một thuốc chҮn thụ thҳ T1\n\nCấu trúc 3D của LCZ6962",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 35,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 945,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 693
+        },
+        "score": 0.1260709055534516,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p7_para_0",
+        "text": "2/23/18 \n7 \nCn 2014 về chẩn đoán và điều trị suy tim \nNguyên nhân suy tim (2) \n5. Bệnh cơ tim do nhịp tim nhanh \n6. Viêm cơ tim: virus, hội chứng suy giảm miễn dịch bệnh Chagas, quá \nmẫn \n7. Thấp tim và các rối loạn mô liên kết khác \n8. Bệnh cơ tim chu sinh \n9. Bệnh cơ tim do quá tải sắt \n10. Amyloidosis \n11. Sarcoidosis \n12. Bệnh cơ tim do stress (Takotsubo)\n\nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: \n10.1016/j.jacc.2013.05.019 13 \nCn 2014 về chẩn đoán và điều trị suy tim \n0 \n10 \n20 \n30 \n40 \n50 39,6% \n48,4% \n36,5% \n27,0% 27,0% 11,3% \n24,5% 4,4% \n10,1% \n0,0% \nPercentage of previous history \n(%) \nHow about in Vietnam ? \nMai Van Thuat, Huynh van Minh, Some aspects of hospitalised HF patients n Hue University Hospital, 2016",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 7,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 775,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 773
+        },
+        "score": 0.12184202751751116,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.48,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d04",
+    "split": "dev",
+    "question": "Bệnh cơ tim do stress còn được gọi bằng tên gì trong tài liệu?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p6_para_0",
+        "text": "2/23/18 \n6 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. 2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nNguyên nhân suy tim (1) \n1. Bệnh cơ tim dãn nở: TMCB, bệnh van tim, THA… \n2. Bệnh cơ tim gia đình (Familial Cardiomyopathies) \n3. Bệnh cơ tim do chuyển hoá và nội tiết \n- Béo phì, đái tháo đường, bệnh tuyến giáp \n- Bệnh cực đại đầu chi và bệnh thiếu hormone tăng trưởng (GH) \n4. Bệnh cơ tim do độc chất \n- BCT do rượu \n- BCT do cocaine \n- BCT liên quan đến điều trị ung thư: anthracyclines, \ntrastuzumab, cyclophosphamide, taxoids, mitomycin –C, 5-\nfluorouracil, interferons \nTL: Yancy CW et al.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 6,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 874,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 777
+        },
+        "score": 0.22478183879289712,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p50_para_0",
+        "text": "2/23/18 \n50 \nCn 2014 về chẩn đoán và điều trị suy tim \n Ghép tim \n• Khuyến cáo loại I: Đánh giá việc cấy ghép tim được chỉ \nđịnh cẩn thận ở những BN ST giai đoạn D mặc dù đã điều \ntrị bằng dụng cụ và phẫu thuật (mức độ chứng cứ C). \n• Cấy ghép tim được xem là tiêu chuẩn vàng trong điều \ntrị ST giai đoạn cuối kháng trị. \n•  Ghép tim đã cải thiện đáng kể chức năng tim và chất \nlượng cuộc sống. Các lợi ích sống còn được thấy trên \nnhững BN ST có nguy cơ TV cao. \n• Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%\n\nCn 2014 về chẩn đoán và điều trị suy tim \nSống còn bệnh nhân ghép tim \nTL: Hertz MJ et al. Heart Lung Transplant 2008; 27 : 937 \n100",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 50,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 647,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 643
+        },
+        "score": 0.20224544330458116,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p7_para_0",
+        "text": "2/23/18 \n7 \nCn 2014 về chẩn đoán và điều trị suy tim \nNguyên nhân suy tim (2) \n5. Bệnh cơ tim do nhịp tim nhanh \n6. Viêm cơ tim: virus, hội chứng suy giảm miễn dịch bệnh Chagas, quá \nmẫn \n7. Thấp tim và các rối loạn mô liên kết khác \n8. Bệnh cơ tim chu sinh \n9. Bệnh cơ tim do quá tải sắt \n10. Amyloidosis \n11. Sarcoidosis \n12. Bệnh cơ tim do stress (Takotsubo)\n\nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: \n10.1016/j.jacc.2013.05.019 13 \nCn 2014 về chẩn đoán và điều trị suy tim \n0 \n10 \n20 \n30 \n40 \n50 39,6% \n48,4% \n36,5% \n27,0% 27,0% 11,3% \n24,5% 4,4% \n10,1% \n0,0% \nPercentage of previous history \n(%) \nHow about in Vietnam ? \nMai Van Thuat, Huynh van Minh, Some aspects of hospitalised HF patients n Hue University Hospital, 2016",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 7,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 775,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 773
+        },
+        "score": 0.19992138739091578,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.39,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d05",
+    "split": "dev",
+    "question": "Hai thuốc ức chế calci nào được nêu trong danh sách thuốc có thể làm nặng suy tim?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p23_para_0",
+        "text": "2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 23,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 582,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 582
+        },
+        "score": 0.26455209582706335,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p8_para_0",
+        "text": "2/23/18 \n8 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác yếu tố có khả năng làm nặng suy \ntim • Không tiết chế \n• Giảm thuốc điều trị ST không đúng \n• NMCT; thiếu máu cơ tim \n• Loạn nhịp (nhanh, chậm) \n• Nhiễm trùng \n• Thiếu máu \n• Khởi đầu sử dụng các thuốc có thể làm nặng suy tim: \n– Ức chế calci (verapamil, diltiazen) \n– Chẹn beta \n– Kháng viêm không steroid \n– Thuốc chống loạn nhịp (nhóm I, sotalol- nhóm III) \n• Uống rượu \n• Có thai \n• Huyết áp tăng cao \n• Hở van cấp\n\n15 \nCn 2014 về chẩn đoán và điều trị suy tim \nSuy giảm chức năng tâm thu thất trái dẫn đến hoạt hóa \n 3 hệ thống thần kinh-hormone quan trọng \n Sympathetic \n nervous system \n Epinephrine α1, β1, β2 \nNorepinephrine receptors \nVasoconstriction \nNatriuretic peptide \nsystem \n NPRs NPs",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 8,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 1506,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 759
+        },
+        "score": 0.252304514544536,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p35_para_0",
+        "text": "2/23/18 \n35 \nCn 2014 về chẩn đoán và điều trị suy tim \n69 \nCác thuốc \nđược chứng \nminh kéo dài \nđời sống b/n \nsuy tim tâm \nthu mạn \nhoặc sau \nNMCT \n TL: McMurray JJV \net al. Euro. H. \nJournal (2012); 33: \n1787-1847 \nCn 2014 về chẩn đoán và điều trị suy tim \nLCZ696: thuốc đầu Xên trong nhóm \n ức chế thụ thҳ angiotensin và neprilysin (ARNI)\n\n♣ LCZ696 là một thuốc mới vừa có tác dụng ức chế \n neprilysin vừa có tác dụng chҮn thụ thҳ AT11-3\n\n♣ LCZ696 là một phức hợp muối gồm hai nửa (với \n tỉ lệ mol 1:1) đều có hoạt nh:2,3 \n - sacubitril (AHU377) - một Xền chất; được \n chuyҳn hóa Xếp thành chất ức chế neprilysin \n LBQ657, và\n\n- valsartan - một thuốc chҮn thụ thҳ T1\n\nCấu trúc 3D của LCZ6962",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 35,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 945,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 693
+        },
+        "score": 0.23268374173784856,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p23_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 23]\n2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p23_para_0"
+    ],
+    "context_chars": 750,
+    "elapsed_ms": 0.5,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d06",
+    "split": "dev",
+    "question": "Tài liệu yêu cầu những điều kiện nào để chẩn đoán suy tim tâm trương?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p28_para_0",
+        "text": "2/23/18 \n28 \nCn 2014 về chẩn đoán và điều trị suy tim \nLợi tiểu/ suy tim tâm thu \n• Loại I, MCC B: suy tim kèm triệu chứng \ncơ năng của sung huyết \n55 \nCn 2014 về chẩn đoán và điều trị suy tim \n56 \nLiều lượng lợi \ntiểu thường sử \ndụng điều trị suy \ntim (tâm thu, \ntâm trương, \nmạn, cấp) \n TL: McMurray JJV et al. Euro. H. Journal \n(2012); 33: 1787-1847",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 28,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 352,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 352
+        },
+        "score": 0.19100673217055325,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p12_para_1",
+        "text": "Journal (2012); 33: 1787-1847 \n23 \nChẩn đoán suy tim tâm thu: 3 điều kiện \n- TC/ CN \n- TC/ thực thể \n- Giảm PXTM \nChẩn đóan suy tim tâm trương: 4 điều kiện \n- TC/ CN \n- TC/ thực thể \n- PXTM bảo tồn \n- Chứng cứ bệnh cấu trúc cơ tim (dầy TTr, nhĩ trái lớn) và/hoặc rối lọan \nchức năng tâm trương \nCn 2014 về chẩn đoán và điều trị suy tim \nKhuyến cáo về chỉ điểm sinh học trong ST \nCác chỉ điểm sinh học, áp dụng Đặc điểm Mức KC Độ BC \nNatriuretic peptides \nChẩn đoán hoặc loại trừ ST Lưu động, Cấp I A \n Tiên lượng ST Lưu động, Cấp I A \n Đạt mức GDMT Lưu động IIa B \n Hướng dẫn điều trị ST mất bù \ncấp Cấp IIb C \nChỉ điểm tổn thương cơ tim \n Phân tầng nguy cơ kèm theo Cấp, Lưu động I A \nChỉ điểm xơ hóa cơ tim \n Phân tầng nguy cơ kèm theo",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 12,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 936,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 1,
+          "char_length": 737
+        },
+        "score": 0.18013017017010924,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p15_para_0",
+        "text": "2/23/18 \n15 \nCn 2014 về chẩn đoán và điều trị suy tim \nCHẨN ĐOÁN SUY TIM\n\nKHUYẾN CÁO ĐIỀU TRỊ SUY TIM ESC 2012",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 15,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 948,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 110
+        },
+        "score": 0.14741023477239187,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p28_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 28]\n2/23/18 \n28 \nCn 2014 về chẩn đoán và điều trị suy tim \nLợi tiểu/ suy tim tâm thu \n• Loại I, MCC B: suy tim kèm triệu chứng \ncơ năng của sung huyết \n55 \nCn 2014 về chẩn đoán và điều trị suy tim \n56 \nLiều lượng lợi \ntiểu thường sử \ndụng điều trị suy \ntim (tâm thu, \ntâm trương, \nmạn, cấp) \n TL: McMurray JJV et al. Euro. H. Journal \n(2012); 33: 1787-1847\n\n[cme2._suy_timgs_minh_p15_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 15]\n2/23/18 \n15 \nCn 2014 về chẩn đoán và điều trị suy tim \nCHẨN ĐOÁN SUY TIM\n\nKHUYẾN CÁO ĐIỀU TRỊ SUY TIM ESC 2012",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p28_para_0",
+      "cme2._suy_timgs_minh_p15_para_0"
+    ],
+    "context_chars": 800,
+    "elapsed_ms": 0.45,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d07",
+    "split": "dev",
+    "question": "Theo phân độ NYHA trong bài giảng, mức III được mô tả thế nào về vận động và triệu chứng khi nghỉ?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p16_para_1",
+        "text": "I II Hạn chế nhẹ vận động thể lực. Bệnh nhân khỏe khi \nnghỉ ngơi. Vận động thể lực thông thường dẫn đến \nmệt, hồi hộp, khó thở hoặc đau ngực. \n III Hạn chế nhiều vận động thể lực. Mặc dù bệnh nhân \nkhỏe khi nghỉ ngơi, nhưng chỉ vận động nhẹ đã có \ntriệu chứng cơ năng. \n D Suy tim kháng trị, cần can thiệp \nđặc biệt\n\nIV Không vận động thể lực nào mà không gây khó chịu. \nTriệu chứng cơ năng suy tim xảy ra khi nghỉ ngơi. \nChỉ vận động thể lực triệu chứng cơ năng gia tăng.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 16,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 1074,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 1,
+          "char_length": 472
+        },
+        "score": 0.34872655984953105,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p16_para_0",
+        "text": "2/23/18 \n16 \nCn 2014 về chẩn đoán và điều trị suy tim \nAt Risk of Heart \nFailure \nHeart \nFailure \nHunt SA, Abraham WT, Chin MH et al. Circulation 2005 \nPhân độ suy tim theo ACC/AHA \nCn 2014 về chẩn đoán và điều trị suy tim \nCác GĐ suy tim theo AHA/ACCF (2013)và NYHA \n Theo ACCF/AHA Theo NYHA A Nguy cơ cao suy tim không bệnh \ntim thực thể hoặc triệu chứng cơ \nnăng suy tim\n\nB Có bệnh tim thực thể nhưng \nkhông triệu chứng suy tim \n I Không hạn chế, vận động thể lực thông thường không \ngây mệt, khó thở hoặc hồi hộp. \n C Có bệnh tim thực thể trước kia \nhoặc hiện tại có t/c cơ năng suy \ntim",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 16,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 1074,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 591
+        },
+        "score": 0.1925400077761992,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p17_para_0",
+        "text": "2/23/18 \n17 \nCn 2014 về chẩn đoán và điều trị suy tim \nKhả năng chẩn đoán của khảo sát \nhình ảnh không xâm nhập \nTL: Friedrich MG. J Am Cardiol Img 1: 652, 2008 33 \nCn 2014 về chẩn đoán và điều trị suy tim \nBệnh sử và khám thực thể bệnh nhân suy tim (1) \n34 \nHistory Comments \nCác dấu hiệu gợi ý nguyên nhân suy tim (ST) Hỏi kỹ tiền sử gia đình \nCác nguyên nhân suy tim nêu trên \nThời gian bệnh Bệnh nhân mới bị suy tim TTh có thể hồi phục \ntheo thời gian \nĐộ nặng và khởi phát khó thở và mệt \nCác triệu chứng: đau ngực, khả năng gắng sức, \nvận động, tình dục \nPhân độ NYHA, các triệu chứng TMCB \nChán ăn, no sớm, giảm cân Triệu chứng tiêu hoá thường gặp ở ST.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 17,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 970,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 660
+        },
+        "score": 0.160799487655716,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p16_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 16]\nI II Hạn chế nhẹ vận động thể lực. Bệnh nhân khỏe khi \nnghỉ ngơi. Vận động thể lực thông thường dẫn đến \nmệt, hồi hộp, khó thở hoặc đau ngực. \n III Hạn chế nhiều vận động thể lực. Mặc dù bệnh nhân \nkhỏe khi nghỉ ngơi, nhưng chỉ vận động nhẹ đã có \ntriệu chứng cơ năng. \n D Suy tim kháng trị, cần can thiệp \nđặc biệt\n\nIV Không vận động thể lực nào mà không gây khó chịu. \nTriệu chứng cơ năng suy tim xảy ra khi nghỉ ngơi. \nChỉ vận động thể lực triệu chứng cơ năng gia tăng.",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p16_para_1"
+    ],
+    "context_chars": 640,
+    "elapsed_ms": 0.96,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d08",
+    "split": "dev",
+    "question": "Hai chất chỉ điểm sinh học mới giúp khảo sát tình trạng sợi hóa cơ tim được nêu là gì?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p20_para_0",
+        "text": "2/23/18 \n20 \nCn 2014 về chẩn đoán và điều trị suy tim \nTrắc nghiệm giúp chẩn đoán/ ST (3) \nLoại I \n1. BNP hoặc NT-proBNP giúp chẩn đoán \n(MCC: A) \n2. BNP hoặc NT- proBNP và/hoặc \nTroponins tim: tiên lượng và độ nặng \nbệnh nhân ST cấp \n39 TL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \nCn 2014 về chẩn đoán và điều trị suy tim \nChất chỉ điểm sinh học mới trong \nsuy tim \n• Soluble ST2, galectin-3 \n• Giúp khảo sát tình trạng sợi hoá cơ \ntim \n• Hiệu quả: \n– Tiên đoán tái nhập viện và tử vong \n– Giá trị tiên lượng bệnh \n40",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 20,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 587,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 587
+        },
+        "score": 0.3369912648593397,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p21_para_0",
+        "text": "2/23/18 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nMục tiêu điều trị suy tim \n• Giảm tử vong \n• Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim \n42",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 21,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 488,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 488
+        },
+        "score": 0.20673837267257097,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p11_para_0",
+        "text": "2/23/18 \n11 \nCn 2014 về chẩn đoán và điều trị suy tim \nHoạt hóa hệ renin-angiotensin-\naldosterone/suy tim \nTL: Nohria A et al. In Colluci WS (ed): Atlas of Heart Failure, 4th ed Philadelphia \nCurrent Medicine 2005 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \nsuy tim \n4. Điều trị : thuốc mới, điều trị theo giai đoạn",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 11,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 445,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 445
+        },
+        "score": 0.19374443464290925,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p20_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 20]\n2/23/18 \n20 \nCn 2014 về chẩn đoán và điều trị suy tim \nTrắc nghiệm giúp chẩn đoán/ ST (3) \nLoại I \n1. BNP hoặc NT-proBNP giúp chẩn đoán \n(MCC: A) \n2. BNP hoặc NT- proBNP và/hoặc \nTroponins tim: tiên lượng và độ nặng \nbệnh nhân ST cấp \n39 TL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \nCn 2014 về chẩn đoán và điều trị suy tim \nChất chỉ điểm sinh học mới trong \nsuy tim \n• Soluble ST2, galectin-3 \n• Giúp khảo sát tình trạng sợi hoá cơ \ntim \n• Hiệu quả: \n– Tiên đoán tái nhập viện và tử vong \n– Giá trị tiên lượng bệnh \n40",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p20_para_0"
+    ],
+    "context_chars": 755,
+    "elapsed_ms": 0.89,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d09",
+    "split": "dev",
+    "question": "Ngoài giảm tử vong, tài liệu nêu các mục tiêu điều trị suy tim nào?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p21_para_0",
+        "text": "2/23/18 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nMục tiêu điều trị suy tim \n• Giảm tử vong \n• Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim \n42",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 21,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 488,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 488
+        },
+        "score": 0.25913702873687616,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p44_para_0",
+        "text": "2/23/18 \n44 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị suy tim với chức năng \nthất trái bảo tồn \n• Nghiên cứu CHARM- Preserved (3023 bệnh nhân): \ncandesartan không giảm có ý nghĩa tiêu chí chính (tử \nvong tim mạch, suy tim) \n• Nghiên cứu PEP- CHF (850 bệnh nhân perindopril): \ngiảm có ý nghĩa tử vong tim mạch và suy tim/ 1 năm \n• Lợi tiểu: giảm triệu chứng \n• Kiểm soát tốt THA và TMCB cơ tim, tần số thất, RN \n87 \nn TL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nHạn chế muối nước\n\nHạn chế nước (1.5 đến 2 L/d) là thích hợp \ntrong giai đoạn D, đặc biệt ở bệnh nhân \ngiảm natri máu, nhằm giảm triệu chứng \nsung huyết.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 44,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 855,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 769
+        },
+        "score": 0.18359488236060303,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p17_para_0",
+        "text": "2/23/18 \n17 \nCn 2014 về chẩn đoán và điều trị suy tim \nKhả năng chẩn đoán của khảo sát \nhình ảnh không xâm nhập \nTL: Friedrich MG. J Am Cardiol Img 1: 652, 2008 33 \nCn 2014 về chẩn đoán và điều trị suy tim \nBệnh sử và khám thực thể bệnh nhân suy tim (1) \n34 \nHistory Comments \nCác dấu hiệu gợi ý nguyên nhân suy tim (ST) Hỏi kỹ tiền sử gia đình \nCác nguyên nhân suy tim nêu trên \nThời gian bệnh Bệnh nhân mới bị suy tim TTh có thể hồi phục \ntheo thời gian \nĐộ nặng và khởi phát khó thở và mệt \nCác triệu chứng: đau ngực, khả năng gắng sức, \nvận động, tình dục \nPhân độ NYHA, các triệu chứng TMCB \nChán ăn, no sớm, giảm cân Triệu chứng tiêu hoá thường gặp ở ST.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 17,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 970,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 660
+        },
+        "score": 0.14242699571905998,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p21_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 21]\n2/23/18 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nMục tiêu điều trị suy tim \n• Giảm tử vong \n• Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim \n42",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p21_para_0"
+    ],
+    "context_chars": 656,
+    "elapsed_ms": 0.78,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d10",
+    "split": "dev",
+    "question": "Phần điều trị không thuốc liệt kê những thay đổi lối sống nào?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p22_para_0",
+        "text": "2/23/18 \n22 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác biện pháp cơ bản điều trị suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị không thuốc \n• Hướng dẫn bệnh nhân có thể tự chăm sóc, hiểu \nbiết về tật bệnh, triệu chứng bệnh bắt đầu nặng \nhơn. \n• Hiểu biết về điều trị, tác dụng không mong muốn \ncủa thuốc. \n• Thay đổi lối sống: giảm cân, ngưng thuốc lá, \nkhông uống rượu, bớt mặn (bớt Natri), tập thể \ndục, hạn chế nước (suy tim nặng) \n44",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 22,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 455,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 455
+        },
+        "score": 0.28777587855405384,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p50_para_0",
+        "text": "2/23/18 \n50 \nCn 2014 về chẩn đoán và điều trị suy tim \n Ghép tim \n• Khuyến cáo loại I: Đánh giá việc cấy ghép tim được chỉ \nđịnh cẩn thận ở những BN ST giai đoạn D mặc dù đã điều \ntrị bằng dụng cụ và phẫu thuật (mức độ chứng cứ C). \n• Cấy ghép tim được xem là tiêu chuẩn vàng trong điều \ntrị ST giai đoạn cuối kháng trị. \n•  Ghép tim đã cải thiện đáng kể chức năng tim và chất \nlượng cuộc sống. Các lợi ích sống còn được thấy trên \nnhững BN ST có nguy cơ TV cao. \n• Tỉ lệ sống còn: 1 năm 80% - 90%, 5 năm \n70%\n\nCn 2014 về chẩn đoán và điều trị suy tim \nSống còn bệnh nhân ghép tim \nTL: Hertz MJ et al. Heart Lung Transplant 2008; 27 : 937 \n100",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 50,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 647,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 643
+        },
+        "score": 0.19153192307849584,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p23_para_0",
+        "text": "2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 23,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 582,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 582
+        },
+        "score": 0.10708131849365558,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p22_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 22]\n2/23/18 \n22 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác biện pháp cơ bản điều trị suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị không thuốc \n• Hướng dẫn bệnh nhân có thể tự chăm sóc, hiểu \nbiết về tật bệnh, triệu chứng bệnh bắt đầu nặng \nhơn. \n• Hiểu biết về điều trị, tác dụng không mong muốn \ncủa thuốc. \n• Thay đổi lối sống: giảm cân, ngưng thuốc lá, \nkhông uống rượu, bớt mặn (bớt Natri), tập thể \ndục, hạn chế nước (suy tim nặng) \n44",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p22_para_0"
+    ],
+    "context_chars": 623,
+    "elapsed_ms": 0.49,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d11",
+    "split": "dev",
+    "question": "Trong mục tác dụng thuốc, ba loại giúp cải thiện triệu chứng được liệt kê là gì?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p23_para_0",
+        "text": "2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 23,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 582,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 582
+        },
+        "score": 0.3122534534423483,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p34_para_0",
+        "text": "2/23/18 \n34 \nCn 2014 về chẩn đoán và điều trị suy tim \nDigoxin/ Suy tim tâm thu \n• Loại I, MCC C: \n– PXTM ≤ 40%, có triệu chứng cơ năng kèm \nrung nhĩ \n• Loại IIa, MCC B: \n– PXTM ≤ 40%, có triệu chứng cơ năng, nhịp \nxoang \n67 \nTL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị lâu dài và tiên lượng trong suy tim \n• Thuốc làm giảm tử vong \n– Chẹn thụ thể \n– Ức chế men chuyển \n– Kháng aldosterone \n– Isosorbide và \nhydralazine ở người da \nđen \n• Thuốc cải thiện triệu chứng \nnhưng không cải thiện tiên \nlượng: \n– Glycoside trợ Xm \n– Lợi Xểu vòng.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 34,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 853,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 693
+        },
+        "score": 0.26332368056047295,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p21_para_0",
+        "text": "2/23/18 \n21 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm mới trong suy tim \n1. Định nghĩa suy tim. \n2. Cơ chế sinh bệnh: hệ peptid \n3. Chẩn đoán : chỉ điểm sinh học, phân độ \n suy tim \n4. Điều trị : thuốc mới, điều trị theo giai đọan \nCn 2014 về chẩn đoán và điều trị suy tim \nMục tiêu điều trị suy tim \n• Giảm tử vong \n• Cải thiện triệu chứng, chất lượng cuộc sống, \ntăng khả năng gắng sức, giảm số lần nhập viện \n• Phòng ngừa tăng tổn thương cơ tim; giảm tái \ncấu trúc cơ tim \n42",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 21,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 488,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 488
+        },
+        "score": 0.1790296113052678,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p23_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 23]\n2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p23_para_0"
+    ],
+    "context_chars": 750,
+    "elapsed_ms": 0.47,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d12",
+    "split": "dev",
+    "question": "Theo slide ức chế men chuyển, creatinine được thử lại sau khoảng thời gian nào?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p24_para_0",
+        "text": "2/23/18 \n24 \nCn 2014 về chẩn đoán và điều trị suy tim \nCÁC NHÓM THUỐC GiẢM TỬ VONG TRONG \n SUY TIM EF GiẢM \nCn 2014 về chẩn đoán và điều trị suy tim \nỨc chế men chuyển/ suy tim tâm thu \n (Loại I, MCC:A) \n• Tất cả bệnh nhân có PXTM ≤ 40% \n• Chống chỉ định: \n– Tiền sử phù mạch \n– Hẹp ĐM thận 2 bên \n– K + > 5 mmol/L \n– Creatinine máu > 220 mmol/L (~2,5mg/L) \n– Hẹp van ĐMC nặng \n• Liều từ thấp đến cao- Thử lại creatinine 2 tuần sau \n• Ngưng UCMC nếu \n creatinine tăng ≥ 50% trị số ban đầu (hoặc K+> 5.5 mmol/L) \n48",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 24,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 514,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 514
+        },
+        "score": 0.29235376841578714,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p32_para_1",
+        "text": "Tiếp tục tăng liều để đạt liều đích sau khi các \ntriệu chứng trở lại bình thường \nNếu không thể tăng \nliều \nKéo dài thời gian tăng liều \nGiảm liều đích \nTham khảo chuyên khoa suy tim",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 32,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 862,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 1,
+          "char_length": 182
+        },
+        "score": 0.14758420390188506,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p35_para_0",
+        "text": "2/23/18 \n35 \nCn 2014 về chẩn đoán và điều trị suy tim \n69 \nCác thuốc \nđược chứng \nminh kéo dài \nđời sống b/n \nsuy tim tâm \nthu mạn \nhoặc sau \nNMCT \n TL: McMurray JJV \net al. Euro. H. \nJournal (2012); 33: \n1787-1847 \nCn 2014 về chẩn đoán và điều trị suy tim \nLCZ696: thuốc đầu Xên trong nhóm \n ức chế thụ thҳ angiotensin và neprilysin (ARNI)\n\n♣ LCZ696 là một thuốc mới vừa có tác dụng ức chế \n neprilysin vừa có tác dụng chҮn thụ thҳ AT11-3\n\n♣ LCZ696 là một phức hợp muối gồm hai nửa (với \n tỉ lệ mol 1:1) đều có hoạt nh:2,3 \n - sacubitril (AHU377) - một Xền chất; được \n chuyҳn hóa Xếp thành chất ức chế neprilysin \n LBQ657, và\n\n- valsartan - một thuốc chҮn thụ thҳ T1\n\nCấu trúc 3D của LCZ6962",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 35,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 945,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 693
+        },
+        "score": 0.11338895980333266,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p24_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 24]\n2/23/18 \n24 \nCn 2014 về chẩn đoán và điều trị suy tim \nCÁC NHÓM THUỐC GiẢM TỬ VONG TRONG \n SUY TIM EF GiẢM \nCn 2014 về chẩn đoán và điều trị suy tim \nỨc chế men chuyển/ suy tim tâm thu \n (Loại I, MCC:A) \n• Tất cả bệnh nhân có PXTM ≤ 40% \n• Chống chỉ định: \n– Tiền sử phù mạch \n– Hẹp ĐM thận 2 bên \n– K + > 5 mmol/L \n– Creatinine máu > 220 mmol/L (~2,5mg/L) \n– Hẹp van ĐMC nặng \n• Liều từ thấp đến cao- Thử lại creatinine 2 tuần sau \n• Ngưng UCMC nếu \n creatinine tăng ≥ 50% trị số ban đầu (hoặc K+> 5.5 mmol/L) \n48",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p24_para_0"
+    ],
+    "context_chars": 682,
+    "elapsed_ms": 0.48,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d13",
+    "split": "dev",
+    "question": "Theo hướng dẫn cách dùng chẹn beta trong bài giảng, mục tiêu đạt liều đích trong bao nhiêu tuần?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p32_para_0",
+        "text": "2/23/18 \n32 \nChẹn Beta được dùng qua các nghiên cứu \nTên gốc Biệt dược Liều khởi đầu Liều đích Liều trung \nbình theo \ncác NC \nBisoprolol Zebeta 1.25 mg qd 10 mg qd 8.6 mg/ng \nCarvedilol Coreg 3.125 mg bid 25 mg bid 37 mg/ng \nCarvedilol Coreg CR 10 mg qd 80 mg qd \nMetoprolol \nsuccinate \nCR/XL \nToprol XL 12.5-25 mg qd 200 mg qd 159 mg/ng \nHFSA 2010 Practice Guideline Cách dùng thuốc chẹn beta \nCách xử dụng \nchung \nKhởi đầu liều thấp \nTăng dần liều, thường không truớc 2 tuần \nDùng liều đích cho thấy có tác dụng \nMục tiêu đạt liều đích trong 8-12 tuần \nDuy trì liều tối đa dung nạp đựơc \nNếu triệu chứng \nxấu đi hoặc tác \ndụng phụ xuát hiện \nThêm lợi tiểu hoặc thuốc dãn mạch.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 32,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 862,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 678
+        },
+        "score": 0.3071761300425971,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p32_para_1",
+        "text": "Tiếp tục tăng liều để đạt liều đích sau khi các \ntriệu chứng trở lại bình thường \nNếu không thể tăng \nliều \nKéo dài thời gian tăng liều \nGiảm liều đích \nTham khảo chuyên khoa suy tim",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 32,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 862,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 1,
+          "char_length": 182
+        },
+        "score": 0.2292992209717832,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p40_para_1",
+        "text": "Bệnh nhân không ngưng đột ngột điều trị \n8. Xem xét lại cẩn thận liều lượng thuốc điều trị suy tim chỉ để giảm triệu \nchứng (TD: lợi tiểu, nitrates) trong khi tăng liều. 9. Chỉnh liều tạm thời khi có bệnh không phải ở tim hết hợp (TD: nhiễm \ntrùng phổi, nguy cơ thiếu nước) \n10. Hướng dẫn bệnh nhân và gia đình về lợi điểm của điều trị theo khuyến \ncáo. TL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \n80",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 40,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 1274,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 1,
+          "char_length": 469
+        },
+        "score": 0.14750563493161528,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p32_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 32]\nTiếp tục tăng liều để đạt liều đích sau khi các \ntriệu chứng trở lại bình thường \nNếu không thể tăng \nliều \nKéo dài thời gian tăng liều \nGiảm liều đích \nTham khảo chuyên khoa suy tim",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p32_para_1"
+    ],
+    "context_chars": 350,
+    "elapsed_ms": 0.54,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d14",
+    "split": "dev",
+    "question": "Trong chiến lược tối ưu điều trị nội, hai nhóm bệnh nhân nào được ví dụ là cần thăm khám thường xuyên và tăng liều chậm?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p40_para_0",
+        "text": "2/23/18 \n40 \nCn 2014 về chẩn đoán và điều trị suy tim \nChiến lược tối ưu điều trị nội (1) \n1. Tăng liều nhỏ đến liều cao nhất bệnh nhân dung nạp được \n2. Một số bệnh nhân (TD: cao tuổi, bệnh thận mạn) cần thăm khám \nthường xuyên, tăng liều chậm \n3. Theo dõi dấu sinh tồn chặt chẽ trước và trong khi tăng liều [HA tư thế \nđứng, tần số tim, triệu chứng cơ năng khi đứng, tim chậm, Hatth thấp \n(80-100mmHg)] \n4. Lần lượt chỉnh liều từng nhóm thuốc \n5. Theo dõi chức năng thận, điện giải đồ \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \n79 \nCn 2014 về chẩn đoán và điều trị suy tim \nChiến lược tối ưu điều trị nội (2) \n6. Bệnh nhân có thể có cảm giác mệt hay yếu khi tăng liều. Nếu dấu sinh \ntồn tốt, triệu chứng sẽ hết sau vài ngày. 7.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 40,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 1274,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 800
+        },
+        "score": 0.48568977393032503,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p32_para_1",
+        "text": "Tiếp tục tăng liều để đạt liều đích sau khi các \ntriệu chứng trở lại bình thường \nNếu không thể tăng \nliều \nKéo dài thời gian tăng liều \nGiảm liều đích \nTham khảo chuyên khoa suy tim",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 32,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 862,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 1,
+          "char_length": 182
+        },
+        "score": 0.15613122389552728,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p18_para_0",
+        "text": "2/23/18 \n18 \nCn 2014 về chẩn đoán và điều trị suy tim \nBệnh sử và khám thực thể \nbệnh nhân suy tim (2) \n35 \nNhập viện vì suy tim: lần mới đây, có \nthường xuyên \nCó ngưng thuốc trị ST \nCác thuốc có thể làm nặng ST \nChế độ ăn \nTuân thủ điều trị \nCn 2014 về chẩn đoán và điều trị suy tim \nBệnh sử và khám thực thể \nbệnh nhân suy tim (3) \n• BMI, chứng cứ giảm cân \n• Huyết áp (nằm, đứng) \n• Mạch \n• Áp lực động mạch cổ lúc nghỉ và sau ấn bụng \n• Âm thổi, tiếng tim, mỏm tim \n• Thất phải nhô cao; ran phổi; TDMP \n• Gan lớn, cổ chướng \n• Phù ngoại vi: nhiệt độ chi dưới \n36",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 18,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 567,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 567
+        },
+        "score": 0.15023246299317833,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p32_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 32]\nTiếp tục tăng liều để đạt liều đích sau khi các \ntriệu chứng trở lại bình thường \nNếu không thể tăng \nliều \nKéo dài thời gian tăng liều \nGiảm liều đích \nTham khảo chuyên khoa suy tim",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p32_para_1"
+    ],
+    "context_chars": 350,
+    "elapsed_ms": 1.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d15",
+    "split": "dev",
+    "question": "Tại phần điều trị giai đoạn C, ba chẹn beta được nêu đích danh là gì?",
+    "status": "ok",
+    "results": [
+      {
+        "id": "cme2._suy_timgs_minh_p15_para_1",
+        "text": "Cn 2014 về chẩn đoán và điều trị suy tim \nCác giai đoạn suy tim/ACC/AHA \nGiai đoạn A \nNguy cơ cao suy tim \nkhông bệnh tim thực \nthể hoặc triệu chứng \ncơ năng suy tim \nGiai đoạn B \nCó bệnh tim \nthực thể nhưng \nkhông triệu \nchứng suy tim \nGiai đoạn C \nCó bệnh tim thực \nthể trước kia hoặc \nhiện tại có triệu \nchứng cơ năng suy \ntim \nGiai đoạn D \nSuy tim kháng \ntrị, cần can \nthiệp đặc biệt \n. THA \n. bệnh xơ vữa ĐM \n. ĐTĐ \n. Béo phì \n. Hội chứng Ch. hóa \nhoặc \n. Dùng thuốc độc với \ntim; tiền sử có bệnh \n. Tiền sử \nNMCT \n. Tái cấu \ntrúc thất trái \n. Bệnh van \ntim không \ntriệu chứng \ncơ năng \nCó bệnh \ntim thực \nthể \nKèm khó \nthở, mệt \ngiảm gắng \nsức \nB/n có triệu \nchứng cơ \nnăng rất nặng \nlúc nghỉ mặc \ndù điều trị nội \ntối đa \nTL : Hunt SA et al.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 15,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 948,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 1,
+          "char_length": 748
+        },
+        "score": 0.19554409241485027,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p41_para_0",
+        "text": "2/23/18 \n41 \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn A suy tim \n Nhóm I \n• Khảo sát định kỳ triệu chứng cơ năng và thực thể suy tim/ bn \nnguy cơ cao (MCC:C) \n• Khảo sát không xâm nhập (td: siêu âm tim) chức năng tim/ bn \ncó tiền sử gia đình bệnh cơ tim hoặc tiền sử sử dụng thuốc có \nđộc tính với cơ tim (C) \n Nhóm IIa \n• UCMC/ bệnh xơ vữa động mạch, ĐTĐ, THA có kèm YTNC \ntim mạch (A) \n• Chẹn thụ thể Angiotensin II có thể thay thế UCMC (C). KHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM \nCn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn B suy tim \n• Tất cả các biện pháp của giai đoạn A ( A, B, C) \n• Chẹn bêta và UCMC: mọi bệnh nhân sau NMCT bất \nkể PXTM hay triệu chứng cơ năng của suy tim.",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 41,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 1124,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 742
+        },
+        "score": 0.18871460299665796,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cme2._suy_timgs_minh_p52_para_0",
+        "text": "2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI",
+        "source_id": "cme2._suy_timgs_minh",
+        "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+        "page": 52,
+        "metadata": {
+          "total_pages": 52,
+          "is_empty": false,
+          "char_count": 596,
+          "chunk_type": "by_paragraph",
+          "chunk_index": 0,
+          "char_length": 596
+        },
+        "score": 0.1834827919886188,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[cme2._suy_timgs_minh_p52_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 52]\n2/23/18 \n52 \nCn 2014 về chẩn đoán và điều trị suy tim \nKẾT LUẬN \n• Suy tim luôn là vấn đề thách thức lớn cho tim mạch. \n• Nhiều tiến bộ mới về cơ chế, chẩn đoán và đặc biệt \nđiều trị đã liên tục cập nhật. \n• Mặc dù có nhiều biện pháp điều trị nhưng điều trị \nnội khoa vẫn là phương pháp cơ bản. \n• Các thuốc UCMC, UCTT, chẹn beta, lợi tiểu vẫn là \nviên đá tảng cho điều trị nội khoa suy tim. \n• Nhiều loại thuốc mới đang được nghiên cứu xử dụng \nnhư ivabradin, copeptine đặc biệt LCZ696 có nhiều \nhứa hẹn. \nCn 2014 về chẩn đoán và điều trị suy tim \nCHÂN THÀNH CÁM ƠN QUÍ ĐẠI BiỂU \nHẸN GẶP LẠI TẠI",
+    "context_ids": [
+      "cme2._suy_timgs_minh_p52_para_0"
+    ],
+    "context_chars": 764,
+    "elapsed_ms": 0.47,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

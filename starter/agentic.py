@@ -30,7 +30,7 @@ class Retriever(Protocol):
 
 def run_agent(question: str, controller: Controller, retriever: Retriever, *,
               filters: dict[str, Any] | None = None, max_searches: int = 4,
-              top_k: int = 3, budget: int = 800) -> dict[str, Any]:
+              top_k: int = 3, budget: int = 800, trace_sink=None, on_event=None) -> dict[str, Any]:
     """Return answer, citation IDs and trace; no benchmark gold enters this loop.
 
     A final answer without valid citations, an empty context, and a search limit
@@ -42,7 +42,7 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
     history: list[dict[str, Any]] = []
     chunks: dict[str, dict[str, Any]] = {}
     candidates: list[dict[str, Any]] = []
-    events: list[dict[str, Any]] = []
+    events: list[dict[str, Any]] = trace_sink if trace_sink is not None else []
     for _ in range(max_searches + 1):
         action = controller.decide(question, history)
         if action.get('action') == 'search':
@@ -51,6 +51,9 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             query = action.get('query')
             if not isinstance(query, str) or not query.strip():
                 raise ValueError('search query phải là chuỗi không rỗng')
+            if on_event:
+                on_event({'type': 'searching', 'query': query,
+                          'iteration': 1 + sum(e['event'] == 'search' for e in events)})
             results = retriever.search(query, filters=filters, top_k=top_k)
             if len(results) > top_k or len({r['id'] for r in results}) != len(results):
                 raise ValueError('retriever phải trả tối đa top_k chunk ID duy nhất')
@@ -59,6 +62,9 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             chunks = {c['id']: c for c in candidates if c['id'] in ids}
             events.append({'event': 'search', 'query': query, 'filter': filters, 'results': results,
                            'context': context, 'context_ids': ids})
+            if on_event:
+                on_event({'type': 'retrieved', 'query': query, 'results': results,
+                          'context_ids': ids, 'context': context})
             # Send only the latest cumulative context; avoid multiplying the budget.
             history = [{'tool': 'search', 'queries': [e['query'] for e in events if e['event'] == 'search'],
                         'context': context, 'context_ids': ids}]
@@ -69,7 +75,7 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             valid = bool(answer.strip() and citations and all(i in chunks and f'[{i}]' in answer for i in citations))
             if valid:
                 return {'status': 'answered', 'answer': answer, 'citations': citations, 'events': events + [{'event': 'answer'}]}
-            return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events + [{'event': 'invalid_or_missing_citations'}]}
+            return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events + [{'event': 'abstain' if not citations else 'invalid_citations'}]}
         else:
             raise ValueError('action phải là search hoặc answer')
     return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events}

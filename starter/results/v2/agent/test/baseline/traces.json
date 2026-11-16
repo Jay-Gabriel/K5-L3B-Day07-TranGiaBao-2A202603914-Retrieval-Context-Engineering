@@ -1,0 +1,2192 @@
+[
+  {
+    "query_id": "t01",
+    "question": "Theo bảng phân loại EF trong bài giảng, HFpEF có EF từ bao nhiêu phần trăm trở lên?",
+    "split": "test",
+    "model": "gemini-3.5-flash-lite",
+    "config_name": "baseline",
+    "config": {
+      "method": "tfidf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Theo bảng phân loại EF trong bài giảng, HFpEF có EF từ bao nhiêu phần trăm trở lên",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p4_para_0",
+            "text": "2/23/18 \n4 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐịnh nghĩa suy tim \nPhân loại EF Mô tả \nI. Suy Tim với \nEF giảm \n (HFrEF) \n≤40% - ST tâm thu. -  Điều trị hữu hiệu hiện nay đã được xác định. II. Suy Tim với EF \nduy trì (HFpEF) \n≥50% - ST tâm trương. - Một vài tiêu chuẩn được dùng để xác định HFpEF. -  Chẩn đoán HFpEF là thử thách vì cần phải loại \ntrừ các nguyên nhân không do tim gây ST. -  Chưa có điều trị hữu hiệu . a. HFpEF, Giới \nhạn \n41% - \n49% \nĐặc điểm lâm sàng, điều trị và tiên lượng tương tự \nnhư nhóm bệnh nhân HFpEF. b. HFpEF, \nCải thiện \n>40% - Là nhóm HFpEF trước đây còn HFrEF. -  EF cải thiện hoặc hồi phục về lâm sàng khác với \nnhóm EF duy trì và EF suy giảm. - Cần có các nghiên cứu thêm .",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 4,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1037,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 716
+            },
+            "score": 0.43585908032651327,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p5_para_0",
+            "text": "2/23/18 \n5 \nCn 2014 về chẩn đoán và điều trị suy tim \nEcho \nparameter \n Value Category of HF n % \nEF \n(%) \n≥50 Preserved EF 105 66,0 \n41 – 49 Bordeline EF 36 22,6 \n≤40 Reduced EF 18 11,3 \nHow about in Vietnam ? \nMai Van Thuat, Huynh van Minh, Some aspects of hospitalised HF patients n Hue University Hospital, 2016 \nCn 2014 về chẩn đoán và điều trị suy tim \n2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. \nDefinition of Heart Failure 2016",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 5,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 480,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 480
+            },
+            "score": 0.21278401161337818,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p4_para_1",
+            "text": "2013 ACCF/AHA Guideline for the Management of Heart Failure \nCn 2014 về chẩn đoán và điều trị suy tim \nCác định nghĩa suy tim tâm thu (HFr EF) và suy \ntim với phân suất tống máu bảo tồn (HFp EF) \nTL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 8",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 4,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1037,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 1,
+              "char_length": 309
+            },
+            "score": 0.1954919140061273,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p5_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 5]\n2/23/18 \n5 \nCn 2014 về chẩn đoán và điều trị suy tim \nEcho \nparameter \n Value Category of HF n % \nEF \n(%) \n≥50 Preserved EF 105 66,0 \n41 – 49 Bordeline EF 36 22,6 \n≤40 Reduced EF 18 11,3 \nHow about in Vietnam ? \nMai Van Thuat, Huynh van Minh, Some aspects of hospitalised HF patients n Hue University Hospital, 2016 \nCn 2014 về chẩn đoán và điều trị suy tim \n2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. \nDefinition of Heart Failure 2016",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p5_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Theo bảng phân loại EF trong bài giảng, HFpEF (Preserved EF) có EF từ 50% trở lên [cme2._suy_timgs_minh_p5_para_0].",
+    "citations": [
+      "cme2._suy_timgs_minh_p5_para_0"
+    ],
+    "model_calls": [
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 995.53,
+        "usage": {
+          "promptTokenCount": 462,
+          "candidatesTokenCount": 34,
+          "totalTokenCount": 496,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 462
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Theo bảng phân loại EF trong bài giảng, HFpEF có EF từ bao nhiêu phần trăm trở lên"
+                      },
+                      "id": "call_12998611374065042209"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TJjOj4X3PMAEdjVmjXVSIHjDLPhKcQboP9kVmptWnmaZ6t/n5hyOysR3/5YItOc2vMOZkBhIk+cM+bwCJpXyoMDIXabGZQQY1rduJYC10kpCD8GwvE98iQhU="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 462,
+            "candidatesTokenCount": 34,
+            "totalTokenCount": 496,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 462
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "iH36apnqINOMvr0PldS38Ao"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4615.39,
+        "usage": {
+          "promptTokenCount": 797,
+          "candidatesTokenCount": 84,
+          "totalTokenCount": 881,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 797
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "answer": "Theo bảng phân loại EF trong bài giảng, HFpEF (Preserved EF) có EF từ 50% trở lên [cme2._suy_timgs_minh_p5_para_0].",
+                        "citations": [
+                          "cme2._suy_timgs_minh_p5_para_0"
+                        ]
+                      },
+                      "id": "call_12742904755919735682"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TtqiIAU70rVVuA6arfmRl/WvQKWzHm9LUggQVnW2hpiByJ5ET08EoTBk6kQxzikfvldOZDJyxqMoyvUTBrVb6XYocFjAcjr8SML5UNDkdvz69CFhkVDQ7yqs="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 797,
+            "candidatesTokenCount": 84,
+            "totalTokenCount": 881,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 797
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "jX36auefBq3Z9tMPw4WOmA0"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 5611.36,
+    "usage": {
+      "promptTokenCount": 1259,
+      "candidatesTokenCount": 118,
+      "totalTokenCount": 1377
+    },
+    "cost_usd": null,
+    "cost_note": "Not billed/estimated by this runner; token counts are recorded."
+  },
+  {
+    "query_id": "t02",
+    "question": "Đối với bệnh nhân ngoại trú, BNP hoặc NT-proBNP dùng lượng định độ nặng và tiên lượng được xếp loại khuyến cáo và mức chứng cứ nào?",
+    "split": "test",
+    "model": "gemini-3.5-flash-lite",
+    "config_name": "baseline",
+    "config": {
+      "method": "tfidf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Đối với bệnh nhân ngoại trú, BNP hoặc NT-proBNP dùng lượng định độ nặng và tiên lượng được xếp loại khuyến cáo và mức chứng cứ nào",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p19_para_1",
+            "text": "DOI: 10.1016/j.jacc.2013.05.019 38 \n• Bệnh nhân ngoại trú \nLoại I: \n1. BNP, NT- proBNP (MCC: A) giúp chẩn đoán \n2. BNP hoặc NT-proBNP: lượng định độ nặng và tiên lượng \n(MCC: A) \nLoại IIa \n1. BNP hoặc NT- proBNP: hướng dẫn điều trị tối ưu (MCC: B) \nLoại IIb \n1. BNP hoặc NT- proBNP giúp giảm nhập viện hoặc tiên lượng tử \nvong: chưa chắc chắn (MCC: B) \n2. Các chỉ điểm sinh học tim mới (ST2, Galectin-3): tổn thương cơ \ntim, sợi hoá (MCC: B)",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 19,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1177,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 1,
+              "char_length": 441
+            },
+            "score": 0.4626505579575335,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p20_para_0",
+            "text": "2/23/18 \n20 \nCn 2014 về chẩn đoán và điều trị suy tim \nTrắc nghiệm giúp chẩn đoán/ ST (3) \nLoại I \n1. BNP hoặc NT-proBNP giúp chẩn đoán \n(MCC: A) \n2. BNP hoặc NT- proBNP và/hoặc \nTroponins tim: tiên lượng và độ nặng \nbệnh nhân ST cấp \n39 TL: Yancy CW et al. 2013 ACCF/AHA Guideline for the Mangement of Heart Failure. DOI: 10.1016/j.jacc.2013.05.019 \nCn 2014 về chẩn đoán và điều trị suy tim \nChất chỉ điểm sinh học mới trong \nsuy tim \n• Soluble ST2, galectin-3 \n• Giúp khảo sát tình trạng sợi hoá cơ \ntim \n• Hiệu quả: \n– Tiên đoán tái nhập viện và tử vong \n– Giá trị tiên lượng bệnh \n40",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 20,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 587,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 587
+            },
+            "score": 0.3288467772498896,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p26_para_0",
+            "text": "2/23/18 \n26 \nCn 2014 về chẩn đoán và điều trị suy tim \n51 \nCác chẹn thu thể AG II/ suy tim \n• Candesartan ( liều lượng 8mg-32 mg/ngày) \n• Valsartan (liều lượng 80mg-320mg/ngày) \n• Losartan (liều lượng 100mg-150mg/ngày) \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.3) \nThuốc chẹn thụ thể AG II \n• Thuốc chẹn thụ thể được khuyến cáo trong điều trị thông \nthường cho các bệnh nhân: \n - có triệu chứng và không triệu chứng \n - có LVEF ≤ 40% \n - không dung nạp UCMC do nhiều lý do khác ngoài tăng \nkali máu hoặc suy thận. \n Mức độ bằng chứng = A",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 26,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 570,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 570
+            },
+            "score": 0.20236290988032557,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p19_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 19]\nDOI: 10.1016/j.jacc.2013.05.019 38 \n• Bệnh nhân ngoại trú \nLoại I: \n1. BNP, NT- proBNP (MCC: A) giúp chẩn đoán \n2. BNP hoặc NT-proBNP: lượng định độ nặng và tiên lượng \n(MCC: A) \nLoại IIa \n1. BNP hoặc NT- proBNP: hướng dẫn điều trị tối ưu (MCC: B) \nLoại IIb \n1. BNP hoặc NT- proBNP giúp giảm nhập viện hoặc tiên lượng tử \nvong: chưa chắc chắn (MCC: B) \n2. Các chỉ điểm sinh học tim mới (ST2, Galectin-3): tổn thương cơ \ntim, sợi hoá (MCC: B)",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p19_para_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Đối với bệnh nhân ngoại trú, BNP hoặc NT-proBNP dùng lượng định độ nặng và tiên lượng được xếp loại khuyến cáo là Loại I, mức chứng cứ là A. [cme2._suy_timgs_minh_p19_para_1]",
+    "citations": [
+      "cme2._suy_timgs_minh_p19_para_1"
+    ],
+    "model_calls": [
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4627.19,
+        "usage": {
+          "promptTokenCount": 473,
+          "candidatesTokenCount": 45,
+          "totalTokenCount": 518,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 473
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Đối với bệnh nhân ngoại trú, BNP hoặc NT-proBNP dùng lượng định độ nặng và tiên lượng được xếp loại khuyến cáo và mức chứng cứ nào"
+                      },
+                      "id": "call_9181513551835773999"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TzzEGD50NwcukNJkZpwE1TYqFBVVQb5zM8qYFTlYzA2K3AmcUeQvktxcEjNGeLfzy/pk/7J3UfXrXKXfkepp32ZL2VoUU0/Sewq3WwcVshcgNQNPa27hvZfA="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 473,
+            "candidatesTokenCount": 45,
+            "totalTokenCount": 518,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 473
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "kX36apyuKuOWosUPgvC0kAk"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4664.73,
+        "usage": {
+          "promptTokenCount": 831,
+          "candidatesTokenCount": 75,
+          "totalTokenCount": 906,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 831
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "answer": "Đối với bệnh nhân ngoại trú, BNP hoặc NT-proBNP dùng lượng định độ nặng và tiên lượng được xếp loại khuyến cáo là Loại I, mức chứng cứ là A.",
+                        "citations": [
+                          "cme2._suy_timgs_minh_p19_para_1"
+                        ]
+                      },
+                      "id": "call_16912893685911500647"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0Twud6U+9vfBYRRCX1EZvjfFArklsp+SjFP7+fmAYk9A6Joawd6aL2AB4qmVSyu2jfXZrsIWtlOFbeZNZJJhLMueo42ixvGr2XdVz9fvl9AdT+k5wCI0Kf5cg="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 831,
+            "candidatesTokenCount": 75,
+            "totalTokenCount": 906,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 831
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "ln36apaVCqKN1e8PlPvi-AU"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 9292.72,
+    "usage": {
+      "promptTokenCount": 1304,
+      "candidatesTokenCount": 120,
+      "totalTokenCount": 1424
+    },
+    "cost_usd": null,
+    "cost_note": "Not billed/estimated by this runner; token counts are recorded."
+  },
+  {
+    "query_id": "t03",
+    "question": "Trong slide các chẹn thụ thể AG II, ba hoạt chất nào có khoảng liều lượng được liệt kê?",
+    "split": "test",
+    "model": "gemini-3.5-flash-lite",
+    "config_name": "baseline",
+    "config": {
+      "method": "tfidf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Trong slide các chẹn thụ thể AG II, ba hoạt chất nào có khoảng liều lượng được liệt kê",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p26_para_0",
+            "text": "2/23/18 \n26 \nCn 2014 về chẩn đoán và điều trị suy tim \n51 \nCác chẹn thu thể AG II/ suy tim \n• Candesartan ( liều lượng 8mg-32 mg/ngày) \n• Valsartan (liều lượng 80mg-320mg/ngày) \n• Losartan (liều lượng 100mg-150mg/ngày) \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.3) \nThuốc chẹn thụ thể AG II \n• Thuốc chẹn thụ thể được khuyến cáo trong điều trị thông \nthường cho các bệnh nhân: \n - có triệu chứng và không triệu chứng \n - có LVEF ≤ 40% \n - không dung nạp UCMC do nhiều lý do khác ngoài tăng \nkali máu hoặc suy thận. \n Mức độ bằng chứng = A",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 26,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 570,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 570
+            },
+            "score": 0.4051720678550313,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p23_para_0",
+            "text": "2/23/18 \n23 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác nghiên cứu và ra đời các thuốc \n suy tim \nCn 2014 về chẩn đoán và điều trị suy tim \nTác dụng thuốc trong điều trị suy tim \n• Các thuốc có lợi ích, cải thiện được tỷ lệ tử vong: \n– ƯCMC \n– Chẹn beta giao cảm \n– Kháng aldosterone (Spironolactone; Eplerenone) \n• Các thuốc cải thiện được triệu chứng: \n– Lợi tiểu \n– Digoxin liều thấp \n– Nitrates \n• Các thuốc có thể gây hại, cần cân nhắc tuỳ từng trường hợp: \n– Các thuốc tăng co bóp cơ tim, giống giao cảm \n– Thuốc chống loạn nhịp \n– Thuốc chẹn kênh calci \n– Digoxin liều cao",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 23,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 582,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 582
+            },
+            "score": 0.18217214171611668,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p35_para_0",
+            "text": "2/23/18 \n35 \nCn 2014 về chẩn đoán và điều trị suy tim \n69 \nCác thuốc \nđược chứng \nminh kéo dài \nđời sống b/n \nsuy tim tâm \nthu mạn \nhoặc sau \nNMCT \n TL: McMurray JJV \net al. Euro. H. \nJournal (2012); 33: \n1787-1847 \nCn 2014 về chẩn đoán và điều trị suy tim \nLCZ696: thuốc đầu Xên trong nhóm \n ức chế thụ thҳ angiotensin và neprilysin (ARNI)\n\n♣ LCZ696 là một thuốc mới vừa có tác dụng ức chế \n neprilysin vừa có tác dụng chҮn thụ thҳ AT11-3\n\n♣ LCZ696 là một phức hợp muối gồm hai nửa (với \n tỉ lệ mol 1:1) đều có hoạt nh:2,3 \n - sacubitril (AHU377) - một Xền chất; được \n chuyҳn hóa Xếp thành chất ức chế neprilysin \n LBQ657, và\n\n- valsartan - một thuốc chҮn thụ thҳ T1\n\nCấu trúc 3D của LCZ6962",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 35,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 945,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 693
+            },
+            "score": 0.16966402013336623,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p26_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 26]\n2/23/18 \n26 \nCn 2014 về chẩn đoán và điều trị suy tim \n51 \nCác chẹn thu thể AG II/ suy tim \n• Candesartan ( liều lượng 8mg-32 mg/ngày) \n• Valsartan (liều lượng 80mg-320mg/ngày) \n• Losartan (liều lượng 100mg-150mg/ngày) \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.3) \nThuốc chẹn thụ thể AG II \n• Thuốc chẹn thụ thể được khuyến cáo trong điều trị thông \nthường cho các bệnh nhân: \n - có triệu chứng và không triệu chứng \n - có LVEF ≤ 40% \n - không dung nạp UCMC do nhiều lý do khác ngoài tăng \nkali máu hoặc suy thận. \n Mức độ bằng chứng = A",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p26_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Trong slide các chẹn thụ thể AG II, ba hoạt chất có khoảng liều lượng được liệt kê là Candesartan (8mg-32 mg/ngày), Valsartan (80mg-320mg/ngày) và Losartan (100mg-150mg/ngày) [cme2._suy_timgs_minh_p26_para_0].",
+    "citations": [
+      "cme2._suy_timgs_minh_p26_para_0"
+    ],
+    "model_calls": [
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4507.63,
+        "usage": {
+          "promptTokenCount": 463,
+          "candidatesTokenCount": 35,
+          "totalTokenCount": 498,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 463
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Trong slide các chẹn thụ thể AG II, ba hoạt chất nào có khoảng liều lượng được liệt kê"
+                      },
+                      "id": "call_2340949710920414093"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0T2ek5dKR788EofXSqNYj03yvH8BgEouuLWFH+Y7shyMycrNtd4DeO3NWiqee9/E67Y+fphp00bPosLkgBLO50xJJz33I2XWpA+wlj3AkNahJltf++0GFfw38="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 463,
+            "candidatesTokenCount": 35,
+            "totalTokenCount": 498,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 463
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "mn36arGTM7Hq2roPs-afmQk"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4415.5,
+        "usage": {
+          "promptTokenCount": 861,
+          "candidatesTokenCount": 125,
+          "totalTokenCount": 986,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 861
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "citations": [
+                          "cme2._suy_timgs_minh_p26_para_0"
+                        ],
+                        "answer": "Trong slide các chẹn thụ thể AG II, ba hoạt chất có khoảng liều lượng được liệt kê là Candesartan (8mg-32 mg/ngày), Valsartan (80mg-320mg/ngày) và Losartan (100mg-150mg/ngày) [cme2._suy_timgs_minh_p26_para_0]."
+                      },
+                      "id": "call_4783313599074504319"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TmZLZAwtaDmZL/UYd2KWTFY2xUn7vJQu3tTYj3uD0SB91yitJYoxbaLQDjmL9PgMoc8AV31d3lSquv3185qvZURi/rQKIFy7ahllju7AK+DXh8Qc4yktctgk="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 861,
+            "candidatesTokenCount": 125,
+            "totalTokenCount": 986,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 861
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "n336aoLHDYf92roPsaauuQo"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 8924.12,
+    "usage": {
+      "promptTokenCount": 1324,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 1484
+    },
+    "cost_usd": null,
+    "cost_note": "Not billed/estimated by this runner; token counts are recorded."
+  },
+  {
+    "query_id": "t04",
+    "question": "Theo bảng lợi tiểu vòng, thời gian tác dụng của furosemide là bao nhiêu giờ?",
+    "split": "test",
+    "model": "gemini-3.5-flash-lite",
+    "config_name": "baseline",
+    "config": {
+      "method": "tfidf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Theo bảng lợi tiểu vòng, thời gian tác dụng của furosemide là bao nhiêu giờ?",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p29_para_0",
+            "text": "2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 29,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 754,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 754
+            },
+            "score": 0.24804487076041898,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p30_para_0",
+            "text": "2/23/18 \n30 \nAll available for oral or IV \nadministration 59 \nLợi tiểu vòng \nTên gốc Liều khởi \nđầu \nLiều tối \nđa \nĐào thải: Thận \n– CHóa. \nThời gian \ntác dụng \nFurosemide 20-40mg \nqd or bid \n 600 mg 65%T-35% CH 4-6 giờ \nBumetanide 0.5-1.0 mg \nqd or bid \n 10 mg 62%T/38%CH 6-8 giờ \nTorsemide 10-20 mg \nqd \n 200 mg 20%T-80%CH 12-16 giờ \nEthacrynic \nacid \n25-50 mg \nqd or bid \n 200 mg 67%T-33%CH 6 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nCác thuốc đối kháng aldosterone/ \nsuy tim tâm thu (Loại I, MCC: B) \n• PXTM ≤ 35%, NYHA III- IV , đã sử dụng liều \ntốt nhất chẹn bêta và UCMC \n• Chống chỉ định: \n– K + > 5 mmol/L \n– Creatinine máu > 220 Mmol/L (~2.5 mg/dL) \n– Dùng chung viên Kali \n– Phối hợp với UCMC và chẹn thụ thể angiotensin II \n60",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 30,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 744,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 744
+            },
+            "score": 0.23502514571455538,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p31_para_0",
+            "text": "2/23/18 \n31 \nAll available for oral or IV \nadministration 61 \nLợi tiểu giữ kali \nTên gốc Liều khởi \nđầu \nLiều tối đa/ \nngày \nThải trừ Thời gian \ntác dụng \nSpironolactone \n12.5-25 mg \nqd \n 50 mg \n Chuyển hóa \n48-72 giờ \nEplerenone \n 25-50 mg qd \n 100 mg \n Thận, \nChuyển hóa \nKhông rõ \nAmiloride \n 5 mg qd \n 20 mg \n Thận \n 24 giờ \nTriamterene \n 50-75 mg \nbid \n 200 mg \n Chuyển hóa \n7-9 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nChẹn bêta/ suy tim tâm thu \n (Loại I, MCC: A) \n• Tất cả bệnh nhân có PXTM ≤ 40%, NYHA II →IV \n• Đã được dùng liều đầy đủ UCMC hoặc chẹn thụ thể \nAG II ± đối kháng aldoslerone \n• Lâm sàng đang ổn định \n• Không bị: \n– Suyễn \n– Blốc NT II,III, hội chứng suy nút xoang, nhịp \nxoang chậm (< 50/phút) \n62",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 31,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 729,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 729
+            },
+            "score": 0.17630735148727794,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "furosemide thời gian tác dụng giờ bảng lợi tiểu vòng",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p29_para_0",
+            "text": "2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 29,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 754,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 754
+            },
+            "score": 0.25932009504392173,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p30_para_0",
+            "text": "2/23/18 \n30 \nAll available for oral or IV \nadministration 59 \nLợi tiểu vòng \nTên gốc Liều khởi \nđầu \nLiều tối \nđa \nĐào thải: Thận \n– CHóa. \nThời gian \ntác dụng \nFurosemide 20-40mg \nqd or bid \n 600 mg 65%T-35% CH 4-6 giờ \nBumetanide 0.5-1.0 mg \nqd or bid \n 10 mg 62%T/38%CH 6-8 giờ \nTorsemide 10-20 mg \nqd \n 200 mg 20%T-80%CH 12-16 giờ \nEthacrynic \nacid \n25-50 mg \nqd or bid \n 200 mg 67%T-33%CH 6 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nCác thuốc đối kháng aldosterone/ \nsuy tim tâm thu (Loại I, MCC: B) \n• PXTM ≤ 35%, NYHA III- IV , đã sử dụng liều \ntốt nhất chẹn bêta và UCMC \n• Chống chỉ định: \n– K + > 5 mmol/L \n– Creatinine máu > 220 Mmol/L (~2.5 mg/dL) \n– Dùng chung viên Kali \n– Phối hợp với UCMC và chẹn thụ thể angiotensin II \n60",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 30,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 744,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 744
+            },
+            "score": 0.2571201270209041,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p31_para_0",
+            "text": "2/23/18 \n31 \nAll available for oral or IV \nadministration 61 \nLợi tiểu giữ kali \nTên gốc Liều khởi \nđầu \nLiều tối đa/ \nngày \nThải trừ Thời gian \ntác dụng \nSpironolactone \n12.5-25 mg \nqd \n 50 mg \n Chuyển hóa \n48-72 giờ \nEplerenone \n 25-50 mg qd \n 100 mg \n Thận, \nChuyển hóa \nKhông rõ \nAmiloride \n 5 mg qd \n 20 mg \n Thận \n 24 giờ \nTriamterene \n 50-75 mg \nbid \n 200 mg \n Chuyển hóa \n7-9 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nChẹn bêta/ suy tim tâm thu \n (Loại I, MCC: A) \n• Tất cả bệnh nhân có PXTM ≤ 40%, NYHA II →IV \n• Đã được dùng liều đầy đủ UCMC hoặc chẹn thụ thể \nAG II ± đối kháng aldoslerone \n• Lâm sàng đang ổn định \n• Không bị: \n– Suyễn \n– Blốc NT II,III, hội chứng suy nút xoang, nhịp \nxoang chậm (< 50/phút) \n62",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 31,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 729,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 729
+            },
+            "score": 0.19288220616267707,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "Theo bảng lợi tiểu vòng, thời gian tác dụng của furosemide là bao nhiêu giờ?",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p29_para_0",
+            "text": "2/23/18 \n29 \nCn 2014 về chẩn đoán và điều trị suy tim \nCách sử dụng lợi tiểu/ suy tim tâm thu \n• Liều lượng: thay đổi theo từng bệnh nhân và tình \ntrạng lâm sàng \n• Lợi tiểu quai:rất hiệu quả \n• Lợi tiểu: \n– Lợi tiểu:hoạt hoá hệ renin. Angiotensin- aldosterone → \nnên phối hợp với UCMC hoặc chẹn thụ thể AG II \n57 \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.23) \nThuốc lợi tiểu \n• Điều trị lợi tiểu được khuyến cáo để duy trì và tái lập thể \ntích về trạng thái bình thường ở bệnh nhân có biểu hiện ứ \ndịch như \n– Triệu chứng sung huyết. \n– Các dấu hiệu tăng áp lực làm đầy. \n MĐ bằng chứng = A \n• Lợi tiểu vòng tốt hơn lợi tiểu thiazide khi duy trì tình \ntrạng thể tích bình thường ở bệnh nhân suy tim. \n MĐ \nbằng chứng = B",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 29,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 754,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 754
+            },
+            "score": 0.24804487076041898,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p30_para_0",
+            "text": "2/23/18 \n30 \nAll available for oral or IV \nadministration 59 \nLợi tiểu vòng \nTên gốc Liều khởi \nđầu \nLiều tối \nđa \nĐào thải: Thận \n– CHóa. \nThời gian \ntác dụng \nFurosemide 20-40mg \nqd or bid \n 600 mg 65%T-35% CH 4-6 giờ \nBumetanide 0.5-1.0 mg \nqd or bid \n 10 mg 62%T/38%CH 6-8 giờ \nTorsemide 10-20 mg \nqd \n 200 mg 20%T-80%CH 12-16 giờ \nEthacrynic \nacid \n25-50 mg \nqd or bid \n 200 mg 67%T-33%CH 6 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nCác thuốc đối kháng aldosterone/ \nsuy tim tâm thu (Loại I, MCC: B) \n• PXTM ≤ 35%, NYHA III- IV , đã sử dụng liều \ntốt nhất chẹn bêta và UCMC \n• Chống chỉ định: \n– K + > 5 mmol/L \n– Creatinine máu > 220 Mmol/L (~2.5 mg/dL) \n– Dùng chung viên Kali \n– Phối hợp với UCMC và chẹn thụ thể angiotensin II \n60",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 30,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 744,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 744
+            },
+            "score": 0.23502514571455538,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p31_para_0",
+            "text": "2/23/18 \n31 \nAll available for oral or IV \nadministration 61 \nLợi tiểu giữ kali \nTên gốc Liều khởi \nđầu \nLiều tối đa/ \nngày \nThải trừ Thời gian \ntác dụng \nSpironolactone \n12.5-25 mg \nqd \n 50 mg \n Chuyển hóa \n48-72 giờ \nEplerenone \n 25-50 mg qd \n 100 mg \n Thận, \nChuyển hóa \nKhông rõ \nAmiloride \n 5 mg qd \n 20 mg \n Thận \n 24 giờ \nTriamterene \n 50-75 mg \nbid \n 200 mg \n Chuyển hóa \n7-9 giờ \nCn 2014 về chẩn đoán và điều trị suy tim \nChẹn bêta/ suy tim tâm thu \n (Loại I, MCC: A) \n• Tất cả bệnh nhân có PXTM ≤ 40%, NYHA II →IV \n• Đã được dùng liều đầy đủ UCMC hoặc chẹn thụ thể \nAG II ± đối kháng aldoslerone \n• Lâm sàng đang ổn định \n• Không bị: \n– Suyễn \n– Blốc NT II,III, hội chứng suy nút xoang, nhịp \nxoang chậm (< 50/phút) \n62",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 31,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 729,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 729
+            },
+            "score": 0.17630735148727794,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_calls": [
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4806.45,
+        "usage": {
+          "promptTokenCount": 459,
+          "candidatesTokenCount": 32,
+          "totalTokenCount": 491,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 459
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Theo bảng lợi tiểu vòng, thời gian tác dụng của furosemide là bao nhiêu giờ?"
+                      },
+                      "id": "call_9327153970483405539"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TZq8hOQjDkIP+HEQnPqrtr7mPuDKDjpTq4qpfr/FMKzI5tZq/vpKJTBc5/SEiqHKPmjEQACT9AvsiSRTHxkNySIeO3Lqfy4+ys/0A14VMDO35tD+5b2WUa3I="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 459,
+            "candidatesTokenCount": 32,
+            "totalTokenCount": 491,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 459
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "o336aoefKYicrfcP-P2AYQ"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4309.39,
+        "usage": {
+          "promptTokenCount": 499,
+          "candidatesTokenCount": 26,
+          "totalTokenCount": 525,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 499
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "furosemide thời gian tác dụng giờ bảng lợi tiểu vòng"
+                      },
+                      "id": "call_6185909543993983002"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0T+tggvV9YIES4071vLXCuQyrjpUOgH1R+rgowrtKHnB3pDbKPqp+InZyQu9WD+Kt381sfasXQAuZeZTblXqIYxonTJri2cCQMGzhNygwsVz/+W4L7F2C9vxI="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 499,
+            "candidatesTokenCount": 26,
+            "totalTokenCount": 525,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 499
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "qH36asTIErvrrfcPmLvC0A0"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 5053.97,
+        "usage": {
+          "promptTokenCount": 513,
+          "candidatesTokenCount": 32,
+          "totalTokenCount": 545,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 513
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Theo bảng lợi tiểu vòng, thời gian tác dụng của furosemide là bao nhiêu giờ?"
+                      },
+                      "id": "call_8222244490875517548"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TIKrqcEh76YLmmy4Qy4rDXOW5QZDmM2CfV6UWMOSRfEsJ0OYhcg770EsFowzJ50RQNSn823Tt2Aoi5AsIBfJp6oi8mqZG2P4y1TFz+SOZ/990m9JA50pDdrw="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 513,
+            "candidatesTokenCount": 32,
+            "totalTokenCount": 545,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 513
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "rH36atKcM-au9tMPwuTbkAo"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4357.09,
+        "usage": {
+          "promptTokenCount": 534,
+          "candidatesTokenCount": 30,
+          "totalTokenCount": 564,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 534
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "citations": [],
+                        "answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này."
+                      },
+                      "id": "call_4846816321723435816"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0T3P7B+Fw5Hkv8XArdM7ubo4ZEVHwDL8mnp7n37rnVHBoTcKOmJ87kidjGSMd27t9f6wouBq/1PtFKtarFiFH/tejdKbPpuCE5UAMTNWSLJO1kWfEYK8H9QgQ="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 534,
+            "candidatesTokenCount": 30,
+            "totalTokenCount": 564,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 534
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "sX36avwm9KzV7w-LprSxCQ"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 18528.65,
+    "usage": {
+      "promptTokenCount": 2005,
+      "candidatesTokenCount": 120,
+      "totalTokenCount": 2125
+    },
+    "cost_usd": null,
+    "cost_note": "Not billed/estimated by this runner; token counts are recorded."
+  },
+  {
+    "query_id": "t05",
+    "question": "Theo bài giảng, CHARM-Preserved có bao nhiêu bệnh nhân và candesartan có giảm có ý nghĩa tiêu chí chính không?",
+    "split": "test",
+    "model": "gemini-3.5-flash-lite",
+    "config_name": "baseline",
+    "config": {
+      "method": "tfidf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Theo bài giảng, CHARM-Preserved có bao nhiêu bệnh nhân và candesartan có giảm có ý nghĩa tiêu chí chính không?",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p44_para_0",
+            "text": "2/23/18 \n44 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị suy tim với chức năng \nthất trái bảo tồn \n• Nghiên cứu CHARM- Preserved (3023 bệnh nhân): \ncandesartan không giảm có ý nghĩa tiêu chí chính (tử \nvong tim mạch, suy tim) \n• Nghiên cứu PEP- CHF (850 bệnh nhân perindopril): \ngiảm có ý nghĩa tử vong tim mạch và suy tim/ 1 năm \n• Lợi tiểu: giảm triệu chứng \n• Kiểm soát tốt THA và TMCB cơ tim, tần số thất, RN \n87 \nn TL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nHạn chế muối nước\n\nHạn chế nước (1.5 đến 2 L/d) là thích hợp \ntrong giai đoạn D, đặc biệt ở bệnh nhân \ngiảm natri máu, nhằm giảm triệu chứng \nsung huyết.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 44,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 855,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 769
+            },
+            "score": 0.3738975266385255,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p41_para_1",
+            "text": "( A) \n• Chẹn bêta và UCMC: mọi bệnh nhân giảm PXTM dù \nkhông có tiền sử NMCT và không suy tim. ( A) \n• Chẹn thụ thể angiotensin II: các bệnh nhân không \ndung nạp được UCMC. ( B) \n• Tái lưu thông động mạch vành (ĐMV). (A) \n• Sửa van hay thay van: bn có hẹp hay hở van có ý \nnghĩa huyết động. ( B) \nKHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM 2010",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 41,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1124,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 1,
+              "char_length": 380
+            },
+            "score": 0.2192578890525047,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p16_para_0",
+            "text": "2/23/18 \n16 \nCn 2014 về chẩn đoán và điều trị suy tim \nAt Risk of Heart \nFailure \nHeart \nFailure \nHunt SA, Abraham WT, Chin MH et al. Circulation 2005 \nPhân độ suy tim theo ACC/AHA \nCn 2014 về chẩn đoán và điều trị suy tim \nCác GĐ suy tim theo AHA/ACCF (2013)và NYHA \n Theo ACCF/AHA Theo NYHA A Nguy cơ cao suy tim không bệnh \ntim thực thể hoặc triệu chứng cơ \nnăng suy tim\n\nB Có bệnh tim thực thể nhưng \nkhông triệu chứng suy tim \n I Không hạn chế, vận động thể lực thông thường không \ngây mệt, khó thở hoặc hồi hộp. \n C Có bệnh tim thực thể trước kia \nhoặc hiện tại có t/c cơ năng suy \ntim",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 16,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1074,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 591
+            },
+            "score": 0.16163363148372412,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p41_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 41]\n( A) \n• Chẹn bêta và UCMC: mọi bệnh nhân giảm PXTM dù \nkhông có tiền sử NMCT và không suy tim. ( A) \n• Chẹn thụ thể angiotensin II: các bệnh nhân không \ndung nạp được UCMC. ( B) \n• Tái lưu thông động mạch vành (ĐMV). (A) \n• Sửa van hay thay van: bn có hẹp hay hở van có ý \nnghĩa huyết động. ( B) \nKHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM 2010",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p41_para_1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "CHARM-Preserved candesartan",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p44_para_0",
+            "text": "2/23/18 \n44 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị suy tim với chức năng \nthất trái bảo tồn \n• Nghiên cứu CHARM- Preserved (3023 bệnh nhân): \ncandesartan không giảm có ý nghĩa tiêu chí chính (tử \nvong tim mạch, suy tim) \n• Nghiên cứu PEP- CHF (850 bệnh nhân perindopril): \ngiảm có ý nghĩa tử vong tim mạch và suy tim/ 1 năm \n• Lợi tiểu: giảm triệu chứng \n• Kiểm soát tốt THA và TMCB cơ tim, tần số thất, RN \n87 \nn TL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nHạn chế muối nước\n\nHạn chế nước (1.5 đến 2 L/d) là thích hợp \ntrong giai đoạn D, đặc biệt ở bệnh nhân \ngiảm natri máu, nhằm giảm triệu chứng \nsung huyết.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 44,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 855,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 769
+            },
+            "score": 0.1706932229428664,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p5_para_0",
+            "text": "2/23/18 \n5 \nCn 2014 về chẩn đoán và điều trị suy tim \nEcho \nparameter \n Value Category of HF n % \nEF \n(%) \n≥50 Preserved EF 105 66,0 \n41 – 49 Bordeline EF 36 22,6 \n≤40 Reduced EF 18 11,3 \nHow about in Vietnam ? \nMai Van Thuat, Huynh van Minh, Some aspects of hospitalised HF patients n Hue University Hospital, 2016 \nCn 2014 về chẩn đoán và điều trị suy tim \n2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. \nDefinition of Heart Failure 2016",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 5,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 480,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 480
+            },
+            "score": 0.06760065089571372,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p26_para_0",
+            "text": "2/23/18 \n26 \nCn 2014 về chẩn đoán và điều trị suy tim \n51 \nCác chẹn thu thể AG II/ suy tim \n• Candesartan ( liều lượng 8mg-32 mg/ngày) \n• Valsartan (liều lượng 80mg-320mg/ngày) \n• Losartan (liều lượng 100mg-150mg/ngày) \nCn 2014 về chẩn đoán và điều trị suy tim \nHFSA 2010 Practice Guideline (7.3) \nThuốc chẹn thụ thể AG II \n• Thuốc chẹn thụ thể được khuyến cáo trong điều trị thông \nthường cho các bệnh nhân: \n - có triệu chứng và không triệu chứng \n - có LVEF ≤ 40% \n - không dung nạp UCMC do nhiều lý do khác ngoài tăng \nkali máu hoặc suy thận. \n Mức độ bằng chứng = A",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 26,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 570,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 570
+            },
+            "score": 0.05399137134758872,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p41_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 41]\n( A) \n• Chẹn bêta và UCMC: mọi bệnh nhân giảm PXTM dù \nkhông có tiền sử NMCT và không suy tim. ( A) \n• Chẹn thụ thể angiotensin II: các bệnh nhân không \ndung nạp được UCMC. ( B) \n• Tái lưu thông động mạch vành (ĐMV). (A) \n• Sửa van hay thay van: bn có hẹp hay hở van có ý \nnghĩa huyết động. ( B) \nKHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM 2010",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p41_para_1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "CHARM-Preserved candesartan tiêu chí chính",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p44_para_0",
+            "text": "2/23/18 \n44 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị suy tim với chức năng \nthất trái bảo tồn \n• Nghiên cứu CHARM- Preserved (3023 bệnh nhân): \ncandesartan không giảm có ý nghĩa tiêu chí chính (tử \nvong tim mạch, suy tim) \n• Nghiên cứu PEP- CHF (850 bệnh nhân perindopril): \ngiảm có ý nghĩa tử vong tim mạch và suy tim/ 1 năm \n• Lợi tiểu: giảm triệu chứng \n• Kiểm soát tốt THA và TMCB cơ tim, tần số thất, RN \n87 \nn TL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nHạn chế muối nước\n\nHạn chế nước (1.5 đến 2 L/d) là thích hợp \ntrong giai đoạn D, đặc biệt ở bệnh nhân \ngiảm natri máu, nhằm giảm triệu chứng \nsung huyết.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 44,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 855,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 769
+            },
+            "score": 0.2341658323441172,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p5_para_0",
+            "text": "2/23/18 \n5 \nCn 2014 về chẩn đoán và điều trị suy tim \nEcho \nparameter \n Value Category of HF n % \nEF \n(%) \n≥50 Preserved EF 105 66,0 \n41 – 49 Bordeline EF 36 22,6 \n≤40 Reduced EF 18 11,3 \nHow about in Vietnam ? \nMai Van Thuat, Huynh van Minh, Some aspects of hospitalised HF patients n Hue University Hospital, 2016 \nCn 2014 về chẩn đoán và điều trị suy tim \n2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. \nDefinition of Heart Failure 2016",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 5,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 480,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 480
+            },
+            "score": 0.04927692848659452,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p43_para_0",
+            "text": "2/23/18 \n43 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác điểm chính điều trị giai đoạn C suy tim \nØ Áp dụng tất cả các biện pháp điều trị GĐA (A, B, C) \nØ Lợi tiểu và hạn chế muối/ ứ dịch (E) \nØ UCMC/ mọi b/n trừ phi chống chỉ định (A) \nØ Một trong 3 chẹn bêta (bisoprolol, carvedilol hoặc metoprolol \nsuccinate), trừ phi chống chỉ định (A) \nØ Chẹn thụ thể AGII (candesartan hoặc valsartan): b/n không \ndung nạp UCMC (A) \nØ Tránh hầu hết kháng viêm không steroid, thuốc chống loạn \nnhịp, đối kháng calci (B) \nØ Tập luyện thể lực (B) \nØ Đặt ICD như chỉ định của GĐB (A, B) \nØ Điều trị tái đồng bộ tim (CRT). Ø Thêm thuốc kháng aldosterone.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 43,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1171,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 640
+            },
+            "score": 0.04721902716193812,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p41_para_1 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 41]\n( A) \n• Chẹn bêta và UCMC: mọi bệnh nhân giảm PXTM dù \nkhông có tiền sử NMCT và không suy tim. ( A) \n• Chẹn thụ thể angiotensin II: các bệnh nhân không \ndung nạp được UCMC. ( B) \n• Tái lưu thông động mạch vành (ĐMV). (A) \n• Sửa van hay thay van: bn có hẹp hay hở van có ý \nnghĩa huyết động. ( B) \nKHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM 2010",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p41_para_1"
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_calls": [
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 3668.03,
+        "usage": {
+          "promptTokenCount": 468,
+          "candidatesTokenCount": 41,
+          "totalTokenCount": 509,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 468
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Theo bài giảng, CHARM-Preserved có bao nhiêu bệnh nhân và candesartan có giảm có ý nghĩa tiêu chí chính không?"
+                      },
+                      "id": "call_12408816785511061540"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TrbTC4uxQ/TKgN9yWVtutOrnO23tLQLBJ/ZuCO4UgimtuWp1fhuJ3kxmjgS3F12oGYMBykqH9oTvT/uXlUuKBjFgZoEEQh6UvuezgKZDVfyn+ypYVq59Kpvk="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 468,
+            "candidatesTokenCount": 41,
+            "totalTokenCount": 509,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 468
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "tX36arHJKceU9tMPjIy86Q0"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4591.19,
+        "usage": {
+          "promptTokenCount": 805,
+          "candidatesTokenCount": 21,
+          "totalTokenCount": 826,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 805
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "CHARM-Preserved candesartan"
+                      },
+                      "id": "call_10773221576751321047"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TfTLqj/kCQSmiAQ28nn1ryllTfk3jmwB7uyxfm4C7w6z682XFgr3WL5GJHExN9/Rz3RjGBwMo8pauW0v5S7vI+MHjZr8szOXZ6+Ei+/0D3DC3GzP/JMrk8Fk="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 805,
+            "candidatesTokenCount": 21,
+            "totalTokenCount": 826,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 805
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "un36aoynDZvnrfcPuqfx0Qs"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4333.99,
+        "usage": {
+          "promptTokenCount": 814,
+          "candidatesTokenCount": 24,
+          "totalTokenCount": 838,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 814
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "CHARM-Preserved candesartan tiêu chí chính"
+                      },
+                      "id": "call_7427711335208230516"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0T0LTwSPHR1nlX+/PAZfkwK4xDG20XsF8QzPEfK2s74p/uOTb8etwlmnZyRSDxMEvZLZw4YO3Bp8Ac1kISJOwpX4LAN+ldHx1SoK3rl43GWRqgVIXcX2xRw5o="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 814,
+            "candidatesTokenCount": 24,
+            "totalTokenCount": 838,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 814
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "vn36atm_I9-frfcPwaqW-A0"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4968.39,
+        "usage": {
+          "promptTokenCount": 827,
+          "candidatesTokenCount": 30,
+          "totalTokenCount": 857,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 827
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "citations": [],
+                        "answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này."
+                      },
+                      "id": "call_5972107948646175716"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TnYotPeOZVd96sH32ryCsPFcvlIQ58ZnlNAG8kUGXMgWTBxM6MePTBkxyLOE1kJtvd40io1I4xRI/oGJIbp+q0lW5LWYeAH1r1+5tUn4wiQXdPPnD8rm0DGM="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 827,
+            "candidatesTokenCount": 30,
+            "totalTokenCount": 857,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 827
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "w336aq7GCJ601e8P-ILCiAk"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 17563.08,
+    "usage": {
+      "promptTokenCount": 2914,
+      "candidatesTokenCount": 116,
+      "totalTokenCount": 3030
+    },
+    "cost_usd": null,
+    "cost_note": "Not billed/estimated by this runner; token counts are recorded."
+  },
+  {
+    "query_id": "tu01",
+    "question": "Trong tài liệu, DAPA-HF ghi nhận dapagliflozin giảm bao nhiêu phần trăm biến cố chính?",
+    "split": "test",
+    "model": "gemini-3.5-flash-lite",
+    "config_name": "baseline",
+    "config": {
+      "method": "tfidf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "DAPA-HF dapagliflozin giảm bao nhiêu phần trăm biến cố chính",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p44_para_0",
+            "text": "2/23/18 \n44 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị suy tim với chức năng \nthất trái bảo tồn \n• Nghiên cứu CHARM- Preserved (3023 bệnh nhân): \ncandesartan không giảm có ý nghĩa tiêu chí chính (tử \nvong tim mạch, suy tim) \n• Nghiên cứu PEP- CHF (850 bệnh nhân perindopril): \ngiảm có ý nghĩa tử vong tim mạch và suy tim/ 1 năm \n• Lợi tiểu: giảm triệu chứng \n• Kiểm soát tốt THA và TMCB cơ tim, tần số thất, RN \n87 \nn TL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nHạn chế muối nước\n\nHạn chế nước (1.5 đến 2 L/d) là thích hợp \ntrong giai đoạn D, đặc biệt ở bệnh nhân \ngiảm natri máu, nhằm giảm triệu chứng \nsung huyết.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 44,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 855,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 769
+            },
+            "score": 0.12405585088003011,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p9_para_0",
+            "text": "2/23/18 \n9 \nSinh lý bệnh Suy tim \nTổn thương cơ tim Giảm chức năng TTT \nHoạt hóa hệ RAA, TKTU, ET, \nv.v… \nNgộ độc cơ tim Co mạch ngoại biên Rối loạn huyết động \nTái cấu trúc & \ntiến triển xấu chức năng TTT \nCác triệu chứng suy tim Số người mắc & tử vong \nANP \nBNP \n Biến đổi TK-TD Hiệu quả có lợi Hiệu quả bất lợi \n ↑ hoạt giao cảm ↑ HR ,↑ co bóp, \n co mạch → ↑ V trở về, \n↑ làm đầy \nCo mạch → \nHậu gánh →↑ công \n→ ↑ Tiêu thụ O2 \n ↑ Renin-Angiotensin \n Aldosterone \nGiữ muối & nước→↑ \nVR \nCo mạch → \n↑ hậu gánh \n ↑ Vasopressin Tương tự Tương tự\n\n↑ interleukins &TNFα Có thể có vai trò trong \nphì đại cơ tim \nApoptosis \n ↑Endothelin Co mạch→↑ VR ↑ Hậu gánh \nBiến đổi thần kinh thể dịch trong suy tim",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 9,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 701,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 698
+            },
+            "score": 0.12133838429200015,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p39_para_0",
+            "text": "2/23/18 \n39 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị Suy tim theo giai đoạn ABCD \nSTAGE A\nAt high risk for HF but \nwithout structural heart \ndisease or symptoms of HF\nSTAGE B\nStructural heart disease \nbut without signs or \nsymptoms of HF\nTHERAPY\nGoals\n· Control symptoms\n· Improve HRQOL\n· Prevent hospitalization\n· Prevent mortality\nStrategies\n· Identification of comorbidities\nTreatment\n· Diuresis to relieve symptoms \nof congestion\n· Follow guideline driven \nindications for comorbidities, \ne.g., HTN, AF, CAD, DM\n· Revascularization or valvular \nsurgery as appropriate\nSTAGE C\nStructural heart disease \nwith prior or current \n symptoms of HF\nTHERAPY\nGoals\n· Control symptoms\n· Patient education\n· Prevent hospitalization\n· Prevent mortality\nDrugs for routine use\n· Diuretics for fluid retention\n· ACEI or ARB\n· Beta blockers\n· Aldosterone antagonists\nDrugs for use in selected patients\n· Hydralazine/isosorbide dinitrate\n· ACEI and ARB\n· Digoxin\nIn selected patients\n· CRT\n· ICD\n· Revascularization or valvular \nsurgery as appropriate\nSTAGE D\nRefractory HF\nTHERAPY\nGoals\n· Prevent HF symptoms\n· Prevent further cardiac \nremodeling\nDrugs\n· ACEI or ARB as \nappropriate \n· Beta blockers as \nappropriate\nIn selected patients\n· ICD\n· Revascularization or \nvalvular surgery as \nappropriate\ne.g., Patients with:\n· Known structural heart disease and\n· HF signs and symptoms\nHFpEF HFrEF\nTHERAPY\nGoals\n· Heart healthy lifestyle\n· Prevent vascular, \ncoronary disease\n· Prevent LV structural \nabnormalities\nDrugs\n· ACEI or ARB in \nappropriate patients for \nvascular disease or DM\n· Statins as appropriate\nTHERAPY\nGoals\n· Control symptoms\n· Improve HRQOL\n· Reduce hospital \nreadmissions\n· Establish patient’s end-\nof-life goals\nOptions\n· Advanced care \nmeasures\n· Heart transplant\n· Chronic inotropes\n· Temporary or permanent \nMCS\n· Experimental surgery or \ndrugs\n· Palliative care and \nhospice\n· ICD deactivation\nRefractory \nsymptoms of HF \nat rest, despite \nGDMT\nAt Risk for Heart Failure Heart Failure\ne.g., Patients with:\n· Marked HF symptoms at \nrest \n· Recurrent hospitalizations \ndespite GDMT\ne.g., Patients with:\n· Previous MI\n· LV remodeling including \nLVH and low EF\n· Asymptomatic valvular \ndisease\ne.g., Patients with:\n· HTN\n· Atherosclerotic disease\n· DM\n· Obesity\n· Metabolic syndrome\n or\nPatients\n· Using cardiotoxins\n· With family history of \ncardiomyopathy\nDevelopment of \nsymptoms of HFStructural heart disease\n2013 ACCF/AHA Guideline for the Management of Heart Failure \nCn 2014 về chẩn đoán và điều trị suy tim \nCác giai đoạn trong sự tiến triển của suy tim \n78 \nGiai ñoaïn A \nNguy cô cao suy \ntim khoâng beänh \ntim thöïc theå \nhoaëc trieäu \nchöùng cô naêng \nsuy tim \nGiai ñoaïn B \nCoù beänh \ntim thöïc \ntheå nhöng \nkhoâng \ntrieäu \nchöùng suy \ntim \nGiai ñoaïn C \nCoù beänh tim \nthöïc theå tröôùc \nkia hoaëc hieän \ntaïi coù trieäu \nchöùng cô \nnaêng suy tim \nGiai ñoaïn D \nSuy tim khaùng \ntrò, caàn can \nthieäp ñaëc \nbieät \nTd: \n.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 39,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 3758,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 2949
+            },
+            "score": 0.088370738211729,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "DAPA-HF dapagliflozin giảm bao nhiêu phần trăm biến cố chính",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p44_para_0",
+            "text": "2/23/18 \n44 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị suy tim với chức năng \nthất trái bảo tồn \n• Nghiên cứu CHARM- Preserved (3023 bệnh nhân): \ncandesartan không giảm có ý nghĩa tiêu chí chính (tử \nvong tim mạch, suy tim) \n• Nghiên cứu PEP- CHF (850 bệnh nhân perindopril): \ngiảm có ý nghĩa tử vong tim mạch và suy tim/ 1 năm \n• Lợi tiểu: giảm triệu chứng \n• Kiểm soát tốt THA và TMCB cơ tim, tần số thất, RN \n87 \nn TL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nHạn chế muối nước\n\nHạn chế nước (1.5 đến 2 L/d) là thích hợp \ntrong giai đoạn D, đặc biệt ở bệnh nhân \ngiảm natri máu, nhằm giảm triệu chứng \nsung huyết.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 44,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 855,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 769
+            },
+            "score": 0.12405585088003011,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p9_para_0",
+            "text": "2/23/18 \n9 \nSinh lý bệnh Suy tim \nTổn thương cơ tim Giảm chức năng TTT \nHoạt hóa hệ RAA, TKTU, ET, \nv.v… \nNgộ độc cơ tim Co mạch ngoại biên Rối loạn huyết động \nTái cấu trúc & \ntiến triển xấu chức năng TTT \nCác triệu chứng suy tim Số người mắc & tử vong \nANP \nBNP \n Biến đổi TK-TD Hiệu quả có lợi Hiệu quả bất lợi \n ↑ hoạt giao cảm ↑ HR ,↑ co bóp, \n co mạch → ↑ V trở về, \n↑ làm đầy \nCo mạch → \nHậu gánh →↑ công \n→ ↑ Tiêu thụ O2 \n ↑ Renin-Angiotensin \n Aldosterone \nGiữ muối & nước→↑ \nVR \nCo mạch → \n↑ hậu gánh \n ↑ Vasopressin Tương tự Tương tự\n\n↑ interleukins &TNFα Có thể có vai trò trong \nphì đại cơ tim \nApoptosis \n ↑Endothelin Co mạch→↑ VR ↑ Hậu gánh \nBiến đổi thần kinh thể dịch trong suy tim",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 9,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 701,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 698
+            },
+            "score": 0.12133838429200015,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p39_para_0",
+            "text": "2/23/18 \n39 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị Suy tim theo giai đoạn ABCD \nSTAGE A\nAt high risk for HF but \nwithout structural heart \ndisease or symptoms of HF\nSTAGE B\nStructural heart disease \nbut without signs or \nsymptoms of HF\nTHERAPY\nGoals\n· Control symptoms\n· Improve HRQOL\n· Prevent hospitalization\n· Prevent mortality\nStrategies\n· Identification of comorbidities\nTreatment\n· Diuresis to relieve symptoms \nof congestion\n· Follow guideline driven \nindications for comorbidities, \ne.g., HTN, AF, CAD, DM\n· Revascularization or valvular \nsurgery as appropriate\nSTAGE C\nStructural heart disease \nwith prior or current \n symptoms of HF\nTHERAPY\nGoals\n· Control symptoms\n· Patient education\n· Prevent hospitalization\n· Prevent mortality\nDrugs for routine use\n· Diuretics for fluid retention\n· ACEI or ARB\n· Beta blockers\n· Aldosterone antagonists\nDrugs for use in selected patients\n· Hydralazine/isosorbide dinitrate\n· ACEI and ARB\n· Digoxin\nIn selected patients\n· CRT\n· ICD\n· Revascularization or valvular \nsurgery as appropriate\nSTAGE D\nRefractory HF\nTHERAPY\nGoals\n· Prevent HF symptoms\n· Prevent further cardiac \nremodeling\nDrugs\n· ACEI or ARB as \nappropriate \n· Beta blockers as \nappropriate\nIn selected patients\n· ICD\n· Revascularization or \nvalvular surgery as \nappropriate\ne.g., Patients with:\n· Known structural heart disease and\n· HF signs and symptoms\nHFpEF HFrEF\nTHERAPY\nGoals\n· Heart healthy lifestyle\n· Prevent vascular, \ncoronary disease\n· Prevent LV structural \nabnormalities\nDrugs\n· ACEI or ARB in \nappropriate patients for \nvascular disease or DM\n· Statins as appropriate\nTHERAPY\nGoals\n· Control symptoms\n· Improve HRQOL\n· Reduce hospital \nreadmissions\n· Establish patient’s end-\nof-life goals\nOptions\n· Advanced care \nmeasures\n· Heart transplant\n· Chronic inotropes\n· Temporary or permanent \nMCS\n· Experimental surgery or \ndrugs\n· Palliative care and \nhospice\n· ICD deactivation\nRefractory \nsymptoms of HF \nat rest, despite \nGDMT\nAt Risk for Heart Failure Heart Failure\ne.g., Patients with:\n· Marked HF symptoms at \nrest \n· Recurrent hospitalizations \ndespite GDMT\ne.g., Patients with:\n· Previous MI\n· LV remodeling including \nLVH and low EF\n· Asymptomatic valvular \ndisease\ne.g., Patients with:\n· HTN\n· Atherosclerotic disease\n· DM\n· Obesity\n· Metabolic syndrome\n or\nPatients\n· Using cardiotoxins\n· With family history of \ncardiomyopathy\nDevelopment of \nsymptoms of HFStructural heart disease\n2013 ACCF/AHA Guideline for the Management of Heart Failure \nCn 2014 về chẩn đoán và điều trị suy tim \nCác giai đoạn trong sự tiến triển của suy tim \n78 \nGiai ñoaïn A \nNguy cô cao suy \ntim khoâng beänh \ntim thöïc theå \nhoaëc trieäu \nchöùng cô naêng \nsuy tim \nGiai ñoaïn B \nCoù beänh \ntim thöïc \ntheå nhöng \nkhoâng \ntrieäu \nchöùng suy \ntim \nGiai ñoaïn C \nCoù beänh tim \nthöïc theå tröôùc \nkia hoaëc hieän \ntaïi coù trieäu \nchöùng cô \nnaêng suy tim \nGiai ñoaïn D \nSuy tim khaùng \ntrò, caàn can \nthieäp ñaëc \nbieät \nTd: \n.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 39,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 3758,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 2949
+            },
+            "score": 0.088370738211729,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "DAPA-HF dapagliflozin giảm bao nhiêu phần trăm biến cố chính",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p44_para_0",
+            "text": "2/23/18 \n44 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị suy tim với chức năng \nthất trái bảo tồn \n• Nghiên cứu CHARM- Preserved (3023 bệnh nhân): \ncandesartan không giảm có ý nghĩa tiêu chí chính (tử \nvong tim mạch, suy tim) \n• Nghiên cứu PEP- CHF (850 bệnh nhân perindopril): \ngiảm có ý nghĩa tử vong tim mạch và suy tim/ 1 năm \n• Lợi tiểu: giảm triệu chứng \n• Kiểm soát tốt THA và TMCB cơ tim, tần số thất, RN \n87 \nn TL: Dickstein K. et al. ESC Guidelines for the diagnosis and treatment of acute and chronic \nheart failure 2008. Eur. Heart J 2008; 29: 2388-2442 \nCn 2014 về chẩn đoán và điều trị suy tim \nHạn chế muối nước\n\nHạn chế nước (1.5 đến 2 L/d) là thích hợp \ntrong giai đoạn D, đặc biệt ở bệnh nhân \ngiảm natri máu, nhằm giảm triệu chứng \nsung huyết.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 44,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 855,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 769
+            },
+            "score": 0.12405585088003011,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p9_para_0",
+            "text": "2/23/18 \n9 \nSinh lý bệnh Suy tim \nTổn thương cơ tim Giảm chức năng TTT \nHoạt hóa hệ RAA, TKTU, ET, \nv.v… \nNgộ độc cơ tim Co mạch ngoại biên Rối loạn huyết động \nTái cấu trúc & \ntiến triển xấu chức năng TTT \nCác triệu chứng suy tim Số người mắc & tử vong \nANP \nBNP \n Biến đổi TK-TD Hiệu quả có lợi Hiệu quả bất lợi \n ↑ hoạt giao cảm ↑ HR ,↑ co bóp, \n co mạch → ↑ V trở về, \n↑ làm đầy \nCo mạch → \nHậu gánh →↑ công \n→ ↑ Tiêu thụ O2 \n ↑ Renin-Angiotensin \n Aldosterone \nGiữ muối & nước→↑ \nVR \nCo mạch → \n↑ hậu gánh \n ↑ Vasopressin Tương tự Tương tự\n\n↑ interleukins &TNFα Có thể có vai trò trong \nphì đại cơ tim \nApoptosis \n ↑Endothelin Co mạch→↑ VR ↑ Hậu gánh \nBiến đổi thần kinh thể dịch trong suy tim",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 9,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 701,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 698
+            },
+            "score": 0.12133838429200015,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p39_para_0",
+            "text": "2/23/18 \n39 \nCn 2014 về chẩn đoán và điều trị suy tim \nĐiều trị Suy tim theo giai đoạn ABCD \nSTAGE A\nAt high risk for HF but \nwithout structural heart \ndisease or symptoms of HF\nSTAGE B\nStructural heart disease \nbut without signs or \nsymptoms of HF\nTHERAPY\nGoals\n· Control symptoms\n· Improve HRQOL\n· Prevent hospitalization\n· Prevent mortality\nStrategies\n· Identification of comorbidities\nTreatment\n· Diuresis to relieve symptoms \nof congestion\n· Follow guideline driven \nindications for comorbidities, \ne.g., HTN, AF, CAD, DM\n· Revascularization or valvular \nsurgery as appropriate\nSTAGE C\nStructural heart disease \nwith prior or current \n symptoms of HF\nTHERAPY\nGoals\n· Control symptoms\n· Patient education\n· Prevent hospitalization\n· Prevent mortality\nDrugs for routine use\n· Diuretics for fluid retention\n· ACEI or ARB\n· Beta blockers\n· Aldosterone antagonists\nDrugs for use in selected patients\n· Hydralazine/isosorbide dinitrate\n· ACEI and ARB\n· Digoxin\nIn selected patients\n· CRT\n· ICD\n· Revascularization or valvular \nsurgery as appropriate\nSTAGE D\nRefractory HF\nTHERAPY\nGoals\n· Prevent HF symptoms\n· Prevent further cardiac \nremodeling\nDrugs\n· ACEI or ARB as \nappropriate \n· Beta blockers as \nappropriate\nIn selected patients\n· ICD\n· Revascularization or \nvalvular surgery as \nappropriate\ne.g., Patients with:\n· Known structural heart disease and\n· HF signs and symptoms\nHFpEF HFrEF\nTHERAPY\nGoals\n· Heart healthy lifestyle\n· Prevent vascular, \ncoronary disease\n· Prevent LV structural \nabnormalities\nDrugs\n· ACEI or ARB in \nappropriate patients for \nvascular disease or DM\n· Statins as appropriate\nTHERAPY\nGoals\n· Control symptoms\n· Improve HRQOL\n· Reduce hospital \nreadmissions\n· Establish patient’s end-\nof-life goals\nOptions\n· Advanced care \nmeasures\n· Heart transplant\n· Chronic inotropes\n· Temporary or permanent \nMCS\n· Experimental surgery or \ndrugs\n· Palliative care and \nhospice\n· ICD deactivation\nRefractory \nsymptoms of HF \nat rest, despite \nGDMT\nAt Risk for Heart Failure Heart Failure\ne.g., Patients with:\n· Marked HF symptoms at \nrest \n· Recurrent hospitalizations \ndespite GDMT\ne.g., Patients with:\n· Previous MI\n· LV remodeling including \nLVH and low EF\n· Asymptomatic valvular \ndisease\ne.g., Patients with:\n· HTN\n· Atherosclerotic disease\n· DM\n· Obesity\n· Metabolic syndrome\n or\nPatients\n· Using cardiotoxins\n· With family history of \ncardiomyopathy\nDevelopment of \nsymptoms of HFStructural heart disease\n2013 ACCF/AHA Guideline for the Management of Heart Failure \nCn 2014 về chẩn đoán và điều trị suy tim \nCác giai đoạn trong sự tiến triển của suy tim \n78 \nGiai ñoaïn A \nNguy cô cao suy \ntim khoâng beänh \ntim thöïc theå \nhoaëc trieäu \nchöùng cô naêng \nsuy tim \nGiai ñoaïn B \nCoù beänh \ntim thöïc \ntheå nhöng \nkhoâng \ntrieäu \nchöùng suy \ntim \nGiai ñoaïn C \nCoù beänh tim \nthöïc theå tröôùc \nkia hoaëc hieän \ntaïi coù trieäu \nchöùng cô \nnaêng suy tim \nGiai ñoaïn D \nSuy tim khaùng \ntrò, caàn can \nthieäp ñaëc \nbieät \nTd: \n.",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 39,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 3758,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 2949
+            },
+            "score": 0.088370738211729,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model_calls": [
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4595.3,
+        "usage": {
+          "promptTokenCount": 464,
+          "candidatesTokenCount": 30,
+          "totalTokenCount": 494,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 464
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "DAPA-HF dapagliflozin giảm bao nhiêu phần trăm biến cố chính"
+                      },
+                      "id": "call_9983209818815967379"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TXKH/3IF+RUS3M6lVMUdJi4lCkAOUA3y9uNE7/SwTy/GtcfzS2trn2oyj5cYkD+v2y/zOqUSrj3TL7cnFPPe+YDEFWd8bAGo0kNbI0qQgD8aDgA3d8owtXqA="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 464,
+            "candidatesTokenCount": 30,
+            "totalTokenCount": 494,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 464
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "x336aoenJcL01e8PuN7s8QQ"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 4876.51,
+        "usage": {
+          "promptTokenCount": 502,
+          "candidatesTokenCount": 30,
+          "totalTokenCount": 532,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 502
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "DAPA-HF dapagliflozin giảm bao nhiêu phần trăm biến cố chính"
+                      },
+                      "id": "call_15244662753573241142"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0Tv6zbI0AQoimsWL7o4U3m3dQ6/LnxIEsvjn2HEC17Nltk+e8TQ4bNWLk5bcaS8A19d7drvsYQ1ySyoq+qKXvlYMRJnWkB18dJklZSnFeOT2t2cFUx2d590Ew="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 502,
+            "candidatesTokenCount": 30,
+            "totalTokenCount": 532,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 502
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "zH36asyGHN3XrfcP15fIuAY"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 3783.7,
+        "usage": {
+          "promptTokenCount": 521,
+          "candidatesTokenCount": 30,
+          "totalTokenCount": 551,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 521
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "DAPA-HF dapagliflozin giảm bao nhiêu phần trăm biến cố chính"
+                      },
+                      "id": "call_8932835158563311286"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TJ42/j3sawLlf9Np4BkfRHTEfs6k+0gqI2X9d7AjNdNaE6CFgGsu8IibBD8LkmJd7HvmIHHiNaA26eFVd0Osp8KB9cGt/IOnv4JZQ9LKULVBWQgv5A38te2o="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 521,
+            "candidatesTokenCount": 30,
+            "totalTokenCount": 551,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 521
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "0H36avzWMZL81e8P09iI-AM"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 20274.74,
+        "usage": {
+          "promptTokenCount": 540,
+          "candidatesTokenCount": 30,
+          "totalTokenCount": 570,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 540
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "answer",
+                      "args": {
+                        "citations": [],
+                        "answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này."
+                      },
+                      "id": "call_12449082988581580958"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0Tlbzrrzf/WQkxCivLFMTV5Y+qFk+aaDanUxVJlrzM8P5bjYzHi2LBOSt2tjmjEHCVabRDvxBvEp6euDnciss40pQ0pZYFJ8DXTXvc1mM21hFVzA1yGLMvXgU="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 540,
+            "candidatesTokenCount": 30,
+            "totalTokenCount": 570,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 540
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "5H36asGhOcL81e8Piszr8Qg"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 33531.4,
+    "usage": {
+      "promptTokenCount": 2027,
+      "candidatesTokenCount": 120,
+      "totalTokenCount": 2147
+    },
+    "cost_usd": null,
+    "cost_note": "Not billed/estimated by this runner; token counts are recorded."
+  },
+  {
+    "query_id": "tu02",
+    "question": "Tài liệu cho biết tỷ lệ suy tim toàn quốc Việt Nam năm 2025 là bao nhiêu?",
+    "split": "test",
+    "model": "gemini-3.5-flash-lite",
+    "config_name": "baseline",
+    "config": {
+      "method": "tfidf",
+      "top_k": 3,
+      "budget": 800,
+      "max_searches": 3
+    },
+    "events": [
+      {
+        "event": "search",
+        "query": "Tài liệu cho biết tỷ lệ suy tim toàn quốc Việt Nam năm 2025 là bao nhiêu",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p1_para_0",
+            "text": "2/23/18 \n1\n\nCHẨN ĐOÁN \nVÀ ĐIỀU TRỊ SUY TIM \nGS. TS. HUỲNH VĂN MINH \nGĐ Trung tâm Tim mạch BVĐH YD Huế \nP. Chủ tịch Hội Tim mạch Việt nam \n1 \nCn 2014 về chẩn đoán và điều trị suy tim \n10 điều cần biết về suy tim",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 1,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 212,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 210
+            },
+            "score": 0.19086313958702952,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p2_para_0",
+            "text": "2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 2,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 711,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 711
+            },
+            "score": 0.12677833528311425,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p43_para_1",
+            "text": "Cn 2014 về chẩn đoán và điều trị suy tim \nGiai đoạn D suy tim \n Nhóm I: \nn  Xác định cẩn thận và kiểm soát ứ dịch (B) \nn  Lượng định khả năng ghép tim (B) \nn  Gửi đến chuyên gia điều trị suy tim kháng trị (A) \nn  Bàn luận với gia đình về chăm sóc cuối đời (C) \nn  Bàn với bn về tắt máy phá rung (C) \nNhóm IIa: \nn  Xét khả năng đặt dụng cụ trợ thất trái trên nhóm \nchọn lọc b/n suy tim GĐ cuối có > 50% khả năng \nsống 1 năm với điều trị nội (MCC: B) \nKHUYẾN CÁO CỦA HỘI TIM MẠCH QuỐC GIA ViỆT NAM VỀ CHẨN ĐOÁN VÀ ĐiỀU TRỊ SUY TIM",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 43,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 1171,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 1,
+              "char_length": 528
+            },
+            "score": 0.12564942205193377,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p1_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 1]\n2/23/18 \n1\n\nCHẨN ĐOÁN \nVÀ ĐIỀU TRỊ SUY TIM \nGS. TS. HUỲNH VĂN MINH \nGĐ Trung tâm Tim mạch BVĐH YD Huế \nP. Chủ tịch Hội Tim mạch Việt nam \n1 \nCn 2014 về chẩn đoán và điều trị suy tim \n10 điều cần biết về suy tim",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p1_para_0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "tỷ lệ suy tim Việt Nam năm 2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "cme2._suy_timgs_minh_p2_para_0",
+            "text": "2/23/18 \n2 \nCn 2014 về chẩn đoán và điều trị suy tim \nDịch tễ học suy tim \n• 550,000 trường hợp mới xuất hiện mỗi năm. \n• Tần suất 10/1000 ở người > 65 tuổi. \n• Số bệnh nhân ra viện :1,000,000 (2001) \n• Tử vong 5 năm chiếm đến 50% \n• Tỷ lệ: tại châu Âu 0.4-2% \n(AHA. 2001 Heart and Stroke Statistical Update) \n• VN: # 2%, 320.000- 1.6 triệu người ST \n•  80% B/n nhập viện vì ST ở tuổi> 65 \nCn 2014 về chẩn đoán và điều trị suy tim \nCác vấn đề hiện nay của suy tim \n• Sinh lý bệnh: mô hình tiến triển của suy tim \n• Chẩn đoán: vị trí của chất chỉ điểm sinh học \n• Điều trị suy tim tâm thu: kéo dài đời sống bằng giảm \ntần số tim \n• Điều trị suy tim với phân suất tống máu bảo tồn \n• Hướng nghiên cứu tương lai \n4",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 2,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 711,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 711
+            },
+            "score": 0.191064109186875,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p1_para_0",
+            "text": "2/23/18 \n1\n\nCHẨN ĐOÁN \nVÀ ĐIỀU TRỊ SUY TIM \nGS. TS. HUỲNH VĂN MINH \nGĐ Trung tâm Tim mạch BVĐH YD Huế \nP. Chủ tịch Hội Tim mạch Việt nam \n1 \nCn 2014 về chẩn đoán và điều trị suy tim \n10 điều cần biết về suy tim",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 1,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 212,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 210
+            },
+            "score": 0.18899578019695265,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cme2._suy_timgs_minh_p51_para_0",
+            "text": "2/23/18 \n51 \nCn 2014 về chẩn đoán và điều trị suy tim \nPhẫu thuật\n\nBắt cầu \nBatista \nCn 2014 về chẩn đoán và điều trị suy tim \nCa ghép tim Việt nam đầu tiên tại \nHuế\n\nTháng 3/2011 \nTháng 6/2014",
+            "source_id": "cme2._suy_timgs_minh",
+            "source": "/home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf",
+            "page": 51,
+            "metadata": {
+              "total_pages": 52,
+              "is_empty": false,
+              "char_count": 197,
+              "chunk_type": "by_paragraph",
+              "chunk_index": 0,
+              "char_length": 193
+            },
+            "score": 0.1829825250960778,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cme2._suy_timgs_minh_p1_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 1]\n2/23/18 \n1\n\nCHẨN ĐOÁN \nVÀ ĐIỀU TRỊ SUY TIM \nGS. TS. HUỲNH VĂN MINH \nGĐ Trung tâm Tim mạch BVĐH YD Huế \nP. Chủ tịch Hội Tim mạch Việt nam \n1 \nCn 2014 về chẩn đoán và điều trị suy tim \n10 điều cần biết về suy tim\n\n[cme2._suy_timgs_minh_p51_para_0 | /home/jay/Desktop/AI20k/K5-L3-Day06-TranGiaBao-2A202603914-DataIngestionEngineering/starter/data/cme2._suy_timgs_minh.pdf | page 51]\n2/23/18 \n51 \nCn 2014 về chẩn đoán và điều trị suy tim \nPhẫu thuật\n\nBắt cầu \nBatista \nCn 2014 về chẩn đoán và điều trị suy tim \nCa ghép tim Việt nam đầu tiên tại \nHuế\n\nTháng 3/2011 \nTháng 6/2014",
+        "context_ids": [
+          "cme2._suy_timgs_minh_p1_para_0",
+          "cme2._suy_timgs_minh_p51_para_0"
+        ]
+      }
+    ],
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "error": "ConnectionError: Gemini HTTP 429; kiểm tra model, quota và API key.",
+    "model_calls": [
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 20484.16,
+        "usage": {
+          "promptTokenCount": 463,
+          "candidatesTokenCount": 35,
+          "totalTokenCount": 498,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 463
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "Tài liệu cho biết tỷ lệ suy tim toàn quốc Việt Nam năm 2025 là bao nhiêu"
+                      },
+                      "id": "call_4611186875771205796"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0TvgYFPFlPQRlk12ewH5IiuZ8yztSFYdbsRma2vVUuJObTf3L37E5zizd3QS7SK//VL8rq5P4llznkz9P7wfi3ULSrLXlnav7O5u5Ztsc65kljssGQnDcgrkk="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 463,
+            "candidatesTokenCount": 35,
+            "totalTokenCount": 498,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 463
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "-X36aqG_C-iq9tMPk5HDkQw"
+        },
+        "cached": false
+      },
+      {
+        "model": "gemini-3.5-flash-lite",
+        "elapsed_ms": 19968.21,
+        "usage": {
+          "promptTokenCount": 715,
+          "candidatesTokenCount": 26,
+          "totalTokenCount": 741,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 715
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "response": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "functionCall": {
+                      "name": "search",
+                      "args": {
+                        "query": "tỷ lệ suy tim Việt Nam năm 2025"
+                      },
+                      "id": "call_12656842448970551780"
+                    },
+                    "thoughtSignature": "EmAKXgFpFH0Tk4IjIb15C2c6LPD0/77WfdQ4Ia6S85OHK0C3DjzcfB5lzD4PpRswYGs7gqABLq/QQWyKUZpJ7H1iZFKRDD/tqAUyyfX4Aq+yT4LK+1EcW3pZph6j4f2rI/I="
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "STOP",
+              "index": 0,
+              "finishMessage": "Model generated function call(s)."
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 715,
+            "candidatesTokenCount": 26,
+            "totalTokenCount": 741,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 715
+              }
+            ],
+            "serviceTier": "standard"
+          },
+          "modelVersion": "gemini-3.5-flash-lite",
+          "responseId": "DH76au6BPJTa9tMP-N_0uQU"
+        },
+        "cached": false
+      }
+    ],
+    "elapsed_ms": 74961.86,
+    "usage": {
+      "promptTokenCount": 1178,
+      "candidatesTokenCount": 61,
+      "totalTokenCount": 1239
+    },
+    "cost_usd": null,
+    "cost_note": "Not billed/estimated by this runner; token counts are recorded."
+  }
+]

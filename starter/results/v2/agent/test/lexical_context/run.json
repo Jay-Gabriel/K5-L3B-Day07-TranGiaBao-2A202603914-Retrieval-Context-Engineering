@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-11-16T03:57:44.793909+00:00",
+  "config_name": "lexical_context",
+  "config": {
+    "method": "tfidf",
+    "top_k": 6,
+    "budget": 6000,
+    "max_searches": 3
+  },
+  "cases": 7,
+  "fingerprints": {
+    "starter/controller.py": "dd2bd2ff1af2922f441088c4ff36e5d809ac9763fd4fa3734f3633f67533ecd1",
+    "starter/agentic.py": "bbd1810be483589301c452c15ab1d23fc8d2ed61f81ebfa860cb318a1bd387f2",
+    "starter/retrievers.py": "6272210e1d99a1a3602c561eb3d1fc091165cb5d5b3ef7386a36ecbf38e7df12",
+    "starter/configs.py": "8e6bf0a2c1c71dfe725a6aa59b70cdcf417c1cd27abd2f5d1d3472fecf80fd6d",
+    "starter/baseline.py": "03b8b16c42be7d19c820e506f4cea2a7496c462a00c77d1cfc9e7fc972301fdf",
+    "data/chunks.json": "1cd63240e83b7f24f7d6817cd3654f7580634178ce38dc3924721e079593ac2e",
+    "data/questions.json": "97f546be8ba744eb90f6f7fb55b86a0be253cc8dd6c368cb28f88ee445915dbb",
+    "data/cases.json": "e993fbe7b6d6b12bf546246015cacf7779e46cda3ec3e4f2842f9ee8ffdc49f9",
+    "starter/run_agent_benchmark.py": "285ae3cc638abc2d4d8e8201e7357d154aa9101ec72a99bdd994ee649c8f303e",
+    "starter/run_retrieval_benchmark.py": "0014c40b3e8ff6856f16c5d2b47b7672fa14115b68ee51e28ca874c360e31906",
+    "starter/summarize_reviews.py": "53001c485de7b5b7b314088393106da51a5586fb453cadb8b804ff94cee3a9e3",
+    "starter/select_config.py": "c3475288d19658dce33bf9af79c22b3c3e54c8a36b177d499e206deb832de0d9"
+  },
+  "runtime_settings": {
+    "model": "gemini-3.5-flash-lite",
+    "collection": "rag_strategy_b",
+    "embedding": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "evaluation": "pending separate content/citation/context review",
+  "cache": false
+}

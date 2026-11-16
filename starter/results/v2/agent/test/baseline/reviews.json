@@ -1,0 +1,85 @@
+[
+  {
+    "query_id": "t01",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng EF ≥50%. Citation trang 5 là evidence thay thế hợp lệ: bảng Preserved EF và bảng HFpEF gốc đã được kiểm tra; có trong context. Gold trang 4 không liệt kê nguồn thay thế này nên không sửa metric sau test.",
+    "context_reason": "Đúng EF ≥50%. Citation trang 5 là evidence thay thế hợp lệ: bảng Preserved EF và bảng HFpEF gốc đã được kiểm tra; có trong context. Gold trang 4 không liệt kê nguồn thay thế này nên không sửa metric sau test.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t02",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng Loại I và mức chứng cứ A cho BNP/NT-proBNP lượng định độ nặng/tiên lượng ở bệnh nhân NGOẠI TRÚ. Context và PDF trang 19 hỗ trợ đủ điều kiện.",
+    "context_reason": "Đúng Loại I và mức chứng cứ A cho BNP/NT-proBNP lượng định độ nặng/tiên lượng ở bệnh nhân NGOẠI TRÚ. Context và PDF trang 19 hỗ trợ đủ điều kiện.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t03",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đủ Candesartan/Valsartan/Losartan; các khoảng liều bổ sung cũng khớp nguyên bản và đúng mg/ngày. Citation/context trang 26 hỗ trợ toàn bộ.",
+    "context_reason": "Đủ Candesartan/Valsartan/Losartan; các khoảng liều bổ sung cũng khớp nguyên bản và đúng mg/ngày. Citation/context trang 26 hỗ trợ toàn bộ.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t04",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối câu có đáp án. Context cuối trống, không có hàng Furosemide 4–6 giờ ở PDF trang 30.",
+    "context_reason": "Từ chối câu có đáp án. Context cuối trống, không có hàng Furosemide 4–6 giờ ở PDF trang 30.",
+    "context_grade": 0,
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t05",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối câu có đáp án. Context chỉ có khuyến cáo trang 41, thiếu CHARM-Preserved 3023 bệnh nhân và kết quả tiêu chí chính ở trang 44.",
+    "context_reason": "Từ chối câu có đáp án. Context chỉ có khuyến cáo trang 41, thiếu CHARM-Preserved 3023 bệnh nhân và kết quả tiêu chí chính ở trang 44.",
+    "context_grade": 0,
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "tu01",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Từ chối không thêm số liệu DAPA-HF. Đã kiểm tra toàn văn của tài liệu lịch sử: không có DAPA-HF hoặc dapagliflozin.",
+    "context_reason": "Từ chối không thêm số liệu DAPA-HF. Đã kiểm tra toàn văn của tài liệu lịch sử: không có DAPA-HF hoặc dapagliflozin.",
+    "context_grade": "not_applicable",
+    "citation_support": [],
+    "abstention_correct": true
+  },
+  {
+    "query_id": "tu02",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Lỗi Gemini HTTP 429 sau các bước tìm, không có câu trả lời. Không chấm là từ chối đúng; không thay lỗi bằng kết quả giả.",
+    "context_reason": "Lỗi Gemini HTTP 429 sau các bước tìm, không có câu trả lời. Không chấm là từ chối đúng; không thay lỗi bằng kết quả giả.",
+    "context_grade": "not_applicable",
+    "citation_support": [],
+    "abstention_correct": false
+  }
+]

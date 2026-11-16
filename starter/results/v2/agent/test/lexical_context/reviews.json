@@ -1,0 +1,83 @@
+[
+  {
+    "query_id": "t01",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Lỗi Gemini HTTP 429 tại bước trả lời. Context đã chứa bảng HFpEF ≥50% trang 4 và trang 5 nhưng chưa có câu trả lời; không cho điểm nội dung.",
+    "context_reason": "Lỗi Gemini HTTP 429 tại bước trả lời. Context đã chứa bảng HFpEF ≥50% trang 4 và trang 5 nhưng chưa có câu trả lời; không cho điểm nội dung.",
+    "context_grade": 2,
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t02",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Lỗi Gemini HTTP 429 ngay lượt đầu, chưa gọi retrieval và không có context/answer. Ghi lỗi hệ thống, không diễn giải là câu hỏi thiếu bằng chứng.",
+    "context_reason": "Lỗi Gemini HTTP 429 ngay lượt đầu, chưa gọi retrieval và không có context/answer. Ghi lỗi hệ thống, không diễn giải là câu hỏi thiếu bằng chứng.",
+    "context_grade": 0,
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t03",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đủ ba hoạt chất; mọi khoảng liều ghi thêm đúng nguyên bản. Citation trang 26 nằm trong context và hỗ trợ toàn câu trả lời.",
+    "context_reason": "Đủ ba hoạt chất; mọi khoảng liều ghi thêm đúng nguyên bản. Citation trang 26 nằm trong context và hỗ trợ toàn câu trả lời.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t04",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Đúng 4–6 giờ. Đối chiếu đúng hàng Furosemide và cột thời gian tác dụng ở bảng PDF trang 30, có trong context.",
+    "context_reason": "Đúng 4–6 giờ. Đối chiếu đúng hàng Furosemide và cột thời gian tác dụng ở bảng PDF trang 30, có trong context.",
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t05",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Lỗi Gemini HTTP 429 ngay lượt đầu; chưa có retrieval/context/answer. Không loại case khỏi tổng test đã chạy.",
+    "context_reason": "Lỗi Gemini HTTP 429 ngay lượt đầu; chưa có retrieval/context/answer. Không loại case khỏi tổng test đã chạy.",
+    "context_grade": 0,
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "tu01",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Lỗi Gemini HTTP 429 ngay lượt đầu; không có hành vi từ chối để chấm đúng.",
+    "context_reason": "Lỗi Gemini HTTP 429 ngay lượt đầu; không có hành vi từ chối để chấm đúng.",
+    "context_grade": "not_applicable",
+    "citation_support": [],
+    "abstention_correct": false
+  },
+  {
+    "query_id": "tu02",
+    "reviewer": "Codex (AI-assisted original-PDF and trace audit)",
+    "review_type": "ai_assisted",
+    "student_verified": false,
+    "reason": "Lỗi Gemini HTTP 429 ngay lượt đầu; không có hành vi từ chối để chấm đúng.",
+    "context_reason": "Lỗi Gemini HTTP 429 ngay lượt đầu; không có hành vi từ chối để chấm đúng.",
+    "context_grade": "not_applicable",
+    "citation_support": [],
+    "abstention_correct": false
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "pdf_pages": 52,
+  "chunks": 81,
+  "index_points": 81,
+  "payload_text_match_count": 81,
+  "corpus_sha256": "1cd63240e83b7f24f7d6817cd3654f7580634178ce38dc3924721e079593ac2e",
+  "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimensions": 384,
+  "distance": "Cosine",
+  "collection": "rag_strategy_b",
+  "verified_at": "2026-11-16T03:30:34.614851+00:00",
+  "export": "Exact Qdrant Day 6 payloads; whitespace and original chunk boundaries retained.",
+  "rights_status": "Student must confirm source/distribution permission; learning purpose alone is not a license.",
+  "pdf_sha256": "8eb4ee61d23aa478a20ed3c126beb5cc5a23f965b48e12fe06ae1f9ba96f13a1",
+  "unique_chunk_ids": 81,
+  "embedding_provenance": "Checked Day 6 starter/src/embeddings.py FastEmbedder default and supplied EMBEDDING_MODEL; Qdrant confirms dimension/distance, not model identity."
+}

@@ -1,0 +1,101 @@
+{
+  "note": "Exploratory dev runs before final provenance/citation/export fixes. Excluded from final comparison. Original local artifacts preserved; no test scores were selected from these pilots.",
+  "runs": [
+    {
+      "pilot": "dev-pilot",
+      "config": "baseline",
+      "completed_cases": 17,
+      "interrupted": false,
+      "error_cases": [
+        {
+          "id": "d13",
+          "error": "ConnectionError: Gemini HTTP 429; kiểm tra model, quota và API key."
+        },
+        {
+          "id": "d14",
+          "error": "ConnectionError: Gemini HTTP 429; kiểm tra model, quota và API key."
+        }
+      ]
+    },
+    {
+      "pilot": "dev-pilot",
+      "config": "hybrid",
+      "completed_cases": 16,
+      "interrupted": true,
+      "error_cases": [
+        {
+          "id": "d01",
+          "error": "ConnectionError: Gemini HTTP 429; kiểm tra model, quota và API key."
+        },
+        {
+          "id": "d07",
+          "error": "ConnectionError: Gemini HTTP 429; kiểm tra model, quota và API key."
+        },
+        {
+          "id": "d08",
+          "error": "ConnectionError: Gemini HTTP 429; kiểm tra model, quota và API key."
+        },
+        {
+          "id": "d10",
+          "error": "ConnectionError: Gemini HTTP 429; kiểm tra model, quota và API key."
+        },
+        {
+          "id": "d11",
+          "error": "ConnectionError: Gemini HTTP 429; kiểm tra model, quota và API key."
+        },
+        {
+          "id": "du01",
+          "error": "ConnectionError: Gemini HTTP 429; kiểm tra model, quota và API key."
+        }
+      ]
+    },
+    {
+      "pilot": "dev-pilot-2",
+      "config": "hybrid_context",
+      "completed_cases": 5,
+      "interrupted": true,
+      "error_cases": []
+    },
+    {
+      "pilot": "dev-pilot-2",
+      "config": "baseline",
+      "completed_cases": 17,
+      "interrupted": false,
+      "error_cases": [
+        {
+          "id": "d01",
+          "error": "ValueError: Model trả citation không nằm trong context hoặc thiếu trong answer."
+        },
+        {
+          "id": "d02",
+          "error": "ValueError: Model trả citation không nằm trong context hoặc thiếu trong answer."
+        },
+        {
+          "id": "d11",
+          "error": "ValueError: Model trả citation không nằm trong context hoặc thiếu trong answer."
+        }
+      ]
+    },
+    {
+      "pilot": "dev-pilot-3",
+      "config": "hybrid_context",
+      "completed_cases": 17,
+      "interrupted": false,
+      "error_cases": []
+    },
+    {
+      "pilot": "dev-pilot-3",
+      "config": "lexical_context",
+      "completed_cases": 8,
+      "interrupted": true,
+      "error_cases": []
+    },
+    {
+      "pilot": "dev-pilot-3",
+      "config": "baseline",
+      "completed_cases": 17,
+      "interrupted": false,
+      "error_cases": []
+    }
+  ]
+}
