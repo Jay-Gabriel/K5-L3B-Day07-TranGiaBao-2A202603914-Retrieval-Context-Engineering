@@ -9,6 +9,6 @@ Trước khi nộp, sinh viên cần:
 - Đọc và xác nhận nhãn AI hỗ trợ, lưu bản xác nhận riêng; không tự nhận nhãn hiện tại đã được sinh viên duyệt.
 - Bổ sung nguồn truy cập hợp lệ và xác nhận quyền dùng/chia sẻ tài liệu. URL ứng viên chưa truy cập được để kiểm tra byte gốc.
 - Khi cần một lần test ổn định, chờ quota reset hoặc chuẩn bị chiến dịch model/benchmark mới đúng quy trình; giữ cả lần lỗi. Nếu đã điều chỉnh từ test, cần test mới.
-- Repo cá nhân: https://github.com/jay-157/K5-L3B-Day07-TranGiaBao-2A202603914-Retrieval-Context-Engineering. Cấp quyền người chấm và nộp link theo hướng dẫn lớp. Không push vào repo đề bài; không đưa `.env` lên Git.
+- Repo cá nhân: https://github.com/Jay-Gabriel/K5-L3B-Day07-TranGiaBao-2A202603914-Retrieval-Context-Engineering. Cấp quyền người chấm và nộp link theo hướng dẫn lớp. Không push vào repo đề bài; không đưa `.env` lên Git.
 
 Cách chạy: [RUN.md](../RUN.md). Kịch bản demo: [DEMO.md](DEMO.md). Báo cáo: [2A202603914_TranGiaBao.md](../report/individual/2A202603914_TranGiaBao.md).

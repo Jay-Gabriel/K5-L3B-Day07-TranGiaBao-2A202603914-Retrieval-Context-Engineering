@@ -18,7 +18,7 @@ def main():
            'hybrid_context':'Hybrid mở rộng','lexical_context':'TF-IDF mở rộng'}
     lines=[
 '# Báo cáo Day 7 — Agentic RAG',
-'', '**Trần Gia Bảo — 2A202603914 — L3 — K5 VinUni AI20k**',
+'', '**Trần Gia Bảo — 2A202603914 — L3B — K5 VinUni AI20k**',
 '', '> Trạng thái nhãn: AI hỗ trợ đọc trace, câu trả lời và đối chiếu PDF gốc; sinh viên chưa xác nhận (`student_verified: false`). Các điểm dưới đây là kết quả theo bộ nhãn này, không phải điểm chấm của giảng viên.',
 '', '## Dữ liệu và benchmark',
 '', f'- Bài giảng *Chẩn đoán và Điều trị Suy tim*, GS. TS. Huỳnh Văn Minh, file `data/cme2._suy_timgs_minh.pdf`: **{corp["pdf_pages"]} trang PDF, {corp["chunks"]} chunk**. Mỗi trang có tối đa hai slide; citation dùng trang PDF. Con số 46 trang trong báo cáo cũ là sai và đã được sửa.',

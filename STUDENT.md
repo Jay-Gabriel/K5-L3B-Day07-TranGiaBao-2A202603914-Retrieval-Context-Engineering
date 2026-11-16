@@ -2,7 +2,7 @@
 
 - **Họ và tên:** Trần Gia Bảo
 - **Mã số sinh viên:** 2A202603914
-- **Lớp:** L3
+- **Lớp:** L3B
 - **Chủ đề:** Day 07 — Agentic RAG: Retrieval & Context Engineering
 - **Nguồn tài liệu:** Bài giảng Chẩn đoán & Điều trị Suy tim (52 trang PDF, GS. TS. Huỳnh Văn Minh, GĐ Trung tâm Tim mạch BVĐH YD Huế)
 - **Vector Store:** Qdrant Cloud (`https://qdrant.vectorium.space`, port 443, Collection: `rag_strategy_b`)

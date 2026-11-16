@@ -1,5 +1,7 @@
 # Day 7 — Agentic RAG
 
+Repo cá nhân: [Jay-Gabriel/K5-L3B-Day07-TranGiaBao-2A202603914-Retrieval-Context-Engineering](https://github.com/Jay-Gabriel/K5-L3B-Day07-TranGiaBao-2A202603914-Retrieval-Context-Engineering).
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 **Bài làm Trần Gia Bảo — 2A202603914:** [Cài đặt và chạy demo](RUN.md) · [Kịch bản demo](docs/DEMO.md) · [Báo cáo](report/individual/2A202603914_TranGiaBao.md). Demo hiển thị trực tiếp câu hỏi, query agent chọn, đoạn truy xuất và nguồn trích dẫn.

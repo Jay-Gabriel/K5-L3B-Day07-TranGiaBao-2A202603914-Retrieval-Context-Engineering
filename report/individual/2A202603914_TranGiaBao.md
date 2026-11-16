@@ -1,6 +1,6 @@
 # Báo cáo Day 7 — Agentic RAG
 
-**Trần Gia Bảo — 2A202603914 — L3 — K5 VinUni AI20k**
+**Trần Gia Bảo — 2A202603914 — L3B — K5 VinUni AI20k**
 
 > Trạng thái nhãn: AI hỗ trợ đọc trace, câu trả lời và đối chiếu PDF gốc; sinh viên chưa xác nhận (`student_verified: false`). Các điểm dưới đây là kết quả theo bộ nhãn này, không phải điểm chấm của giảng viên.
 
