@@ -8,6 +8,7 @@ __pycache__/
 starter/cache/
 
 # Local datasets and generated output; share permitted artifacts deliberately
+data/advanced/*.pdf
 starter/data/
 .local-history/
 artifacts/

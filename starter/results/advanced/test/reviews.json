@@ -1,0 +1,348 @@
+[
+  {
+    "id": "adv_test_01",
+    "split": "test",
+    "category": "table",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p77_table_292'] khớp với vùng evidence trang {77}.",
+    "answer": "Theo Bảng 1.1 trong báo cáo, tốc độ tăng trưởng trung bình hàng năm của GDP theo giá thực tế của ASEAN trong giai đoạn 2016-2020 được dự báo là 5,3% [vn2035_p77_table_292].",
+    "citations": [
+      "vn2035_p77_table_292"
+    ]
+  },
+  {
+    "id": "adv_test_02",
+    "split": "test",
+    "category": "table",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p77_table_292'] khớp với vùng evidence trang {77}.",
+    "answer": "Theo Bảng 1.1 trong báo cáo, trong toàn bộ giai đoạn 2016-2035, tốc độ tăng trưởng GDP trung bình hàng năm dự báo của Trung Quốc là 5,5% và của Ấn Độ là 6,0% [vn2035_p77_table_292].",
+    "citations": [
+      "vn2035_p77_table_292"
+    ]
+  },
+  {
+    "id": "adv_test_03",
+    "split": "test",
+    "category": "table",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p131_table_408'] khớp với vùng evidence trang {131}.",
+    "answer": "Theo Bảng 2.3 trong báo cáo, mức tăng năng suất lao động của Việt Nam đạt 5,2% trong giai đoạn 1991-2000 và 3,8% trong giai đoạn 2001-2013 [vn2035_p131_table_408].",
+    "citations": [
+      "vn2035_p131_table_408"
+    ]
+  },
+  {
+    "id": "adv_test_04",
+    "split": "test",
+    "category": "table",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p131_table_408'] khớp với vùng evidence trang {131}.",
+    "answer": "Theo Bảng 2.3, tốc độ tăng trưởng GDP bình quân hàng năm của Việt Nam trong giai đoạn 1991-2000 là 7,6% và trong giai đoạn 2001-2013 là 6,6%. Như vậy, tốc độ tăng trưởng GDP bình quân hàng năm của giai đoạn 1991-2000 cao hơn giai đoạn 2001-2013 là 1 điểm phần trăm [vn2035_p131_table_408].",
+    "citations": [
+      "vn2035_p131_table_408"
+    ]
+  },
+  {
+    "id": "adv_test_05",
+    "split": "test",
+    "category": "table",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p129_table_403'] khớp với vùng evidence trang {129}.",
+    "answer": "Theo Bảng 2.2 trong báo cáo, vào năm 1990, tỷ trọng của Tiêu dùng trong GDP là 93,5% và tỷ trọng của Nhập khẩu trong GDP là 33,4% [vn2035_p129_table_403].",
+    "citations": [
+      "vn2035_p129_table_403"
+    ]
+  },
+  {
+    "id": "adv_test_06",
+    "split": "test",
+    "category": "table",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p77_table_292'] khớp với vùng evidence trang {77}.",
+    "answer": "Theo Bảng 1.1 trong báo cáo, tốc độ tăng trưởng GDP thực tế trung bình hàng năm được dự báo cho toàn thế giới trong giai đoạn 2016-2035 là 3,2% [vn2035_p77_table_292].",
+    "citations": [
+      "vn2035_p77_table_292"
+    ]
+  },
+  {
+    "id": "adv_test_07",
+    "split": "test",
+    "category": "diagram",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p51_diagram_245'] khớp với vùng evidence trang {51}.",
+    "answer": "Theo Hộp 1.1, sự kiện năm 1981 gắn với Chỉ thị 100. Nội dung chính của chỉ thị này trong nông nghiệp là khởi xướng chương trình hợp đồng sản phẩm đầu ra với nông dân, cho phép họ được giữ lại sản lượng sản xuất vượt quá số lượng đã ghi trong hợp đồng [vn2035_p51_diagram_245].",
+    "citations": [
+      "vn2035_p51_diagram_245"
+    ]
+  },
+  {
+    "id": "adv_test_08",
+    "split": "test",
+    "category": "diagram",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p51_diagram_245'] khớp với vùng evidence trang {51}.",
+    "answer": "Theo Hộp 1.1, công cuộc Đổi Mới được tuyên bố tại Đại hội Đảng lần thứ 6 (năm 1986), báo hiệu sự chuyển đổi từ cơ chế quản lý tập trung quan liêu bao cấp sang nền kinh tế đa thành phần, theo định hướng thị trường và mở cửa cho thị trường thế giới [vn2035_p51_diagram_245].",
+    "citations": [
+      "vn2035_p51_diagram_245"
+    ]
+  },
+  {
+    "id": "adv_test_09",
+    "split": "test",
+    "category": "diagram",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p61_diagram_259'] khớp với vùng evidence trang {61}.",
+    "answer": "Theo Hộp 1.2 trong báo cáo, nguyên tắc chung số 1 về giáo dục và đào tạo của Việt Nam trong thời kỳ đổi mới được xác định là: giáo dục và đào tạo là chính sách quốc gia ưu tiên hàng đầu [vn2035_p61_diagram_259].",
+    "citations": [
+      "vn2035_p61_diagram_259"
+    ]
+  },
+  {
+    "id": "adv_test_10",
+    "split": "test",
+    "category": "diagram",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p80_diagram_300'] khớp với vùng evidence trang {80}.",
+    "answer": "Theo Hộp 1.5 của báo cáo, các quốc gia thành viên tham gia Hiệp định Đối tác xuyên Thái Bình Dương (TPP) bao gồm: Bru-nây, Chi-lê, Niu-di-lân, Xinh-ga-po, Hoa Kỳ, Úc, Pê-ru, Việt Nam, Ma-lai-xi-a, Mê-hi-cô, Ca-na-đa và Nhật Bản [vn2035_p80_diagram_300].",
+    "citations": [
+      "vn2035_p80_diagram_300"
+    ]
+  },
+  {
+    "id": "adv_test_11",
+    "split": "test",
+    "category": "diagram",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p119_diagram_381'] khớp với vùng evidence trang {119}.",
+    "answer": "Theo Hộp 2.1, vào tháng 4 năm 1992, Hiến pháp mới của Việt Nam lần đầu tiên thừa nhận cơ chế thị trường, quyền tài sản tư nhân và quyền sử dụng đất trong nền kinh tế [vn2035_p119_diagram_381].",
+    "citations": [
+      "vn2035_p119_diagram_381"
+    ]
+  },
+  {
+    "id": "adv_test_12",
+    "split": "test",
+    "category": "chart",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p64_chart_268'] khớp với vùng evidence trang {64}.",
+    "answer": "Theo nguồn trích dẫn của Hình 1.3, số liệu tốc độ tăng trưởng GDP bình quân đầu người của Việt Nam giai đoạn 1991-2014 được lấy từ hai nguồn là WDI (World Development Indicators) và Tổng cục Thống kê [vn2035_p64_chart_268].",
+    "citations": [
+      "vn2035_p64_chart_268"
+    ]
+  },
+  {
+    "id": "adv_test_13",
+    "split": "test",
+    "category": "chart",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p66_chart_271'] khớp với vùng evidence trang {66}.",
+    "answer": "Theo Hình 1.4, các chuẩn nghèo được thể hiện để theo dõi tỷ lệ hộ nghèo ở Việt Nam trong giai đoạn 1993-2014 bao gồm:\n- Chuẩn 1,25 USD/ngày.\n- Chuẩn 2 USD/ngày.\n- Thống kê nghèo của Tổng cục Thống kê (TCTK) - Ngân hàng Thế giới (NHTG).\n- Thống kê nghèo của Bộ Lao động - Thương binh và Xã hội (LĐTBXH). [vn2035_p66_chart_271]",
+    "citations": [
+      "vn2035_p66_chart_271"
+    ]
+  },
+  {
+    "id": "adv_test_14",
+    "split": "test",
+    "category": "chart",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p67_chart_273'] khớp với vùng evidence trang {67}.",
+    "answer": "Theo ghi chú của Hình 1.5, chỉ số HDI của các quốc gia được tính toán dựa trên quy mô mẫu bao gồm 96 quốc gia [vn2035_p67_chart_273].",
+    "citations": [
+      "vn2035_p67_chart_273"
+    ]
+  },
+  {
+    "id": "adv_test_15",
+    "split": "test",
+    "category": "chart",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p73_chart_282', 'vn2035_p74_chart_286'] khớp với vùng evidence trang {73}.",
+    "answer": "Cuộc khảo sát năm 2014 về nhận thức thị trường và con đường chuyển đổi được thực hiện bởi Ngân hàng Thế giới và Phòng Thương mại và Công nghiệp Việt Nam [vn2035_p73_chart_282, vn2035_p74_chart_286]. [vn2035_p73_chart_282] [vn2035_p74_chart_286]",
+    "citations": [
+      "vn2035_p73_chart_282",
+      "vn2035_p74_chart_286"
+    ]
+  },
+  {
+    "id": "adv_test_16",
+    "split": "test",
+    "category": "chart",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p63_chart_266'] khớp với vùng evidence trang {63}.",
+    "answer": "Theo chú giải của Hình 1.2, năm cơ sở được chọn để so sánh quỹ đạo tăng trưởng thu nhập dài hạn đối với Trung Quốc là năm 1977 và đối với Việt Nam là năm 1990 [vn2035_p63_chart_266].",
+    "citations": [
+      "vn2035_p63_chart_266"
+    ]
+  },
+  {
+    "id": "adv_test_17",
+    "split": "test",
+    "category": "multi_hop",
+    "passed": false,
+    "grade": "Không đạt",
+    "reason": "Không đạt: Không trả lời được câu có đáp án (abstain).",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": []
+  },
+  {
+    "id": "adv_test_18",
+    "split": "test",
+    "category": "multi_hop",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p131_table_408', 'vn2035_p77_table_292'] khớp với vùng evidence trang {131, 77}.",
+    "answer": "Dựa trên các bảng trong báo cáo:\n- Tốc độ tăng trưởng GDP bình quân hàng năm của Việt Nam giai đoạn 2001-2013 là 6,6% [vn2035_p131_table_408].\n- Tốc độ tăng trưởng GDP dự báo của khu vực ASEAN giai đoạn 2016-2020 là 5,3% [vn2035_p77_table_292].\n\nNhư vậy, tốc độ tăng trưởng GDP bình quân hàng năm của Việt Nam giai đoạn 2001-2013 cao hơn mức dự báo tăng trưởng GDP của khu vực ASEAN giai đoạn 2016-2020 là 1,3 điểm phần trăm (6,6% - 5,3% = 1,3%).",
+    "citations": [
+      "vn2035_p131_table_408",
+      "vn2035_p77_table_292"
+    ]
+  },
+  {
+    "id": "adv_test_19",
+    "split": "test",
+    "category": "multi_hop",
+    "passed": false,
+    "grade": "Không đạt",
+    "reason": "Không đạt: Không trả lời được câu có đáp án (abstain).",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": []
+  },
+  {
+    "id": "adv_test_20",
+    "split": "test",
+    "category": "multi_hop",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p77_table_292'] khớp với vùng evidence trang {80, 77}.",
+    "answer": "Theo Bảng 1.1 (trang 77) của báo cáo, tốc độ tăng trưởng trung bình hàng năm của GDP giai đoạn 2016-2035 được dự báo là 2,7% đối với Hoa Kỳ và 1,3% đối với Nhật Bản. Tài liệu không cung cấp thông tin về dự báo tăng trưởng GDP trong Hộp 1.5. [vn2035_p77_table_292]",
+    "citations": [
+      "vn2035_p77_table_292"
+    ]
+  },
+  {
+    "id": "adv_test_21",
+    "split": "test",
+    "category": "text",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p6_text_3'] khớp với vùng evidence trang {6}.",
+    "answer": "Báo cáo \"Việt Nam 2035: Hướng tới Thịnh vượng, Sáng tạo, Bình đẳng và Dân chủ\" được phát hành theo giấy phép Creative Commons Attribution 3.0 IGO (CC BY 3.0 IGO) [vn2035_p6_text_3].\n\nĐịnh dạng trích dẫn chuẩn của tài liệu là: Ngân hàng Thế giới và Bộ Kế hoạch và Đầu tư Việt Nam. 2016. Việt Nam 2035: Hướng tới thịnh vượng, sáng tạo, công bằng và dân chủ. Washington, DC: Ngân hàng thế giới. doi:10.1596/978-1-4648-0824-1 [vn2035_p6_text_3].",
+    "citations": [
+      "vn2035_p6_text_3"
+    ]
+  },
+  {
+    "id": "adv_test_22",
+    "split": "test",
+    "category": "text",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p7_text_4'] khớp với vùng evidence trang {7}.",
+    "answer": "Theo Điều 3 Hiến pháp năm 2013 được trích dẫn tại trang 7 của báo cáo, Nhà nước Việt Nam thực hiện mục tiêu tổng quát là: \"dân giàu, nước mạnh, dân chủ, công bằng, văn minh, mọi người có cuộc sống ấm no, tự do, hạnh phúc có điều kiện phát triển toàn diện\" [vn2035_p7_text_4]. Ngoài ra, Nhà nước còn có trách nhiệm bảo đảm và phát huy quyền làm chủ của nhân dân; công nhận, tôn trọng, bảo vệ và bảo đảm quyền con người, quyền công dân [vn2035_p7_text_4].",
+    "citations": [
+      "vn2035_p7_text_4"
+    ]
+  },
+  {
+    "id": "adv_test_23",
+    "split": "test",
+    "category": "text",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p9_text_5'] khớp với vùng evidence trang {9}.",
+    "answer": "Theo Mục lục Chương 1 (trang 9) của báo cáo, phần 1 của chương có tiêu đề \"Đổi mới: động cơ, tiến trình, kết quả và phương pháp\" và phân tích theo bốn nội dung chính sau:\n1. Tiến trình [vn2035_p9_text_5].\n2. Áp lực thay đổi và những cải cách chủ yếu [vn2035_p9_text_5].\n3. Đổi mới – đạt được những thành tựu kỷ lục song đang xuất hiện những thách thức mới [vn2035_p9_text_5].\n4. Phương pháp tiếp cận đổi mới [vn2035_p9_text_5].",
+    "citations": [
+      "vn2035_p9_text_5"
+    ]
+  },
+  {
+    "id": "adv_test_24",
+    "split": "test",
+    "category": "text",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Đạt: Trả lời đúng, citation ['vn2035_p89_diagram_315'] khớp với vùng evidence trang {89}.",
+    "answer": "Theo Hộp 1.6 về Khát vọng cho năm 2035, nền kinh tế thị trường của Việt Nam được định hướng dẫn dắt bởi khu vực tư nhân [vn2035_p89_diagram_315].",
+    "citations": [
+      "vn2035_p89_diagram_315"
+    ]
+  },
+  {
+    "id": "adv_test_u01",
+    "split": "test",
+    "category": "unanswerable",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Từ chối đúng: Câu hỏi ngoài phạm vi tài liệu, không suy đoán.",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": []
+  },
+  {
+    "id": "adv_test_u02",
+    "split": "test",
+    "category": "unanswerable",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Từ chối đúng: Câu hỏi ngoài phạm vi tài liệu, không suy đoán.",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": []
+  },
+  {
+    "id": "adv_test_u03",
+    "split": "test",
+    "category": "unanswerable",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Từ chối đúng: Câu hỏi ngoài phạm vi tài liệu, không suy đoán.",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": []
+  },
+  {
+    "id": "adv_test_u04",
+    "split": "test",
+    "category": "unanswerable",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Từ chối đúng: Câu hỏi ngoài phạm vi tài liệu, không suy đoán.",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": []
+  },
+  {
+    "id": "adv_test_u05",
+    "split": "test",
+    "category": "unanswerable",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Từ chối đúng: Câu hỏi ngoài phạm vi tài liệu, không suy đoán.",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": []
+  },
+  {
+    "id": "adv_test_u06",
+    "split": "test",
+    "category": "unanswerable",
+    "passed": true,
+    "grade": "Đạt",
+    "reason": "Từ chối đúng: Câu hỏi ngoài phạm vi tài liệu, không suy đoán.",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": []
+  }
+]

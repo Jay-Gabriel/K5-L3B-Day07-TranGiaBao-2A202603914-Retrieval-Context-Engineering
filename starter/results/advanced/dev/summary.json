@@ -1,0 +1,39 @@
+{
+  "split": "dev",
+  "total": 18,
+  "passed": 13,
+  "pass_rate": 72.22,
+  "target_met": false,
+  "by_category": {
+    "table": {
+      "passed": 3,
+      "total": 3,
+      "rate": 100.0
+    },
+    "diagram": {
+      "passed": 3,
+      "total": 3,
+      "rate": 100.0
+    },
+    "chart": {
+      "passed": 2,
+      "total": 3,
+      "rate": 66.7
+    },
+    "multi_hop": {
+      "passed": 1,
+      "total": 3,
+      "rate": 33.3
+    },
+    "text": {
+      "passed": 1,
+      "total": 3,
+      "rate": 33.3
+    },
+    "unanswerable": {
+      "passed": 3,
+      "total": 3,
+      "rate": 100.0
+    }
+  }
+}

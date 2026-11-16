@@ -1,0 +1,749 @@
+[
+  {
+    "id": "adv_dev_01",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo Bảng 1.1, tốc độ tăng trưởng trung bình hàng năm của GDP theo giá thực tế của Hoa Kỳ trong giai đoạn 2016-2020 được dự báo là bao nhiêu phần trăm?",
+    "expected_answer": "2,8% mỗi năm.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_table_292",
+        "evidence": "Hoa Kỳ 2,8% 2,5% 2,6% 2,8% 2,7%"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_02",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo Bảng 1.1, trong giai đoạn 2026-2030, tốc độ tăng trưởng GDP thực tế dự báo của Châu Âu và Nhật Bản lần lượt là bao nhiêu phần trăm?",
+    "expected_answer": "Châu Âu là 1,9% và Nhật Bản là 1,3%.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_table_292",
+        "evidence": "Châu Âu 1,9% 1,9% 1,9% 2,0% 1,9%\nNhật Bản 0,9% 1,3% 1,3% 1,5% 1,3%"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_03",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo Bảng 2.3, tốc độ tăng trưởng lực lượng lao động của Việt Nam trong giai đoạn 1991-2000 là bao nhiêu phần trăm?",
+    "expected_answer": "2,2%.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 131,
+        "chunk_id": "vn2035_p131_table_408",
+        "evidence": "Tăng trưởng lực lượng lao động 2,2% 2,7%"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_04",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Theo Hộp 1.2, nhiệm vụ chung của giáo dục và đào tạo trong thời kỳ đổi mới ở Việt Nam gồm những nội dung nào?",
+    "expected_answer": "Nâng cao dân trí của người dân nói chung, đào tạo nguồn nhân lực có tay nghề cao và phát triển tài năng.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 61,
+        "chunk_id": "vn2035_p61_diagram_259",
+        "evidence": "2. Nhiệm vụ chung của giáo dục và đào tạo: nâng cao dân trí của người dân nói\nchung, đào tạo nguồn nhân lực có tay nghề cao và phát triển tài năng."
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_05",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Theo Hộp 1.3, khi bắt đầu tăng tốc độ tăng trưởng dài hạn, mức thu nhập bình quân đầu người của cả Việt Nam và Trung Quốc đều ở mức khoảng bao nhiêu USD?",
+    "expected_answer": "Khoảng 1.100 USD tính theo PPP giá năm 2005.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 62,
+        "chunk_id": "vn2035_p62_diagram_262",
+        "evidence": "mức thu nhập bình quân\nđầu người bằng nhau là khoảng 1.100 USD (tính theo PPP giá năm 2005)"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_06",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Theo Hộp 1.4, các cuộc khảo sát vào năm 2011 và 2014 về quan điểm thay đổi của người dân do tổ chức nào tiến hành?",
+    "expected_answer": "Phòng Thương mại và Công nghiệp Việt Nam (VCCI) và Ngân hàng Thế giới.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 72,
+        "chunk_id": "vn2035_p72_diagram_280",
+        "evidence": "do Phòng Thương mại và Công\nnghiệp (VCCI) Việt Nam, với sự hỗ trợ của Ngân hàng Thế giới, thực hiện."
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_07",
+    "split": "dev",
+    "category": "chart",
+    "question": "Theo ghi chú của Hình 1.2, năm cơ sở được chọn để so sánh quỹ đạo tăng trưởng thu nhập đối với Đài Loan và Bra-xin là năm nào?",
+    "expected_answer": "Năm 1951.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 63,
+        "chunk_id": "vn2035_p63_chart_266",
+        "evidence": "Năm cơ sở là 1951 đối với Đài loan, Trung Quốc và Bra-xin"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_08",
+    "split": "dev",
+    "category": "chart",
+    "question": "Theo nguồn trích dẫn của Hình 1.6, báo cáo 'Việt Nam trong quá trình chuyển đổi – Quan điểm đang thay đổi về thị trường và nhà nước' được công bố vào năm nào?",
+    "expected_answer": "Năm 2014.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 73,
+        "chunk_id": "vn2035_p73_chart_282",
+        "evidence": "Nguồn: “việt Nam trong quá trình chuyển đổi – Quan điểm đang thay đổi về thị trường và nhà nước năm 2014”"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_09",
+    "split": "dev",
+    "category": "chart",
+    "question": "Theo Hình 1.8, ba nền kinh tế của châu Á được dự báo sẽ đóng góp hơn bao nhiêu phần trăm trong tăng trưởng GDP toàn cầu vào năm 2035?",
+    "expected_answer": "Hơn 40% trong tăng trưởng GDP toàn cầu.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_chart_291",
+        "evidence": "Ba\nnền kinh tế của châu Á sẽ đóng góp hơn\n40% trong tăng trưởng GDP toàn cầu vào\nnăm 2035"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_10",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "Kết hợp Hộp 1.3 (trang 62) và Bảng 1.1 (trang 77), năm bắt đầu tăng tốc kinh tế của Việt Nam cách Trung Quốc bao nhiêu năm, và tốc độ tăng trưởng GDP dự báo giai đoạn 2016-2035 của Trung Quốc là bao nhiêu?",
+    "expected_answer": "Cách nhau 13 năm (Trung Quốc năm 1977, Việt Nam năm 1990); tốc độ tăng trưởng GDP dự báo của Trung Quốc là 5,5%/năm.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 62,
+        "chunk_id": "vn2035_p62_diagram_262",
+        "evidence": "mặc dù cách\nnhau 13 năm (Trung Quốc bắt đầu từ khoảng năm 1977, còn Việt Nam là 1990)"
+      },
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_table_292",
+        "evidence": "Trung Quốc 7,0% 6,0% 4,9% 4,0% 5,5%"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_11",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "Kết hợp Hộp 1.1 (trang 51) và Bảng 2.3 (trang 131), Chỉ thị 100 được khởi xướng năm nào và tốc độ tăng trưởng GDP bình quân hàng năm của Việt Nam trong giai đoạn 1991-2000 là bao nhiêu?",
+    "expected_answer": "Chỉ thị 100 khởi xướng năm 1981; tốc độ tăng trưởng GDP bình quân hàng năm giai đoạn 1991-2000 là 7,6%.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 51,
+        "chunk_id": "vn2035_p51_diagram_245",
+        "evidence": "1981: Chỉ thị 100 khởi xướng chương trình hợp đồng sản phẩm đầu ra với nông dân"
+      },
+      {
+        "source_id": "vietnam_2035",
+        "page": 131,
+        "chunk_id": "vn2035_p131_table_408",
+        "evidence": "Tốc độ tăng trưởng GDP bình quân hàng năm 7,6% 6,6%"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_12",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "Kết hợp Hộp 1.5 (trang 80) và Bảng 1.1 (trang 77), quốc gia nào trong các nước tham gia TPP được dự báo có tốc độ tăng trưởng GDP trung bình hàng năm 2,7% trong giai đoạn 2016-2035?",
+    "expected_answer": "Hoa Kỳ.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 80,
+        "chunk_id": "vn2035_p80_diagram_300",
+        "evidence": "TPP - bao gồm Bru-nây, Chi-lê, Niu-di-lân, Xinh-ga-po, Hoa Kỳ, Úc, Pê-ru, Việt Nam"
+      },
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_table_292",
+        "evidence": "Hoa Kỳ 2,8% 2,5% 2,6% 2,8% 2,7%"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_13",
+    "split": "dev",
+    "category": "text",
+    "question": "Theo trang thông tin bản quyền (trang 6), ai là người vẽ ảnh bìa trống đồng Ngọc Lũ của báo cáo Việt Nam 2035?",
+    "expected_answer": "Doremon 360, được sử dụng theo giấy phép Sáng tạo chung phiên bản 3.0.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 6,
+        "chunk_id": "vn2035_p6_text_3",
+        "evidence": "Ảnh bìa: Hình ảnh trống đồng Ngọc Lũ của Việt Nam của Doremon 360; được sử dụng theo giấy phép Sáng tạo chung, phiên bản 3.0."
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_14",
+    "split": "dev",
+    "category": "text",
+    "question": "Theo Chương 2 (trang 9), thông điệp chính của chương tập trung vào hai nội dung lớn nào?",
+    "expected_answer": "Hiện đại hóa nền kinh tế và phát triển khu vực tư nhân.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 9,
+        "chunk_id": "vn2035_p9_text_5",
+        "evidence": "CHƯƠNG 2. HIỆN ĐẠI HÓA NỀN KINH TẾ\nV À PHÁT TRIỂN KHU VỰC TƯ NHÂN"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_15",
+    "split": "dev",
+    "category": "text",
+    "question": "Theo nội dung giới thiệu Hộp 1.1 (trang 51), Đổi Mới phản ánh sự thay đổi cơ bản về điều gì trong quản lý kinh tế đất nước?",
+    "expected_answer": "Phản ánh sự thay đổi cơ bản về tư duy kinh tế, công nhận những thất bại của cơ chế kế hoạch hoá tập trung.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 51,
+        "chunk_id": "vn2035_p51_diagram_244",
+        "evidence": "Đổi Mới phản\nánh sự thay đổi cơ bản về tư duy kinh tế,\ncông nhận những thất bại của cơ chế kế\nhoạch hoá tập trung"
+      }
+    ]
+  },
+  {
+    "id": "adv_dev_u01",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "Báo cáo Việt Nam 2035 có đưa ra quy định cụ thể về mức phạt nồng độ cồn khi lái xe máy theo Nghị định 100/2019/NĐ-CP không?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "expected_behavior": "abstain",
+    "gold": []
+  },
+  {
+    "id": "adv_dev_u02",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "Theo tài liệu, danh sách 10 bộ phim điện ảnh Việt Nam đạt doanh thu trên 100 tỷ đồng gồm những tác phẩm nào?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "expected_behavior": "abstain",
+    "gold": []
+  },
+  {
+    "id": "adv_dev_u03",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "Tài liệu cho biết cấu hình GPU NVIDIA H100 SXM5 được sử dụng tại Trung tâm Dữ liệu Quốc gia Việt Nam là bao nhiêu?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "expected_behavior": "abstain",
+    "gold": []
+  },
+  {
+    "id": "adv_test_01",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 1.1, tốc độ tăng trưởng trung bình hàng năm của GDP theo giá thực tế của ASEAN trong giai đoạn 2016-2020 được dự báo là bao nhiêu phần trăm?",
+    "expected_answer": "5,3% mỗi năm.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_table_292",
+        "evidence": "ASEAN 5,3% 5,0% 4,6% 4,3% 4,8%"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_02",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 1.1, trong toàn bộ giai đoạn 2016-2035, tốc độ tăng trưởng GDP trung bình hàng năm dự báo của Trung Quốc và Ấn Độ lần lượt là bao nhiêu phần trăm?",
+    "expected_answer": "Trung Quốc là 5,5% và Ấn Độ là 6,0%.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_table_292",
+        "evidence": "Trung Quốc 7,0% 6,0% 4,9% 4,0% 5,5%\nẤn Độ 6,6% 6,3% 5,8% 5,2% 6,0%"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_03",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 2.3, trong hai giai đoạn 1991-2000 và 2001-2013, mức tăng năng suất lao động của Việt Nam đạt bao nhiêu phần trăm mỗi giai đoạn?",
+    "expected_answer": "Giai đoạn 1991-2000 đạt 5,2% và giai đoạn 2001-2013 đạt 3,8%.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 131,
+        "chunk_id": "vn2035_p131_table_408",
+        "evidence": "Tăng năng suất lao động 5,2% 3,8%"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_04",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 2.3, tốc độ tăng trưởng GDP bình quân hàng năm của Việt Nam trong giai đoạn 1991-2000 cao hơn giai đoạn 2001-2013 bao nhiêu điểm phần trăm?",
+    "expected_answer": "Cao hơn 1,0 điểm phần trăm (7,6% so với 6,6%).",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 131,
+        "chunk_id": "vn2035_p131_table_408",
+        "evidence": "Tốc độ tăng trưởng GDP bình quân hàng năm 7,6% 6,6%"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_05",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 2.2, năm 1990, tỷ trọng của Tiêu dùng và Nhập khẩu trong GDP (phía cầu) của Việt Nam lần lượt là bao nhiêu phần trăm?",
+    "expected_answer": "Tiêu dùng là 93,5% và Nhập khẩu là 33,4%.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 129,
+        "chunk_id": "vn2035_p129_table_403",
+        "evidence": "1990 93,5 15,9 23,7 33,4 0,0"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_06",
+    "split": "test",
+    "category": "table",
+    "question": "Theo Bảng 1.1, tốc độ tăng trưởng GDP thực tế trung bình hàng năm được dự báo cho toàn thế giới trong giai đoạn 2016-2035 là bao nhiêu phần trăm?",
+    "expected_answer": "3,2% mỗi năm.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_table_292",
+        "evidence": "Toàn thế giới 3,5% 3,3% 3,2% 3,0% 3,2%"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_07",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo Hộp 1.1, sự kiện năm 1981 gắn với chỉ thị nào và nội dung chính của chỉ thị này trong nông nghiệp là gì?",
+    "expected_answer": "Chỉ thị 100 khởi xướng chương trình hợp đồng sản phẩm đầu ra với nông dân, cho phép họ giữ sản lượng vượt số lượng ghi trong hợp đồng.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 51,
+        "chunk_id": "vn2035_p51_diagram_245",
+        "evidence": "1981: Chỉ thị 100 khởi xướng chương trình hợp đồng sản phẩm đầu ra với nông dân,\ncho phép họ giữ sản lượng được sản xuất vượt số lượng ghi trong hợp đồng."
+      }
+    ]
+  },
+  {
+    "id": "adv_test_08",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo Hộp 1.1, công cuộc Đổi Mới được tuyên bố tại Đại hội Đảng lần thứ mấy và báo hiệu sự chuyển đổi cơ chế quản lý kinh tế nào?",
+    "expected_answer": "Đại hội Đảng lần thứ 6 (năm 1986), chuyển từ cơ chế quản lý tập trung quan liêu bao cấp sang nền kinh tế đa thành phần, theo định hướng thị trường.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 51,
+        "chunk_id": "vn2035_p51_diagram_245",
+        "evidence": "1986: Đổi Mới được tuyên bố tại Đại hội Đảng lần thứ 6, báo hiệu sự chuyển đổi từ cơ\nchế quản lý tập trung quan liêu bao cấp sang nền kinh tế đa thành phần, theo\nđịnh hướng thị trường"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_09",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo Hộp 1.2, nguyên tắc chung số 1 về giáo dục và đào tạo của Việt Nam trong thời kỳ đổi mới được xác định là gì?",
+    "expected_answer": "Giáo dục và đào tạo là chính sách quốc gia ưu tiên hàng đầu.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 61,
+        "chunk_id": "vn2035_p61_diagram_259",
+        "evidence": "1. Nguyên tắc chung: giáo dục và đào tạo là chính sách quốc gia ưu tiên hàng đầu."
+      }
+    ]
+  },
+  {
+    "id": "adv_test_10",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo Hộp 1.5, đàm phán Hiệp định Đối tác xuyên Thái Bình Dương (TPP) bao gồm những quốc gia thành viên nào?",
+    "expected_answer": "Bru-nây, Chi-lê, Niu-di-lân, Xinh-ga-po, Hoa Kỳ, Úc, Pê-ru, Việt Nam, Ma-lai-xi-a, Mê-hi-cô, Ca-na-đa và Nhật Bản.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 80,
+        "chunk_id": "vn2035_p80_diagram_300",
+        "evidence": "TPP - bao gồm Bru-nây, Chi-lê, Niu-di-lân, Xinh-ga-po, Hoa Kỳ, Úc, Pê-ru, Việt Nam,\nMa-lai-xi-a, Mê-hi-cô, Ca-na-đa và Nhật Bản"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_11",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo Hộp 2.1, vào tháng 4 năm 1992, Hiến pháp mới của Việt Nam lần đầu tiên thừa nhận những quyền và cơ chế nào trong nền kinh tế?",
+    "expected_answer": "Thừa nhận cơ chế thị trường, quyền tài sản tư nhân và quyền sử dụng đất.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 119,
+        "chunk_id": "vn2035_p119_diagram_381",
+        "evidence": "Lần đầu\ntiên, cơ chế thị trường và quyền tài sản tư nhân cũng như quyền sử dụng đất được thừa\nnhận trong Hiến pháp của Việt Nam."
+      }
+    ]
+  },
+  {
+    "id": "adv_test_12",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo nguồn trích dẫn của Hình 1.3, số liệu tốc độ tăng trưởng GDP bình quân đầu người của Việt Nam giai đoạn 1991-2014 được lấy từ hai nguồn nào?",
+    "expected_answer": "WDI (World Development Indicators) và Tổng cục Thống kê.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 64,
+        "chunk_id": "vn2035_p64_chart_268",
+        "evidence": "HÌNH 1.3. Tốc độ tăng trưởng GDP bình quân đầu người (%)\ntrong giai đoạn 1991 – 2014\nNguồn: WDi và Tổng cục Thống kê."
+      }
+    ]
+  },
+  {
+    "id": "adv_test_13",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo Hình 1.4, các chuẩn nghèo nào được thể hiện để theo dõi tỷ lệ hộ nghèo ở Việt Nam trong giai đoạn 1993-2014?",
+    "expected_answer": "Chuẩn 1,25 $/ngày, 2 $/ngày, thống kê nghèo của TCTK-NHTG và thống kê nghèo quốc gia.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 66,
+        "chunk_id": "vn2035_p66_chart_271",
+        "evidence": "HÌNH 1.4. Tỷ lệ hộ nghèo ở Việt Nam, giai đoạn 1993-2014\n1,25 $/ngày\n2 $/ngày\nThống kê nghèo\ncủa TCTK-NHTG"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_14",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo ghi chú của Hình 1.5, chỉ số HDI của các quốc gia được tính toán dựa trên quy mô mẫu nghiên cứu bao gồm bao nhiêu quốc gia?",
+    "expected_answer": "96 quốc gia.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 67,
+        "chunk_id": "vn2035_p67_chart_273",
+        "evidence": "Lưu ý: Dựa trên mẫu bao gồm 96 quốc gia. Các quốc gia được chọn là đại diện tiêu biểu về thành công trong phát triển nguồn nhân lực của khu vực."
+      }
+    ]
+  },
+  {
+    "id": "adv_test_15",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo nguồn trích dẫn của Hình 1.6 và Hình 1.7, cuộc khảo sát năm 2014 về nhận thức thị trường và con đường chuyển đổi do hai cơ quan nào phối hợp thực hiện?",
+    "expected_answer": "Ngân hàng Thế giới và Phòng Thương mại và Công nghiệp Việt Nam (VCCI).",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 73,
+        "chunk_id": "vn2035_p73_chart_282",
+        "evidence": "Ngân hàng Thế giới và Phòng\nThương mại và Công nghiệp việt Nam, 2014."
+      }
+    ]
+  },
+  {
+    "id": "adv_test_16",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo chú giải của Hình 1.2, năm cơ sở được chọn để so sánh quỹ đạo tăng trưởng thu nhập dài hạn đối với Trung Quốc và Việt Nam lần lượt là những năm nào?",
+    "expected_answer": "Năm 1977 với Trung Quốc và năm 1990 với Việt Nam.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 63,
+        "chunk_id": "vn2035_p63_chart_266",
+        "evidence": "1977 với Trung Quốc; và năm 1990 với việt Nam."
+      }
+    ]
+  },
+  {
+    "id": "adv_test_17",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Kết hợp Hộp 1.3 (trang 62) và Bảng 1.1 (trang 77), mức thu nhập bình quân đầu người xuất phát điểm khi bắt đầu tăng tốc của Việt Nam năm 1990 là bao nhiêu USD, và tốc độ tăng trưởng GDP bình quân dự báo cho giai đoạn 2016-2035 của toàn thế giới là bao nhiêu?",
+    "expected_answer": "Xuất phát điểm khoảng 1.100 USD (theo PPP giá 2005); tốc độ tăng trưởng GDP toàn thế giới dự báo đạt 3,2%/năm.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 62,
+        "chunk_id": "vn2035_p62_diagram_262",
+        "evidence": "mức thu nhập bình quân\nđầu người bằng nhau là khoảng 1.100 USD (tính theo PPP giá năm 2005)"
+      },
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_table_292",
+        "evidence": "Toàn thế giới 3,5% 3,3% 3,2% 3,0% 3,2%"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_18",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Kết hợp Bảng 1.1 (trang 77) và Bảng 2.3 (trang 131), tốc độ tăng trưởng GDP bình quân hàng năm của Việt Nam giai đoạn 2001-2013 cao hơn mức dự báo tăng trưởng GDP của khu vực ASEAN giai đoạn 2016-2020 bao nhiêu điểm phần trăm?",
+    "expected_answer": "Cao hơn 1,3 điểm phần trăm (6,6% so với 5,3%).",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 131,
+        "chunk_id": "vn2035_p131_table_408",
+        "evidence": "Tốc độ tăng trưởng GDP bình quân hàng năm 7,6% 6,6%"
+      },
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_table_292",
+        "evidence": "ASEAN 5,3% 5,0% 4,6% 4,3% 4,8%"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_19",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Kết hợp Hộp 1.1 (trang 51) và Hộp 2.1 (trang 119), công cuộc Đổi Mới được tuyên bố vào năm nào và Hiến pháp mới chính thức thừa nhận quyền tài sản tư nhân vào năm nào?",
+    "expected_answer": "Đổi Mới tuyên bố năm 1986; Hiến pháp thừa nhận quyền tài sản tư nhân vào tháng 4 năm 1992.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 51,
+        "chunk_id": "vn2035_p51_diagram_245",
+        "evidence": "1986: Đổi Mới được tuyên bố tại Đại hội Đảng lần thứ 6"
+      },
+      {
+        "source_id": "vietnam_2035",
+        "page": 119,
+        "chunk_id": "vn2035_p119_diagram_381",
+        "evidence": "Tháng 4 năm 1992, Việt Nam đã thông qua Hiến pháp mới"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_20",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Kết hợp Hộp 1.5 (trang 80) và Bảng 1.1 (trang 77), hai nước thành viên TPP là Hoa Kỳ và Nhật Bản được dự báo có tốc độ tăng trưởng GDP hàng năm giai đoạn 2016-2035 lần lượt là bao nhiêu phần trăm?",
+    "expected_answer": "Hoa Kỳ là 2,7% và Nhật Bản là 1,3%.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 80,
+        "chunk_id": "vn2035_p80_diagram_300",
+        "evidence": "TPP - bao gồm Bru-nây, Chi-lê, Niu-di-lân, Xinh-ga-po, Hoa Kỳ, Úc, Pê-ru, Việt Nam,\nMa-lai-xi-a, Mê-hi-cô, Ca-na-đa và Nhật Bản"
+      },
+      {
+        "source_id": "vietnam_2035",
+        "page": 77,
+        "chunk_id": "vn2035_p77_table_292",
+        "evidence": "Hoa Kỳ 2,8% 2,5% 2,6% 2,8% 2,7%\nChâu Âu 1,9% 1,9% 1,9% 2,0% 1,9%\nNhật Bản 0,9% 1,3% 1,3% 1,5% 1,3%"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_21",
+    "split": "test",
+    "category": "text",
+    "question": "Theo trang thông tin bản quyền (trang 6), báo cáo Việt Nam 2035 được phát hành theo giấy phép bản quyền nào và định dạng trích dẫn chuẩn của tài liệu là gì?",
+    "expected_answer": "Giấy phép Creative Commons Attribution 3.0 IGO (CC BY 3.0 IGO); trích dẫn: Ngân hàng Thế giới và Bộ Kế hoạch và Đầu tư Việt Nam. 2016. Việt Nam 2035: Hướng tới thịnh vượng, sáng tạo, công bằng và dân chủ.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 6,
+        "chunk_id": "vn2035_p6_text_3",
+        "evidence": "Báo cáo này được phát hành theo giấy phép Creative Commons Attribution 3.0 IGO (CC BY 3.0 IGO)"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_22",
+    "split": "test",
+    "category": "text",
+    "question": "Theo Điều 3 Hiến pháp năm 2013 được trích dẫn ở đầu báo cáo (trang 7), Nhà nước Việt Nam thực hiện mục tiêu tổng quát nào cho xã hội?",
+    "expected_answer": "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh, mọi người có cuộc sống ấm no, tự do, hạnh phúc có điều kiện phát triển toàn diện.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 7,
+        "chunk_id": "vn2035_p7_text_4",
+        "evidence": "thực hiện mục tiêu dân giàu, nước mạnh, dân chủ, công bằng,\nvăn minh, mọi người có cuộc sống ấm no, tự do, hạnh phúc có điều\nkiện phát triển toàn diện"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_23",
+    "split": "test",
+    "category": "text",
+    "question": "Theo Mục lục Chương 1 (trang 9), phần 1 của chương phân tích Đổi Mới theo bốn nội dung chính nào?",
+    "expected_answer": "1.1. Tiến trình; 1.2. Áp lực thay đổi và những cải cách chủ yếu; 1.3. Thành tựu kỷ lục và thách thức mới; 1.4. Phương pháp tiếp cận đổi mới.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 9,
+        "chunk_id": "vn2035_p9_text_5",
+        "evidence": "1.3. Đổi mới – đạt được những thành tựu kỷ lục song đang xuất hiện"
+      }
+    ]
+  },
+  {
+    "id": "adv_test_24",
+    "split": "test",
+    "category": "text",
+    "question": "Theo Hộp 1.6 về Khát vọng cho năm 2035 (trang 89), nền kinh tế thị trường của Việt Nam được định hướng dẫn dắt bởi khu vực nào?",
+    "expected_answer": "Được dẫn dắt bởi khu vực tư nhân, có năng lực cạnh tranh cao và hội nhập sâu vào nền kinh tế toàn cầu.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "vietnam_2035",
+        "page": 89,
+        "chunk_id": "vn2035_p89_diagram_315",
+        "evidence": "Nền kinh tế thị trường được dẫn dắt bởi khu vực\ntư nhân, có năng lực cạnh tranh cao và hội nhập sâu vào nền kinh tế toàn cầu."
+      }
+    ]
+  },
+  {
+    "id": "adv_test_u01",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Báo cáo Việt Nam 2035 dự báo cụ thể doanh số bán xe điện của hãng VinFast tại thị trường Mỹ năm 2024 là bao nhiêu chiếc?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "expected_behavior": "abstain",
+    "gold": []
+  },
+  {
+    "id": "adv_test_u02",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Theo tài liệu, phác đồ điều trị thuốc kháng virus Paxlovid cho bệnh nhân mắc COVID-19 thể nhẹ cần uống trong bao nhiêu ngày?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "expected_behavior": "abstain",
+    "gold": []
+  },
+  {
+    "id": "adv_test_u03",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Tài liệu đưa ra công thức tính gradient descent trong mạng nơ-ron tích chập (CNN) của framework PyTorch ở trang nào?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "expected_behavior": "abstain",
+    "gold": []
+  },
+  {
+    "id": "adv_test_u04",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Tỷ lệ lạm phát thực tế của nền kinh tế Việt Nam trong năm tài chính 2023 được báo cáo ghi nhận là bao nhiêu phần trăm?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "expected_behavior": "abstain",
+    "gold": []
+  },
+  {
+    "id": "adv_test_u05",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Chi phí mua sắm hệ thống tên lửa phòng thủ S-400 của quân đội Việt Nam trong báo cáo là bao nhiêu tỷ USD?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "expected_behavior": "abstain",
+    "gold": []
+  },
+  {
+    "id": "adv_test_u06",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Theo báo cáo, chỉ số chứng khoán VN-Index đạt mức đỉnh bao nhiêu điểm vào phiên giao dịch ngày 15 tháng 11 năm 2025?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "expected_behavior": "abstain",
+    "gold": []
+  }
+]
